@@ -1,0 +1,491 @@
+
+# German Focus Tree
+# By samrparker12
+# 1/25/2022 
+
+focus_tree = {
+	id = german_start_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+
+	default = no
+	continuous_focus_position = { x = 3400 y = 900 }
+
+	## Political Tree 1
+
+	focus = {
+		id = GER_pax_germanica
+		icon = GFX_focus_ger_revive_kaiserreich
+		x = 5
+		y = 0
+		cost = 5
+
+		ai_will_do = {
+			factor = 500
+		}
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	#Detente
+	focus = {
+		id = GER_detente
+		icon = GFX_focus_ger_detente
+
+		cost = 10
+
+		relative_position_id = GER_pax_germanica
+		x = -2
+		y = 1
+
+		prerequisite = {
+			focus = GER_pax_germanica
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+            target = ENG
+            modifier = GER_detente
+            }
+			reverse_add_opinion_modifier = {
+            target = FRA
+            modifier = GER_detente
+            }
+			##TODO - Add same modifiers at above to Italy, Russia, Spain, and Austria-Hungary (if they exist)
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Reduce entente war debts
+	focus = {
+		id = GER_entente_debts
+		icon = GFX_focus_ger_debts
+
+		cost = 10
+
+		relative_position_id = GER_detente
+		x = -1
+		y = 1
+
+		prerequisite = {
+			focus = GER_detente
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = {
+			GBR = {
+				country_event = { id = debt.02 }
+			}
+            NFA = {
+                country_event = { id = debt.01 } 
+            }
+
+			reverse_add_opinion_modifier = {
+            target = NFA
+            modifier = GER_debt_reduce
+            }
+
+			reverse_add_opinion_modifier = {
+            target = GBR
+            modifier = GER_debt_reduce
+            }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Meet with Americans
+	focus = {
+		id = GER_meet_americans
+		icon = GFX_focus_ger_meet_americans
+
+		cost = 10
+
+		relative_position_id = GER_entente_debts
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = GER_entente_debts
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = {
+			reverse_add_opinion_modifier = {
+            target = USA
+            modifier = GER_talks_usa
+            }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    #Reichstag
+	focus = {
+		id = GER_adress_reichstag
+		icon = GFX_focus_ger_reichstag
+
+		cost = 10
+
+		relative_position_id = GER_detente
+		x = 1
+		y = 1
+
+		prerequisite = {
+			focus = GER_detente
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = {
+			GER = { 
+                country_event = { id = reichstag.0 }
+            }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Deutches Wunder
+	focus = {
+		id = GER_wunder_worke
+		icon = GFX_focus_ger_wunder_worke
+
+		cost = 10
+
+		relative_position_id = GER_adress_reichstag
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = GER_adress_reichstag
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = { 
+			add_timed_idea = {
+				idea = GER_civ_buildup
+				days = 365
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    #Frahm Plan
+	focus = {
+		id = GER_frahm_plan
+		icon = GFX_focus_ger_frahm_plan
+
+		cost = 10
+
+		relative_position_id = GER_meet_americans
+		x = 1
+		y = 1
+
+		prerequisite = {
+			focus = GER_meet_americans
+		}
+
+        prerequisite = {
+			focus = GER_wunder_worke
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = {
+			add_political_power = 150
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	## START OF MILITARY TREE
+
+	#Start of mil tree
+	focus = {
+		id = GER_approach_prussia
+		icon = GFX_focus_ger_prussia
+
+		cost = 10
+
+		relative_position_id = GER_pax_germanica
+		x = 2
+		y = 1
+
+		prerequisite = {
+			focus = GER_pax_germanica
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = {
+			GER = {
+				add_ideas = {
+					GER_prussian_college
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Reform officer corps
+	focus = {
+		id = GER_reform_officer
+		icon = GFX_focus_ger_reform_officer_corps
+
+		cost = 10
+
+		relative_position_id = GER_approach_prussia
+		x = -1
+		y = 1
+
+		prerequisite = {
+			focus = GER_approach_prussia
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = {
+			add_ideas = {
+				GER_officer_reform
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Establish military reorg commission
+	focus = {
+		id = GER_mil_reorg
+		icon = GFX_focus_ger_meet_americans
+
+		cost = 10
+
+		relative_position_id = GER_reform_officer
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = GER_reform_officer
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = {
+            add_ideas = {
+				GER_mil_reorg
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    #Invest in the Luftstreitkrafte, air force 
+	focus = {
+		id = GER_invest_air_force
+		icon = GFX_focus_ger_reichstag
+
+		cost = 10
+
+		relative_position_id = GER_approach_prussia
+		x = 1
+		y = 1
+
+		prerequisite = {
+			focus = GER_approach_prussia
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = {
+			add_ideas = {
+				GER_uber_streitkrafte
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Implement Kaiserliche Marine Reform
+	focus = {
+		id = GER_kaiserliche_reform
+		icon = GFX_focus_ger_kaiserliche_reform
+
+		cost = 10
+
+		relative_position_id = GER_invest_air_force
+		x = 0
+		y = 1
+
+		prerequisite = {
+			focus = GER_invest_air_force
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = { 
+			add_ideas = {
+				GER_kaiserliche
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    #New German military
+	focus = {
+		id = GER_ngm
+		icon = GFX_focus_ger_ngm
+
+		cost = 10
+
+		relative_position_id = GER_mil_reorg
+		x = 1
+		y = 1
+
+		prerequisite = {
+			focus = GER_mil_reorg
+		}
+
+        prerequisite = {
+			focus = GER_kaiserliche_reform
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = {
+			##TODO - Add decisions similar to reichstag focus, buff military even more
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#### GERMAN ELECTION OF 1962
+	focus = {
+		id = GER_election_1962
+		icon = GFX_focus_ger_election_1962
+
+		cost = 10
+
+		relative_position_id = GER_frahm_plan
+		x = 2
+		y = 1
+
+		prerequisite = {
+			focus = GER_frahm_plan
+		}
+
+        prerequisite = {
+			focus = GER_ngm
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = {
+			country_event = { id = election.1962.1 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Election result: choose frahm
+	focus = {
+		id = GER_choose_frahm
+		icon = GFX_focus_ger_election_1962
+
+		cost = 10
+
+		relative_position_id = GER_election_1962
+		x = -1
+		y = 1
+
+		prerequisite = {
+			focus = GER_election_1962
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = {
+			#Loads frahms focus tree
+			load_focus_tree = german_frahm_focus
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Election result: choose junger
+	focus = {
+		id = GER_choose_junger
+		icon = GFX_focus_ger_election_1962
+
+		cost = 10
+
+		relative_position_id = GER_election_1962
+		x = 1
+		y = 1
+
+		prerequisite = {
+			focus = GER_election_1962
+		}
+	
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	
+		completion_reward = {
+			#Loads jungers focus tree
+			load_focus_tree = GER_junger
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+

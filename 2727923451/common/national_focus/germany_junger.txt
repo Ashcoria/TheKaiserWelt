@@ -1,0 +1,338 @@
+
+# German Focus Tree
+# By samrparker12
+# 1/28/2022 
+
+#Junger's Wilde Ritt (yes a reference to the TNO mod)
+focus_tree = {
+	id = GER_junger
+
+	country = {
+		factor = 0
+	}
+
+	default = no
+	continuous_focus_position = { x = 3400 y = 900 }
+
+    focus = {
+		id = GER_junger_victory
+		icon = GFX_focus_ger_revive_kaiserreich
+		x = 5
+		y = 0
+		cost = 5
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	## REVOLUTIONS BRANCH, goes to roughly line 180
+	#Will be bypassed
+	focus = {
+		id = GER_revolutions_1963
+		icon = GFX_focus_ger_revive_kaiserreich
+
+		relative_position_id = GER_junger_victory
+		x = -5
+		y = 1
+		cost = 5
+
+		#Must be allowed with the event that starts the 1963 revolutions
+		allow_branch = {
+			has_idea = GER_revolution_idea
+		}
+
+		bypass = {
+			GER = { has_completed_focus = GER_junger_victory }
+		}
+		prerequisite = {
+			focus = GER_junger_victory
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_supply_arms_1963
+		icon = GFX_focus_ger_revive_kaiserreich
+
+		relative_position_id = GER_revolutions_1963
+
+		x = -1
+		y = 1
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = GER_revolutions_1963
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			#sends 1500 infantry, 250 support equipment, and 100 artillery to all european subjects at war
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_send_advisors_1963
+		icon = GFX_focus_ger_revive_kaiserreich
+
+		relative_position_id = GER_revolutions_1963
+
+		x = 1
+		y = 1
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = GER_revolutions_1963
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			#gives idea to all european subjects at war increasing core attack and defence by 10%
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_remain_calm_1963
+		icon = GFX_focus_ger_revive_kaiserreich
+
+		relative_position_id = GER_supply_arms_1963
+
+		x = 1
+		y = 1
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = GER_supply_arms_1963
+		}
+
+		prerequisite = {
+			focus = GER_send_advisors_1963
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+			#also gives +5 stability to european subjects
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_all_over_1963
+		icon = GFX_focus_ger_revive_kaiserreich
+
+		relative_position_id = GER_remain_calm_1963
+
+		x = 0
+		y = 1
+		cost = 5
+
+		
+
+		prerequisite = {
+			focus = GER_remain_calm_1963
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+			#also gives +5 stability to european subjects
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	## Industrial branch
+	focus = {
+		id = GER_pride_industry
+		icon = GFX_focus_ger_revive_kaiserreich
+
+		relative_position_id = GER_junger_victory
+		x = 0
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GER_junger_victory
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_ideas = {
+				GER_pride_0
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_pride_research
+		icon = GFX_focus_ger_revive_kaiserreich
+
+		relative_position_id = GER_pride_industry
+		x = 0
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GER_pride_industry
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GER_pride_0
+				add_idea = GER_pride_1
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_pride_engineering
+		icon = GFX_focus_ger_revive_kaiserreich
+
+		relative_position_id = GER_pride_research
+		x = 0
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GER_pride_research
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GER_pride_1
+				add_idea = GER_pride_2
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_breadbasket
+		icon = GFX_focus_ger_revive_kaiserreich
+
+		relative_position_id = GER_pride_industry
+		x = -2
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GER_pride_industry
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_ideas = { 
+				GER_breadbasket_0
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_industrial_autarky
+		icon = GFX_focus_ger_revive_kaiserreich
+
+		relative_position_id = GER_breadbasket
+		x = 0
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GER_breadbasket
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			64 = {
+					add_extra_state_shared_building_slots = 4
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+
+	focus = {
+		id = GER_the_reichspakt
+		icon = GFX_focus_ger_revive_kaiserreich
+
+		relative_position_id = GER_industrial_autarky
+		x = 0
+		y = 1
+		cost = 5
+
+		prerequisite = {
+			focus = GER_industrial_autarky
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		completion_reward = {
+			add_ideas = {
+				GER_reichspakt_0
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+}
