@@ -1,0 +1,132 @@
+create_prussian_cores = {
+	hidden_effect = {
+		if = {
+			limit = { NOT = { country_exists = DDR } }
+			DDR = {
+				add_state_core = 61 #Mecklenburg
+				add_state_core = 62 #Hither Pomerania
+				add_state_core = 63 #Farther Pomerania
+				add_state_core = 64 #Brandenburg
+				add_state_core = 66 #Lower Silesia
+				add_state_core = 68 #Neumark
+			}
+			if = {
+				limit = {
+					59 = { is_valid_annexation_state = no } #Hanover
+				}
+				every_owned_state = {
+					limit = {
+						OR = {
+							state = 60 #Thuringia
+							state = 65 #Saxony
+							state = 147 #Prussian Saxony
+						}
+					}
+					add_core_of = DDR
+				}
+			}
+		}
+	}
+}
+
+create_bavarian_cores = {
+	hidden_effect = {
+		if = {
+			limit = { NOT = { country_exists = BAY } }
+			every_state = {
+				limit = { region = 7 } #Upper Germany
+				add_core_of = BAY
+			}
+		}
+		if = {
+			limit = {
+				BAY = { has_character = GER_rupprecht_von_bayern }
+				has_socialist_government = yes
+			}
+			event_target:GER_rupprecht_von_bayern_target = {
+				set_nationality = XXA
+			}
+		}
+		else_if = {
+			limit = {
+				NOT = { BAY = { has_character = GER_rupprecht_von_bayern } }
+				has_socialist_government = no
+			}
+			event_target:GER_rupprecht_von_bayern_target = {
+				set_nationality = BAY
+				add_country_leader_role = {
+					country_leader = { ideology = social_democrat_subtype }
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = { ideology = social_liberal_subtype }
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = { ideology = market_liberal_subtype }
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = { ideology = social_conservative_subtype }
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = { ideology = authoritarian_democrat_subtype }
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = { ideology = paternal_autocrat_subtype }
+					promote_leader = yes
+				}
+				add_country_leader_role = {
+					country_leader = { ideology = national_populist_subtype }
+					promote_leader = yes
+				}
+			}
+		}
+	}
+}
+
+create_rhenish_cores = {
+	hidden_effect = {
+		if = {
+			limit = { NOT = { country_exists = RHI } }
+			every_state = {
+				limit = { region = 6 } #Rhineland
+				add_core_of = RHI
+			}
+		}
+	}
+}
+
+create_hanoverian_cores = {
+	hidden_effect = {
+		if = {
+			limit = { NOT = { country_exists = NGF } }
+			NGF = {
+				add_state_core = 56 #Oldenburg
+				add_state_core = 58 #Schleswig-Holstein
+				add_state_core = 59 #Hanover
+				add_state_core = 60 #Thuringia
+				add_state_core = 65 #Saxony
+				add_state_core = 147 #Prussian Saxony
+			}
+		}
+	}
+}
+
+create_german_union_cores = {
+	hidden_effect = {
+		every_state = {
+			limit = { is_germany = yes }
+			add_core_of = GRU
+		}
+		GER = {
+			every_character = {
+				limit = { has_character_flag = GER_republican_leader }
+				set_nationality = GRU
+				promote_character = yes
+			}
+		}
+	}
+}

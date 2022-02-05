@@ -1,0 +1,57 @@
+HAI_lower_civil_war_level = {
+	if = {
+		limit = {
+			has_idea = HAI_civil_war_1
+		}
+		swap_ideas = {
+			remove_idea = HAI_civil_war_1
+			add_idea = HAI_civil_war_2
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = HAI_civil_war_2
+		}
+		swap_ideas = {
+			remove_idea = HAI_civil_war_2
+			add_idea = HAI_civil_war_3
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = HAI_civil_war_3
+		}
+		swap_ideas = {
+			remove_idea = HAI_civil_war_3
+			add_idea = HAI_civil_war_4
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = HAI_civil_war_4
+		}
+		swap_ideas = {
+			remove_idea = HAI_civil_war_4
+			add_idea = HAI_civil_war_5
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = HAI_civil_war_5
+		}
+		remove_ideas = HAI_civil_war_5
+	}
+}
+
+HAI_teardown_election_season_decisions = {
+	hidden_effect = {
+		remove_targeted_decision = { target = THIS decision = HAI_strongarm_assemblymen }
+		remove_targeted_decision = { target = THIS decision = HAI_meet_with_commissioner_russell }
+		remove_targeted_decision = { target = THIS decision = HAI_secure_the_election }
+		remove_targeted_decision = { target = THIS decision = HAI_campaign_in_north }
+		remove_targeted_decision = { target = THIS decision = HAI_campaign_in_rural_areas }
+		remove_targeted_decision = { target = THIS decision = HAI_campaign_in_south }
+		remove_targeted_decision = { target = THIS decision = HAI_strongarm_councillors }
+		remove_targeted_decision = { target = THIS decision = HAI_nominate_councillor }
+	}
+}
