@@ -1,0 +1,490 @@
+# Used to check if a nation uses *all* generic companies
+uses_all_generic_companies = {
+	OR = {
+		original_tag = ADA
+		original_tag = AFG
+		original_tag = ALG
+		original_tag = ALO
+		original_tag = AMA
+		original_tag = ANG
+		original_tag = ANT
+		original_tag = ASM
+		original_tag = ASY
+		original_tag = AZR
+		original_tag = BAH
+		original_tag = BAS
+		original_tag = BAY
+		original_tag = BHU
+		original_tag = BNG
+		original_tag = BOM
+		original_tag = BOT
+		original_tag = BRD
+		original_tag = BRI
+		original_tag = BRM
+		original_tag = BRT
+		original_tag = BUK
+		original_tag = CAM
+		original_tag = CAR
+		original_tag = CAT
+		original_tag = CEN
+		original_tag = CEY
+		original_tag = CHA
+		original_tag = CMR
+		original_tag = COG
+		original_tag = COL
+		original_tag = COS
+		original_tag = CVG
+		original_tag = CYP
+		original_tag = DAH
+		original_tag = DDR
+		original_tag = DKB
+		original_tag = DOM
+		original_tag = ECU
+		original_tag = ELS
+		original_tag = ERI
+		original_tag = ETS
+		original_tag = FRP
+		original_tag = GAB
+		original_tag = GBP
+		original_tag = GHA
+		original_tag = GLC
+		original_tag = GNA
+		original_tag = GOY
+		original_tag = GRP
+		original_tag = GRU
+		original_tag = GUA
+		original_tag = GUJ
+		original_tag = GYA
+		original_tag = HAI
+		original_tag = HAU
+		original_tag = HEJ
+		original_tag = HNN
+		original_tag = HON
+		original_tag = HYD
+		original_tag = ICE
+		original_tag = IKH
+		original_tag = INR
+		original_tag = IRQ
+		original_tag = IVO
+		original_tag = JAM
+		original_tag = JBS
+		original_tag = KAC
+		original_tag = KAS
+		original_tag = KBR
+		original_tag = KDR
+		original_tag = KEN
+		original_tag = KHI
+		original_tag = KIV
+		original_tag = KOR
+		original_tag = KUM
+		original_tag = KUR
+		original_tag = LAO
+		original_tag = LBA
+		original_tag = LEB
+		original_tag = LIB
+		original_tag = MAD
+		original_tag = MAL
+		original_tag = MAN
+		original_tag = MDR
+		original_tag = MLI
+		original_tag = MLT
+		original_tag = MLW
+		original_tag = MNT
+		original_tag = MON
+		original_tag = MOR
+		original_tag = MRT
+		original_tag = MYS
+		original_tag = MZB
+		original_tag = NBL
+		original_tag = NEP
+		original_tag = NGA
+		original_tag = NGF
+		original_tag = NGR
+		original_tag = NIC
+		original_tag = NMB
+		original_tag = NZL
+		original_tag = OMA
+		original_tag = ORI
+		original_tag = PAK
+		original_tag = PAL
+		original_tag = PAN
+		original_tag = PHI
+		original_tag = PIR
+		original_tag = PJB
+		original_tag = PNG
+		original_tag = PRU
+		original_tag = PUE
+		original_tag = QUE
+		original_tag = RHI
+		original_tag = RJM
+		original_tag = RJS
+		original_tag = RWA
+		original_tag = SAR
+		original_tag = SAU
+		original_tag = SCO
+		original_tag = SEN
+		original_tag = SHA
+		original_tag = SHX
+		original_tag = SIB
+		original_tag = SIE
+		original_tag = SIK
+		original_tag = SLO
+		original_tag = SLV
+		original_tag = SPO
+		original_tag = SUD
+		original_tag = SUR
+		original_tag = SYR
+		original_tag = TAI
+		original_tag = TIB
+		original_tag = TKE
+		original_tag = TOG
+		original_tag = TRI
+		original_tag = TRK
+		original_tag = TRP
+		original_tag = TRS
+		original_tag = TRU
+		original_tag = TRV
+		original_tag = TUN
+		original_tag = TZN
+		original_tag = UGA
+		original_tag = VIN
+		original_tag = VOL
+		original_tag = WLS
+		original_tag = YEM
+		original_tag = YUC
+		original_tag = ZAM
+		original_tag = ZZB
+	}
+}
+
+owns_sudan = {
+	owns_state = 549 #Southern Sudan
+	owns_state = 551 #Kassala-Sennar
+	owns_state = 1007 #Nubia
+	owns_state = 1010 #Darfur
+}
+
+owns_ca_trigger = {
+	custom_trigger_tooltip = {
+		tooltip = owns_ca_trigger_tooltip
+		AND = {
+			313 = { is_owned_and_controlled_by = ROOT } #Guatemala
+			314 = { is_owned_and_controlled_by = ROOT } #El Salvador
+			312 = { is_owned_and_controlled_by = ROOT } #Honduras
+			317 = { is_owned_and_controlled_by = ROOT } #Managua
+			1071 = { is_owned_and_controlled_by = ROOT } #Matagalpa
+		}
+	}
+}
+
+slow_infantry_prod = {
+	if = {
+		limit = { num_of_military_factories > 50 }
+		if = {
+			limit = { has_tech = advanced_infantry_weapons }
+			has_equipment = { infantry_equipment_3 > 5000 }
+		}
+		else_if = {
+			limit = { has_tech = improved_infantry_weapons }
+			has_equipment = { infantry_equipment_2 > 5000 }
+		}
+		else_if = {
+			limit = { has_tech = infantry_weapons1 }
+			has_equipment = { infantry_equipment_1 > 5000 }
+		}
+		else = {
+			has_equipment = { infantry_equipment_0 > 5000 }
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { num_of_military_factories > 50 }
+		}
+		if = {
+			limit = { has_tech = advanced_infantry_weapons }
+			has_equipment = { infantry_equipment_3 > 1000 }
+		}
+		else_if = {
+			limit = { has_tech = improved_infantry_weapons }
+			has_equipment = { infantry_equipment_2 > 1000 }
+		}
+		else_if = {
+			limit = { has_tech = infantry_weapons1 }
+			has_equipment = { infantry_equipment_1 > 1000 }
+		}
+		else = {
+			has_equipment = { infantry_equipment_0 > 1000 }
+		}
+	}
+}
+
+stop_infantry_prod = {
+	if = {
+		limit = { num_of_military_factories > 50 }
+		if = {
+			limit = { has_tech = advanced_infantry_weapons }
+			has_equipment = { infantry_equipment_3 > 10000 }
+		}
+		else_if = {
+			limit = { has_tech = improved_infantry_weapons }
+			has_equipment = { infantry_equipment_2 > 10000 }
+		}
+		else_if = {
+			limit = { has_tech = infantry_weapons1 }
+			has_equipment = { infantry_equipment_1 > 10000 }
+		}
+		else = {
+			has_equipment = { infantry_equipment_0 > 10000 }
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { num_of_military_factories > 50 }
+		}
+		if = {
+			limit = { has_tech = advanced_infantry_weapons }
+			has_equipment = { infantry_equipment_3 > 2500 }
+		}
+		else_if = {
+			limit = { has_tech = improved_infantry_weapons }
+			has_equipment = { infantry_equipment_2 > 2500 }
+		}
+		else_if = {
+			limit = { has_tech = infantry_weapons1 }
+			has_equipment = { infantry_equipment_1 > 2500 }
+		}
+		else = {
+			has_equipment = { infantry_equipment_0 > 2500 }
+		}
+	}
+}
+
+slow_artillery_prod = {
+	has_tech = gw_artillery
+	if = {
+		limit = { num_of_military_factories > 50 }
+		if = {
+			limit = { has_tech = artillery4 }
+			has_equipment = { artillery_equipment_3 > 2500 }
+		}
+		else_if = {
+			limit = { has_tech = artillery1 }
+			has_equipment = { artillery_equipment_2 > 2500 }
+		}
+		else = {
+			has_equipment = { artillery_equipment_1 > 2500 }
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { num_of_military_factories > 50 }
+		}
+		if = {
+			limit = { has_tech = artillery4 }
+			has_equipment = { artillery_equipment_3 > 1000 }
+		}
+		else_if = {
+			limit = { has_tech = artillery1 }
+			has_equipment = { artillery_equipment_2 > 1000 }
+		}
+		else = {
+			has_equipment = { artillery_equipment_1 > 1000 }
+		}
+	}
+}
+
+stop_artillery_prod = {
+	has_tech = gw_artillery
+	if = {
+		limit = { num_of_military_factories > 50 }
+		if = {
+			limit = { has_tech = artillery4 }
+			has_equipment = { artillery_equipment_3 > 5000 }
+		}
+		else_if = {
+			limit = { has_tech = artillery1 }
+			has_equipment = { artillery_equipment_2 > 5000 }
+		}
+		else = {
+			has_equipment = { artillery_equipment_1 > 5000 }
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { num_of_military_factories > 50 }
+		}
+		if = {
+			limit = { has_tech = artillery4 }
+			has_equipment = { artillery_equipment_3 > 2500 }
+		}
+		else_if = {
+			limit = { has_tech = artillery1 }
+			has_equipment = { artillery_equipment_2 > 2500 }
+		}
+		else = {
+			has_equipment = { artillery_equipment_1 > 2500 }
+		}
+	}
+}
+
+slow_support_prod = {
+	has_tech = tech_support
+	if = {
+		limit = { num_of_military_factories > 50 }
+		has_equipment = { support_equipment > 2500 }
+	}
+	else = {
+		has_equipment = { support_equipment > 1000 }
+	}
+}
+
+stop_support_prod = {
+	has_tech = tech_support
+	if = {
+		limit = { num_of_military_factories > 50 }
+		has_equipment = { support_equipment > 5000 }
+	}
+	else = {
+		has_equipment = { support_equipment > 2500 }
+	}
+}
+
+slow_motorized_prod = {
+	has_tech = motorised_infantry
+	if = {
+		limit = { num_of_military_factories > 50 }
+		has_equipment = { motorized_equipment > 2500 }
+	}
+	else = {
+		has_equipment = { motorized_equipment > 1000 }
+	}
+}
+
+stop_motorized_prod = {
+	has_tech = motorised_infantry
+	if = {
+		limit = { num_of_military_factories > 50 }
+		has_equipment = { motorized_equipment > 5000 }
+	}
+	else = {
+		has_equipment = { motorized_equipment > 2500 }
+	}
+}
+
+slow_antitank_prod = {
+	has_tech = interwar_antitank
+	if = {
+		limit = { num_of_military_factories > 50 }
+		if = {
+			limit = { has_tech = antitank5 }
+			has_equipment = { anti_tank_equipment_3 > 2500 }
+		}
+		else_if = {
+			limit = { has_tech = antitank2 }
+			has_equipment = { anti_tank_equipment_2 > 2500 }
+		}
+		else = {
+			has_equipment = { anti_tank_equipment_1 > 2500 }
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { num_of_military_factories > 50 }
+		}
+		if = {
+			limit = { has_tech = antitank5 }
+			has_equipment = { anti_tank_equipment_3 > 1000 }
+		}
+		else_if = {
+			limit = { has_tech = antitank2 }
+			has_equipment = { anti_tank_equipment_2 > 1000 }
+		}
+		else = {
+			has_equipment = { anti_tank_equipment_1 > 1000 }
+		}
+	}
+}
+
+stop_antitank_prod = {
+	has_tech = interwar_antitank
+	if = {
+		limit = { num_of_military_factories > 50 }
+		if = {
+			limit = { has_tech = antitank5 }
+			has_equipment = { anti_tank_equipment_3 > 5000 }
+		}
+		else_if = {
+			limit = { has_tech = antitank2 }
+			has_equipment = { anti_tank_equipment_2 > 5000 }
+		}
+		else = {
+			has_equipment = { anti_tank_equipment_1 > 5000 }
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { num_of_military_factories > 50 }
+		}
+		if = {
+			limit = { has_tech = antitank5 }
+			has_equipment = { anti_tank_equipment_3 > 2500 }
+		}
+		else_if = {
+			limit = { has_tech = antitank2 }
+			has_equipment = { anti_tank_equipment_2 > 2500 }
+		}
+		else = {
+			has_equipment = { anti_tank_equipment_1 > 2500 }
+		}
+	}
+}
+
+stop_carrier_fighter_prod = {
+	has_tech = cv_early_fighter
+	if = {
+		limit = { has_tech = cv_fighter3 }
+		has_equipment = { cv_fighter_equipment_3 > 10 }
+	}
+	else_if = {
+		limit = { has_tech = cv_fighter2 }
+		has_equipment = { cv_fighter_equipment_2 > 10 }
+	}
+	else_if = {
+		limit = { has_tech = cv_fighter1 }
+		has_equipment = { cv_fighter_equipment_1 > 10 }
+	}
+	else = {
+		has_equipment = { cv_fighter_equipment_0 > 10 }
+	}
+}
+
+stop_carrier_navbomber_prod = {
+	has_tech = cv_naval_bomber1
+	if = {
+		limit = { has_tech = cv_naval_bomber3 }
+		has_equipment = { cv_nav_bomber_equipment_3 > 10 }
+	}
+	else_if = {
+		limit = { has_tech = cv_naval_bomber2 }
+		has_equipment = { cv_nav_bomber_equipment_2 > 10 }
+	}
+	else = {
+		has_equipment = { cv_nav_bomber_equipment_1 > 10 }
+	}
+}
+
+stop_carrier_cas_prod = {
+	has_tech = cv_CAS1
+	if = {
+		limit = { has_tech = cv_CAS3 }
+		has_equipment = { cv_CAS_equipment_3 > 10 }
+	}
+	else_if = {
+		limit = { has_tech = cv_CAS2 }
+		has_equipment = { cv_CAS_equipment_2 > 10 }
+	}
+	else = {
+		has_equipment = { cv_CAS_equipment_1 > 10 }
+	}
+}
+

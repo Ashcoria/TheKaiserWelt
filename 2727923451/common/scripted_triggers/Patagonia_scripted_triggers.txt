@@ -1,0 +1,66 @@
+FOP_andesian_rebellion_valid_tag = {
+	tag = FOP
+	has_idea = FOP_resistance_to_andesia
+	FROM = {
+		is_in_south_america = yes
+		is_brz_portuguese = no
+		NOT = {
+			tag = GYA
+			tag = ARG
+		}
+	}
+	NOT = { has_country_flag = ROOT_andesia_rebellion_@FROM }
+}
+
+FOP_has_administrative_chaos = {
+	custom_trigger_tooltip = {
+		tooltip = FOP_has_administrative_chaos
+		OR = {
+			has_idea = FOP_integrating_the_north1
+			has_idea = FOP_integrating_the_north2
+			has_idea = FOP_integrating_the_north3
+			has_idea = FOP_integrating_the_north4
+		}
+	}
+}
+
+FOP_has_resistance_to_socialism = {
+	custom_trigger_tooltip = {
+		tooltip = FOP_has_resistance_to_socialism
+		OR = {
+			has_idea = FOP_anti_syndie_rebels_idea1
+			has_idea = FOP_anti_syndie_rebels_idea2
+			has_idea = FOP_anti_syndie_rebels_idea3
+			has_idea = FOP_anti_syndie_rebels_idea4
+		}
+	}
+}
+
+FOP_has_economic_fallout = {
+	custom_trigger_tooltip = {
+		tooltip = FOP_has_economic_fallout
+		OR = {
+			has_idea = FOP_economic_fallout_revolution1
+			has_idea = FOP_economic_fallout_revolution2
+			has_idea = FOP_economic_fallout_revolution3
+			has_idea = FOP_economic_fallout_revolution4
+		}
+	}
+}
+
+FOP_palacios_leads_FORA = {
+	has_country_leader = { character = FOP_alfredo_palacios }
+}
+
+FOP_ugarte_leads_FORA = {
+	has_country_leader = { character = FOP_baldomero_ugarte }
+}
+
+FOP_soto_leads_USA = {
+	has_country_leader = { character = FOP_antonio_soto }
+}
+
+FOP_di_giovanni_leads_USA = {
+	has_country_leader = { character = FOP_severino_di_giovanni }
+}
+
