@@ -1,0 +1,83 @@
+### National Protection Alliance (GXC/SZC/HNN/YUN)
+NPA = {
+	global_event_target = npa_leader
+}
+
+### United Provinces of China (GXC/SZC)
+UPC = {
+	global_event_target = UPC_leader
+}
+
+### Liangguang Civil War
+GXW = {
+	global_event_target = GXC_civil_war_target
+}
+
+### Siamese Civil War
+SIR = {
+	global_event_target = SIA_civil_war_target
+}
+
+### "China" target
+CHN = {
+	variable = global.china_target_tag
+}
+
+### Entente Leader
+ENT = {
+	global_event_target = KR_entente_leader
+}
+
+### Internationale Leader
+INT = {
+	global_event_target = KR_internationale_leader
+}
+
+### Belgrade Pact Leader
+BPL = {
+	targets = { SER GRE ROM }
+	is_faction_leader = yes
+}
+
+### Germany in Exile
+GEX = {
+	global_event_target = KR_german_government_in_exile
+}
+
+### Ottomans
+OTT = {
+	global_event_target = KR_ottomans
+}
+
+### Riga
+RIG = {
+	original_tag = BAT
+	has_cosmetic_tag = BAT_Riga
+}
+
+### Leader of the Intermarium
+MIE = {
+	global_event_target = MIE_leader
+}
+
+### Minor treaty territory holder
+GTM = { #Guantanamo Bay
+	global_event_target = GTM_holder
+}
+
+MSN = { #Môle Saint-Nicolas
+	global_event_target = MSN_holder
+}
+
+SAM = { #Samana
+	global_event_target = SAM_holder
+}
+
+
+# operative operation target
+# only set for majors who has agency
+# set on on_weekly
+MOT = {
+	variable = generic_operation_target
+}
+
