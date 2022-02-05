@@ -1,0 +1,292 @@
+### German Ideas
+ideas = {
+	##############
+	# Country ideas
+	##############
+
+	country = {
+
+		# Start
+
+		GER_WilhelmIII = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_WilhelmIII" }
+			picture = GER_KaiserIII
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		GER_military_tradition = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_military_tradition" }
+			picture = GER_militarypru
+			modifier = {
+				max_command_power = 25
+				army_speed_factor = 0.1
+				army_armor_attack_factor = 0.05
+				mechanized_attack_factor = 0.05
+				motorized_attack_factor = 0.05
+				attrition = -0.1
+				air_ace_generation_chance_factor = 0.3
+				army_infantry_attack_factor = 0.1
+				army_artillery_attack_factor = 0.1
+				air_cas_present_factor = 0.05
+				air_attack_factor = 0.05
+			}
+		}
+		
+		GER_space = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_space" }
+			picture = GER_space
+			modifier = {
+				research_speed_factor = 0.03
+			}
+		}
+		
+		GER_reichstag_division = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_reichstag_division" }
+			picture = GER_reichstag_chaos
+			modifier = {
+				political_power_factor = -0.25
+			}
+		}
+		#German Ideas, or ideas that pertain to germany
+
+		#Debt ideas that apply to NFA and GBR at start
+		GER_debts = {
+			name = GER_entente_debt_i
+			modifier = {
+				construction_speed = -0.05
+				GER = {
+					cic_to_target_factor = 0.05
+				}
+			}
+		}
+		
+		GER_civ_buildup = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		GER_prussian_college = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				max_planning_factor = 0.15
+				planning_speed = 0.1
+			}
+		}
+
+		GER_officer_reform = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.1
+				army_org_regain = 0.05
+			}
+		}
+
+		GER_mil_reorg = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				navy_org = 5
+				naval_morale_factor = 0.05
+				paradrop_organization_factor = 0.1
+				army_bonus_air_superiority_factor = 0.1
+			}
+		}
+
+		GER_uber_streitkrafte = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_air_base_factor = 0.1
+				air_cas_present_factor = 0.1
+				air_agility_factor = 0.1
+				air_attack_factor = 0.1
+			}
+		}
+
+		GER_kaiserliche = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				naval_invasion_capacity = 10
+				naval_invasion_prep_speed = 0.3
+				naval_invasion_penalty = -0.1
+				special_forces_no_supply_grace = 48
+			}
+		}
+		
+		GER_revolution_idea = {
+			name = GER_revolution_idea_n
+			modifier = {
+				add_stability = -0.25
+			}
+		}
+
+        GER_pride_0 = {
+			name = GER_pride_0_n
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+        GER_pride_1 = {
+			name = GGER_pride_1_n
+			modifier = {
+				production_speed_buildings_factor = 0.05
+                research_speed_factor = 0.05
+			}
+		}
+
+        GER_pride_2 = {
+			name = GER_pride_2_n
+			modifier = {
+				production_speed_buildings_factor = 0.05
+                research_speed_factor = 0.05
+                ##add 15 reliability to add equipment
+			}
+		}
+
+        GER_breadbasket_0 = {
+			name = GER_breadbasket_0_n
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+        GER_reichspakt_0 = {
+			name = GER_reichspakt_0_n
+			modifier = {
+				consumer_goods_factor = -0.01
+                industrial_capacity_factory = 0.01
+                industrial_capacity_dockyard = 0.01
+                research_speed_factor = 0.01
+			}
+		}
+
+        GER_reichspakt_1 = {
+			name = GER_reichspakt_1_n
+			modifier = {
+				consumer_goods_factor = -0.02
+                industrial_capacity_factory = 0.02
+                industrial_capacity_dockyard = 0.02
+                research_speed_factor = 0.02
+			}
+		}
+
+        GER_reichspakt_2 = {
+			name = GER_reichspakt_2_n
+			modifier = {
+				consumer_goods_factor = -0.03
+                industrial_capacity_factory = 0.03
+                industrial_capacity_dockyard = 0.03
+                research_speed_factor = 0.03
+			}
+		}
+
+        GER_reichspakt_3 = {
+			name = GER_reichspakt_3_n
+			modifier = {
+				consumer_goods_factor = -0.04
+                industrial_capacity_factory = 0.04
+                industrial_capacity_dockyard = 0.04
+                research_speed_factor = 0.04
+			}
+		}
+
+        GER_reichspakt_4 = {
+			name = GER_reichspakt_4_n
+			modifier = {
+				consumer_goods_factor = -0.05
+                industrial_capacity_factory = 0.05
+                industrial_capacity_dockyard = 0.05
+                research_speed_factor = 0.05
+			}
+		}
+
+        GER_reichspakt_5 = {
+			name = GER_reichspakt_5_n
+			modifier = {
+				consumer_goods_factor = -0.06
+                industrial_capacity_factory = 0.06
+                industrial_capacity_dockyard = 0.06
+                research_speed_factor = 0.06
+			}
+		}
+    }
+}
+
+
+

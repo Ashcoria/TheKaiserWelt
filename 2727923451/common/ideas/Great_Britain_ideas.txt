@@ -1,0 +1,191 @@
+###########
+# UK #
+###########
+ideas = {
+
+#################
+# Country ideas #
+#################
+	country = {
+
+	GBR_liz = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GBR_liz" }
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+
+			picture = 
+
+		}
+
+	GBR_bygone_imperial_glory = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GBR_bygone_imperial_glory" }
+			
+			modifier = {
+				war_support_factor = -0.05
+			}
+
+			picture = 
+
+		}
+
+	GBR_indebted_to_Germany = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GBR_indebted_to_Germany" }
+			
+			modifier = {
+				production_speed_buildings_factor = -0.05
+			}
+
+			picture = 
+
+		}
+
+	GBR_conservative_dynasty = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GBR_conservative_dynasty" }
+			
+			modifier = {
+				political_power_gain = 0.5
+			}
+
+			picture = 
+
+		}
+
+#############
+# Companies #
+#############
+
+#### General ####
+	industrial_concern = {
+
+		acr = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea acr" }
+			allowed = { original_tag = ALB }
+			traits = { industrial_manufacturer }
+			available = {
+				OR = {
+					has_completed_focus = ALB_industrialisation_programmes
+					has_completed_focus = ALB_minor_industrialisation
+				}
+			}
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+			}
+			research_bonus = {
+				industry = 0.1
+			}
+		}
+
+		telekomi_shqiptar = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea telekomi_shqiptar" }
+			allowed = { original_tag = ALB }
+			traits = { electronics_manufacturer }
+			available = {
+				OR = {
+					has_completed_focus = ALB_industrialisation_programmes
+					has_completed_focus = ALB_minor_industrialisation
+				}
+			}
+			modifier = {
+				production_speed_radar_station_factor = 0.05
+			}
+			research_bonus = {
+				electronics = 0.1
+				industry = 0.1
+			}
+		}
+
+		armo = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea armo" }
+			allowed = { original_tag = ALB }
+			traits = { chemical_producer }
+			available = {
+				has_completed_focus = ALB_oil_drilling
+			}
+			research_bonus = {
+				synth_resources = 0.1
+				industry = 0.1
+			}
+		}
+	}
+
+#### Weapons ####
+	weapons_manufacturer = {
+		designer = yes
+
+		arsenal_ushtria_tirane = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea arsenal_ushtria_tirane" }
+			allowed = { original_tag = ALB }
+			traits = { infantry_equipment_producer_defense_0 }
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+		}
+
+		ganz_albania = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ganz_albania" }
+			picture = ganz_kroatien_slawonien
+			allowed = { original_tag = ALB }
+			traits = { motorised_equipment_producer_mass_0 }
+			available = {
+				has_completed_focus = ALB_motorised_infantry
+			}
+			research_bonus = {
+				motorized_equipment = 0.1
+			}
+		}
+
+	}
+
+#### Heavy Equipment ####
+	tank_manufacturer = {
+		designer = yes
+
+
+		hekurudha_shqiptare = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea hekurudha_shqiptare" }
+			allowed = { original_tag = ALB }
+			traits = { small_tank_producer_defense_0 }
+			available = {
+				has_completed_focus = ALB_armour_research
+			}
+			research_bonus = {
+				armor = 0.1
+			}
+		}
+	}
+
+#### Air and Naval ####
+	naval_manufacturer = {
+		designer = yes
+
+		pasha_liman_kantjerin = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea pasha_liman_kantjerin" }
+			allowed = { original_tag = ALB }
+			traits = { small_ship_producer_mass_0 }
+			research_bonus = {
+				naval_equipment = 0.1
+			}
+		}
+
+	}
+
+	aircraft_manufacturer = {
+		designer = yes
+
+		phoenix_albania = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea phoenix_albania" }
+			picture = phoenix
+			allowed = { original_tag = ALB }
+			traits = { fighter_producer_offense_0 }
+			research_bonus = {
+				air_equipment = 0.1
+			}
+		}
+
+	}
+
+}
+
