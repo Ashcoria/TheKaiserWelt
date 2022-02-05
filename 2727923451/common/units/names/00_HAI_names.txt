@@ -1,0 +1,63 @@
+﻿HAI = {
+	submarine = {
+		prefix = "ARS"
+		generic = { "Sous-Marin" }
+		unique = {
+			"Améthyste"
+			"Croyant"
+			"Centenaire"
+			"Pacifique"
+			"Savannah"
+			"Artibonite"
+		}
+	}
+	destroyer = {
+		prefix = "ARS"
+		generic = { "Contre-Torpilleur" }
+		unique = {
+			"L'Ouverture"
+			"Dessalines"
+			"Pétion"
+			"Christophe"
+			"Boyer"
+		}
+	}
+	light_cruiser = {
+		prefix = "ARS"
+		generic = { "Croiseur Léger" }
+		unique = {
+			"Jérémie"
+			"Gonaives"
+			"Cap Haitien"
+			"Port de Paix"
+			"Jean Rabel"
+		}
+	}
+	heavy_cruiser = {
+		prefix = "ARS"
+		generic = { "Croiseur Lourd" }
+		unique = {
+			"L'Indépendance"
+			"Vertières"
+			"Sumner"
+			"L'Union"
+			"L'Emblême"
+		}
+	}
+	battleship = {
+		prefix = "ARS"
+		generic = { "Cuirassé" }
+		unique = {
+			"Liberté"
+			"Sans Souci"
+		}
+	}
+	carrier = {
+		prefix = "ARD"
+		generic = { "Porte-Avions" }
+		unique = {
+			"La Découverte"
+		}
+	}
+}
+

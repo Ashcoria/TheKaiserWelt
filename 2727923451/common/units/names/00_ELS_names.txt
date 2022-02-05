@@ -1,0 +1,44 @@
+﻿ELS = {
+	submarine = {
+		prefix = "ARS"
+		generic = { "Submarino" }
+		unique = {
+			"Chalatenango"
+			"Cojutepeque"
+			"La Palma"
+			"Jazubal"
+			"Sonsonate"
+		}
+	}
+	destroyer = {
+		prefix = "ARS"
+		generic = { "Destructor" }
+		unique = {
+		}
+	}
+	light_cruiser = {
+		prefix = "ARS"
+		generic = { "Crucero" }
+		unique = {
+		}
+	}
+	heavy_cruiser = {
+		prefix = "ARS"
+		generic = { "Crucero Acorazado" }
+		unique = {
+		}
+	}
+	battleship = {
+		prefix = "ARS"
+		generic = { "Acorazado" }
+		unique = {
+		}
+	}
+	carrier = {
+		prefix = "ARS"
+		generic = { "Portaaviones" }
+		unique = {
+		}
+	}
+}
+
