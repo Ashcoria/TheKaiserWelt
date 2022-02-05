@@ -1,0 +1,25 @@
+### Dahomey
+### By Dr. Njitram
+
+DAH_General = {
+	DAH_Import_Arms = {
+		icon = GFX_decision_category_generic
+		allowed = { always = no }
+		visible = {
+			FROM = {
+				exists = yes
+				at_peace_or_same_enemies_as_ROOT = yes
+			}
+		}
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			base = 200
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision DAH_Import_Arms target: [From.GetName]"
+			FROM = { country_event = dah.006 }
+		}
+	}
+}
+
