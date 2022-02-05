@@ -1,0 +1,10 @@
+﻿###########################
+# Paraguay Events
+###########################
+
+add_namespace = par
+
+
+country_event = {
+}
+

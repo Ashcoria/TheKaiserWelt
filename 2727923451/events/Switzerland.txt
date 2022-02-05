@@ -1,0 +1,9 @@
+﻿###########################
+# Switzerland Events
+###########################
+
+add_namespace = swiss
+
+country_event = { 
+}
+

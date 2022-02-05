@@ -1,0 +1,8 @@
+﻿###########################
+# Vietnam
+###########################
+
+add_namespace = vietnam
+country_event = {
+}
+

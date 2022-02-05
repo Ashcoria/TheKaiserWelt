@@ -1,0 +1,8 @@
+﻿###########################
+# Uruguay Events
+
+add_namespace = urg
+
+country_event = {
+}
+

@@ -1,0 +1,8 @@
+﻿###########################
+# Tibet Events
+
+add_namespace = tib
+
+country_event = {
+}
+

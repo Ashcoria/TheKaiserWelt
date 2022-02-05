@@ -1,0 +1,9 @@
+﻿###########################
+# Two Sicilies
+###########################
+
+add_namespace = sic
+
+country_event = {
+}
+

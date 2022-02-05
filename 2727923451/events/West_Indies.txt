@@ -1,0 +1,9 @@
+﻿###############################
+# West Indies Federation Events
+###############################
+
+add_namespace = wif
+
+country_event = {
+}
+

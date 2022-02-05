@@ -1,0 +1,8 @@
+﻿###########################
+# Ukraine Events
+###########################
+add_namespace = ukraine
+
+country_event = {
+}
+

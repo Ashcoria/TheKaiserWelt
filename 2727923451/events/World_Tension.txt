@@ -1,0 +1,11 @@
+﻿###########################
+# World Tension Events
+###########################
+
+
+add_namespace = worldtension
+
+
+country_event = {
+}
+

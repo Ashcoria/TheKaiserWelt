@@ -1,0 +1,10 @@
+﻿########################
+# Russia Events
+###########################
+
+add_namespace = russia
+
+
+country_event = { 
+}
+

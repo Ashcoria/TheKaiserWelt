@@ -1,0 +1,8 @@
+﻿#######################################
+# Mutasarrifate of Jerusalem 
+
+add_namespace = pal
+
+country_event = {	
+}
+

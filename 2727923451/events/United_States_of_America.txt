@@ -1,0 +1,7 @@
+﻿###########################
+# USA Events
+add_namespace = ustates
+
+country_event = {
+}
+

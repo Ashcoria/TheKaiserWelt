@@ -1,0 +1,10 @@
+﻿###########################
+# Reworked Serbia Events
+##########################
+
+add_namespace = serbia
+
+### Serbia introduction
+country_event = {
+}
+

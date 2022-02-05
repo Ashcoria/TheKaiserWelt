@@ -1,0 +1,9 @@
+﻿###########################
+# Mongolia Events
+###########################
+
+add_namespace = mon
+
+country_event = {
+}
+

@@ -1,0 +1,7 @@
+﻿#############################
+# KR Syria Events
+
+add_namespace = syrrev
+
+country_event = {
+

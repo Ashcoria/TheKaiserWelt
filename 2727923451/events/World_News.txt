@@ -1,0 +1,9 @@
+﻿###########################
+# World News Events
+###########################
+
+add_namespace = worldnews
+
+news_event = {
+}
+

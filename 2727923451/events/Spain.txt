@@ -1,0 +1,9 @@
+﻿###########################
+# Spain Events
+###########################
+
+add_namespace = spr
+
+country_event = {
+}
+

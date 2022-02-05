@@ -1,0 +1,9 @@
+﻿###########################
+# Lithuania Events
+
+add_namespace = LIT
+
+### Intro chain
+country_event = {
+}
+

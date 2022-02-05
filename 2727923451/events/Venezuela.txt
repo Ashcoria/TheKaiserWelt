@@ -1,0 +1,9 @@
+﻿###########################
+# Venezuela Events
+###########################
+
+add_namespace = ven
+
+country_event = {
+}
+

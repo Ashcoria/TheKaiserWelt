@@ -1,0 +1,9 @@
+﻿###########################
+# Panama Events
+###########################
+
+add_namespace = panama
+
+country_event = { 
+}
+

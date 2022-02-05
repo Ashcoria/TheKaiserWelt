@@ -1,0 +1,8 @@
+﻿###Latvia Events 
+
+add_namespace = KRLAT
+add_namespace = LATFOR
+add_namespace = ISKO
+
+country_event = { 
+

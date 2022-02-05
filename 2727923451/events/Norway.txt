@@ -1,0 +1,9 @@
+﻿###########################
+# Norway Events
+###########################
+
+
+add_namespace = norway
+
+country_event = {
+

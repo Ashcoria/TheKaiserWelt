@@ -1,0 +1,8 @@
+﻿###########################
+# Legation Cities Events
+
+add_namespace = lec
+
+country_event = {
+}
+

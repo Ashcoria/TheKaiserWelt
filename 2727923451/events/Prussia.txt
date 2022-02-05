@@ -1,0 +1,9 @@
+﻿###########################
+# Prussia Events
+###########################
+
+add_namespace = ddr
+
+country_event = {
+}
+

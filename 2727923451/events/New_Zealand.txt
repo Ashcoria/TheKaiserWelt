@@ -1,0 +1,8 @@
+﻿###########################
+# New Zealand Events
+
+add_namespace = nzl
+
+country_event = {
+}
+

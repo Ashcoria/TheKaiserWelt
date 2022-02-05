@@ -1,0 +1,5 @@
+﻿add_namespace = mor
+
+country_event = {
+}
+

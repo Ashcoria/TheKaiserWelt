@@ -1,0 +1,10 @@
+﻿###########################
+# United Kingdom Events
+###########################
+
+add_namespace = uk
+
+
+country_event = {
+}
+

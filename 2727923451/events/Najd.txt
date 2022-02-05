@@ -1,0 +1,7 @@
+﻿### Najd
+
+add_namespace = saud
+
+country_event = {
+}
+

@@ -1,0 +1,8 @@
+﻿###########################
+# Nationalist France Events
+add_namespace = nfa
+
+
+country_event = {
+}
+

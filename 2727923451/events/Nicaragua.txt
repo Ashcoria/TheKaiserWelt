@@ -1,0 +1,9 @@
+﻿####################
+# Nicaragua Events #
+
+
+add_namespace = nic
+
+country_event = { 
+}
+

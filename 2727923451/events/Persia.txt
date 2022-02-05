@@ -1,0 +1,10 @@
+﻿################################
+# Persia Events
+################################
+
+add_namespace = pers
+
+### Persia introduction
+country_event = {
+}
+

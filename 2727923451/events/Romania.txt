@@ -1,0 +1,11 @@
+﻿###########################
+# Iron Guard Romania Events
+###########################
+
+
+add_namespace = romania
+
+
+country_event = {
+}
+

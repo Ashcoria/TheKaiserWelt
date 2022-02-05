@@ -1,0 +1,14 @@
+﻿##############################
+#      Left KMT Events       #
+
+add_namespace = chi_dom
+add_namespace = chi_for
+add_namespace = chi_cng
+add_namespace = chi_fng
+add_namespace = chi_fng_war
+
+
+country_event = {
+
+}
+

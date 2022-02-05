@@ -1,0 +1,11 @@
+﻿###########################
+# Princely Federation Events
+
+add_namespace = prf
+
+### FLAVOR EVENTS
+
+# Introduction Event
+country_event = {
+}
+

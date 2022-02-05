@@ -1,0 +1,8 @@
+﻿#################################
+# Yemen Events					#
+
+add_namespace = yemen
+
+country_event = {
+}
+

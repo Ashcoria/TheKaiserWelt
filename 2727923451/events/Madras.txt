@@ -1,0 +1,8 @@
+﻿###########################
+# Madras Events
+
+add_namespace = madras
+
+country_event = {
+}
+

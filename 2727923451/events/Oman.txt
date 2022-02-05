@@ -1,0 +1,10 @@
+﻿###########################
+# Oman Events
+
+
+add_namespace = oma
+
+country_event = {
+	
+}
+

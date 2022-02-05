@@ -1,0 +1,9 @@
+﻿###########################
+# White Ruthenia Events
+###########################
+
+add_namespace = whr
+
+country_event = { 
+}
+

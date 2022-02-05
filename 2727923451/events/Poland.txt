@@ -1,0 +1,9 @@
+﻿###########################
+# Poland Events
+###########################
+
+add_namespace = poland
+
+country_event = {
+}
+

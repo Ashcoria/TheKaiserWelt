@@ -1,0 +1,8 @@
+﻿######################################
+# Puerto Rico Events
+
+add_namespace = pue
+
+country_event = {
+}
+

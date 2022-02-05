@@ -1,0 +1,9 @@
+﻿###########################
+# Papal State Events
+###########################
+
+add_namespace = papalstate
+
+country_event = {
+}
+

@@ -1,0 +1,8 @@
+﻿###########################
+# Namibian Events
+
+add_namespace = nmb
+
+country_event = {
+}
+

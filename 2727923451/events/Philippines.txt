@@ -1,0 +1,10 @@
+﻿###########################
+# Philippines Events
+###########################
+
+add_namespace = phil
+
+country_event = {
+
+}
+

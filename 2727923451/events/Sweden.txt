@@ -1,0 +1,10 @@
+﻿###########################
+# Sweden Events
+###########################
+
+add_namespace = swe
+
+
+country_event = {
+}
+

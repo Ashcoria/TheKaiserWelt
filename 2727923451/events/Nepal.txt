@@ -1,0 +1,10 @@
+﻿###########################
+# Nepalese Events
+###########################
+
+
+add_namespace = nepal
+
+country_event = {
+}
+

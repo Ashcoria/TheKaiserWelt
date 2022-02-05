@@ -1,0 +1,9 @@
+﻿###########################
+# Portugal Events
+
+add_namespace = por
+
+# Intro Event
+country_event = {
+}
+
