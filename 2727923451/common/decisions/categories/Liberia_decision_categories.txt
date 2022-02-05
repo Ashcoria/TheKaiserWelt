@@ -1,0 +1,4 @@
+LIB_internal_decisions = {
+	icon = GFX_decision_category_generic_arms_trade
+	allowed = { always = no }
+}

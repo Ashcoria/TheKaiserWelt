@@ -1,0 +1,31 @@
+BEL_Economic_decisions = {
+	icon = generic_formable_nations
+	picture = GFX_decision_cat_generic_mefo_bills
+
+	allowed = {
+		tag = BEL
+	}
+}
+
+BEL_Worlds_Fair_decisions = {
+	icon = generic_formable_nations
+
+	allowed = {
+		tag = BEL
+	}
+}
+
+BEL_Netherlands_decisions = {
+	icon = generic_formable_nations
+	picture = GFX_decision_cat_generic_united_netherlands
+
+	allowed = {
+		tag = BEL
+	}
+
+	visible = {
+		is_faction_leader = yes
+		is_in_faction_with = HOL
+	}
+}
+

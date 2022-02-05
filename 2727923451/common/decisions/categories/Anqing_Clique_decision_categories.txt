@@ -1,0 +1,28 @@
+ANQ_anti_concessionists = {
+	icon = anq_credibility
+	priority = 100
+	allowed = {
+		tag = ANQ
+	}
+}
+
+ANQ_reconstruction_decisions = {
+	icon = GFX_decision_category_generic_industry
+	allowed = { always = no }
+}
+
+ANQ_reestablish_control = {
+	icon = border_conflicts
+	allowed = { always = no }
+}
+
+ANQ_internal_decisions = {
+	icon = political_actions
+	allowed = { always = no }
+}
+
+ANQ_influence_decisions = {
+	icon = political_actions
+	allowed = { always = no }
+}
+

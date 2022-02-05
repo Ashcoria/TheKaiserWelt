@@ -1,0 +1,81 @@
+###########################
+# Iceland Decision Categories
+###########################
+# By The Alpha Dog
+###########################
+
+ICE_Coastal_Road = {
+	icon = generic_industry
+	allowed = { always = no }			# Activated manually
+}
+
+ICE_State_Projects = {
+	icon = generic_industry
+	allowed = { always = no }			# Activated manually
+}
+
+ICE_Fishing_Regions_decisions = {
+	icon = GFX_decision_generic_naval
+	allowed = { always = no }			# Activated manually
+}
+
+ICE_Canadian_Engineers = {
+	icon = generic_industry
+	allowed = { always = no }			# Activated manually
+
+	visible = {
+		ICE = { is_in_faction_with = ENT }
+		ENT = {
+			tag = CAN
+			is_faction_leader = yes
+		}
+	}
+}
+
+ICE_Military_Projects = {
+	icon = GFX_decision_category_patriotic
+	allowed = { always = no }			# Activated manually
+}
+
+ICE_Union_Engineers = {
+	icon = generic_industry
+	allowed = { always = no }			# Activated manually
+
+	visible = {
+		ICE = { is_in_faction_with = ENG }
+	}
+}
+
+ICE_Resist_Invaders = {
+	icon = generic_independence
+	picture = GFX_decision_cat_picture_chi_political_support
+	allowed = { always = no }			# Activated manually
+	visible = {
+		is_subject_of = ENG
+		has_socialist_government = yes
+		CAN = { is_faction_leader = yes }
+	}
+}
+
+ICE_Iceland_Abroad = {
+	icon = generic_propaganda
+	allowed = { always = no }			# Activated manually
+}
+
+ICE_Iceland_Banking = {
+	icon = generic_industry
+	allowed = { always = no }			# Activated manually
+}
+
+ICE_Althing = {
+	icon = generic_political_actions
+	allowed = { always = no }			# Activated manually
+}
+
+ICE_Unemployment_Mission = {
+	icon = generic_democracy
+	picture = GFX_decision_cat_generic_haute_savoie
+	allowed = {
+		original_tag = ICE
+	}
+}

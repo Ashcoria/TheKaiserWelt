@@ -1,0 +1,25 @@
+MEX_central_american_intervention = {
+	icon = GFX_decision_category_saf_anti_colonialist_crusade
+	picture = GFX_decision_cat_generic_united_central_america
+	allowed = { always = no }
+}
+
+MEX_reconquista_decisons = {
+	icon = GFX_decision_category_border_conflicts
+	allowed = { always = no }
+}
+
+MEX_economic_decisions = {
+	icon = GFX_decision_category_generic_prospect_for_resources
+	allowed = { always = no }
+}
+
+MEX_cristero_war = {
+	icon = GFX_decision_category_border_conflicts
+	allowed = { always = no }
+}
+
+MEX_campesinos_war = {
+	icon = GFX_decision_category_border_conflicts
+	allowed = { always = no }
+}

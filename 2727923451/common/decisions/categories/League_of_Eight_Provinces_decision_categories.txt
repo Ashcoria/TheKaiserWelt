@@ -1,0 +1,43 @@
+LEP_governor_contacts_missions = {
+	icon = political_actions
+	allowed = { always = no }
+}
+
+LEP_reconstruction_decisions = {
+	icon = GFX_decision_category_generic_industry
+	priority = 120
+	allowed = { always = no }
+}
+
+LEP_redoubts_for_revenue_decisions = {
+	icon = political_actions
+	allowed = { always = no }
+}
+
+LEP_governor_replace_decisions = {
+	icon = political_actions
+	allowed = { always = no }
+}
+
+LEP_collapse_war_decisions = {
+	icon = military_operation
+	allowed = { always = no }
+}
+
+LEP_reestablish_control = {
+	icon = border_conflicts
+	priority = 100
+
+	allowed = { always = no }
+}
+
+LEP_foreign_policy_decisions = {
+	icon = military_operation
+	allowed = { always = no }
+}
+
+LEP_AOG_decisions = {
+	icon = generic_economy
+	allowed = { always = no }
+}
+

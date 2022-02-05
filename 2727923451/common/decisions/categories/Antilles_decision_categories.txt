@@ -1,0 +1,5 @@
+ANT_antilles_decisions = {
+	icon = GFX_decision_generic_flags
+	allowed = { always = no }
+}
+
