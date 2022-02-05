@@ -1,0 +1,9 @@
+﻿###########################
+# Deutsch-Ostasien Events
+###########################
+
+add_namespace = Ostasien
+
+country_event = {
+}
+

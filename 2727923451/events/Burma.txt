@@ -1,0 +1,9 @@
+﻿###########################
+# Burma Events
+
+
+add_namespace = burma
+
+country_event = { 
+}
+

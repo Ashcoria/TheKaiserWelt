@@ -1,0 +1,10 @@
+﻿###########################
+# Japan Domestic Events
+
+
+add_namespace = japdom
+add_namespace = japfor
+add_namespace = japfeng
+
+country_event = {
+

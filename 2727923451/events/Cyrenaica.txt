@@ -1,0 +1,9 @@
+﻿###########################
+# Tripolitania Events
+
+
+add_namespace = libya
+
+country_event = {
+}
+

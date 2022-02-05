@@ -1,0 +1,9 @@
+﻿###########################
+# Independent Insulindia Events - by Thomahawk2k
+###########################
+
+add_namespace = ins
+
+country_event = { 
+}
+

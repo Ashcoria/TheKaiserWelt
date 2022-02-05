@@ -1,0 +1,9 @@
+﻿###########################
+# Hawaii Events
+###########################
+
+add_namespace = hawaii
+
+country_event = { 
+}
+

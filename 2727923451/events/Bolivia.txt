@@ -1,0 +1,9 @@
+﻿###########################
+# Bolivia Events
+###########################
+
+add_namespace = bol
+
+country_event = {
+}
+

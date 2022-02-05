@@ -1,0 +1,11 @@
+﻿###########################
+# Ireland Events
+###########################
+
+add_namespace = ire
+add_namespace = ulster
+
+
+country_event = {
+}
+

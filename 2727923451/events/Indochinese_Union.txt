@@ -1,0 +1,9 @@
+﻿###########################
+# Indochinese Union Events
+###########################
+
+
+add_namespace = viet
+
+country_event = {
+

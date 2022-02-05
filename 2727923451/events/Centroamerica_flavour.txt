@@ -1,0 +1,9 @@
+﻿###########################
+# Central America Flavour events
+###########################
+
+
+add_namespace = cafla
+
+}
+

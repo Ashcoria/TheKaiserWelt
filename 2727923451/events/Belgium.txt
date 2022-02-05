@@ -1,0 +1,13 @@
+﻿###########################
+# Belgium Events
+###########################
+
+
+add_namespace = bel
+add_namespace = belind
+add_namespace = belmil
+add_namespace = belbla
+add_namespace = flawa
+
+
+

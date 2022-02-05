@@ -1,0 +1,9 @@
+﻿####################
+# El Salvador Events
+
+
+add_namespace = els
+
+country_event = { 
+}
+

@@ -1,0 +1,8 @@
+﻿###########################
+# Ethiopia Events
+
+add_namespace = ethiopia
+
+country_event = {
+}
+

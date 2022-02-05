@@ -1,0 +1,9 @@
+﻿###########################
+# Illyria events
+###########################
+
+add_namespace = illyria
+
+country_event = {
+}
+

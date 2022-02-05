@@ -1,0 +1,8 @@
+﻿#####################################
+##Democratic Central America Events##
+
+
+add_namespace = cendem
+
+}
+

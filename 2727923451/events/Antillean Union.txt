@@ -1,0 +1,9 @@
+﻿###########################
+# Antillean Union Events
+
+add_namespace = ant
+
+###American-Formed Union
+country_event = {
+}
+

@@ -1,0 +1,8 @@
+﻿###########################
+# United Baltic Duchy Events 
+
+add_namespace = KRBAT
+
+country_event = { 
+}
+

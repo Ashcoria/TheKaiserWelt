@@ -1,0 +1,9 @@
+﻿###########################
+# Gabon
+
+add_namespace = gab
+
+country_event = {
+	
+}
+

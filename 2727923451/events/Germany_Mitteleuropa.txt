@@ -1,0 +1,8 @@
+﻿###########################
+# German Mitteleuropa and Zollverein Events
+
+add_namespace = germit
+
+country_event = {
+}
+

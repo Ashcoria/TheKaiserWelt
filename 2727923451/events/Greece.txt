@@ -1,0 +1,8 @@
+﻿###########################
+# Greece Events
+
+add_namespace = gre
+
+country_event = {
+}
+

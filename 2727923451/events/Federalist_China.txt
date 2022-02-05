@@ -1,0 +1,9 @@
+﻿################################
+## Federalist China Events    ##
+
+add_namespace = lngupc
+add_namespace = fedchi
+
+country_event = {
+}
+

@@ -1,0 +1,8 @@
+﻿####################
+### Cuban Events ###
+
+
+add_namespace = cuba
+
+}
+

@@ -1,0 +1,11 @@
+﻿###########################
+# Australasia Events
+###########################
+
+
+add_namespace = austral
+
+
+country_event = {
+}
+

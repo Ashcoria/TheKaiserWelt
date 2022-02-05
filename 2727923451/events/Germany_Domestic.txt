@@ -1,0 +1,11 @@
+﻿###########################
+# German Domestic Events
+
+
+add_namespace = gerdom
+add_namespace = gerfla
+
+country_event = {
+	
+}
+

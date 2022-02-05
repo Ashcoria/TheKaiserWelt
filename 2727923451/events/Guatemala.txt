@@ -1,0 +1,9 @@
+﻿###########################
+# Guatemala Events
+###########################
+
+add_namespace = guatemala
+
+country_event = {
+}
+

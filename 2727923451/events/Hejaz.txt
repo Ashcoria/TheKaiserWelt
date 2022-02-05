@@ -1,0 +1,11 @@
+﻿###########################
+# Hejaz -
+###########################
+
+add_namespace = hejaz
+
+add_namespace = hejrev
+
+country_event = {
+}
+

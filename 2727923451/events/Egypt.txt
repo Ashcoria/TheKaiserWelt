@@ -1,0 +1,9 @@
+﻿###########################
+# Egypt Events
+
+
+add_namespace = egy
+
+country_event = { 
+}
+

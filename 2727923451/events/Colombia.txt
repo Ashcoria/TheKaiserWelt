@@ -1,0 +1,9 @@
+﻿###########################
+# Colombia Events
+###########################
+
+add_namespace = col
+
+country_event = {
+}
+

@@ -1,0 +1,7 @@
+﻿###################################
+# Iraqi Events 
+add_namespace = irqrev
+
+country_event = {	
+}
+

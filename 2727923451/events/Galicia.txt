@@ -1,0 +1,8 @@
+﻿###########################
+# Galicia Events
+
+add_namespace = gal
+
+country_event = { 
+}
+

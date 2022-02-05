@@ -1,0 +1,137 @@
+# By samrparker12
+# 1/25/2022 
+
+#Any events to be used in the German focus tree BEFORE the 1962 elections
+
+add_namespace = debt
+add_namespace = reichstag
+add_namespace = election.1962
+add_namespace = revolution_1963
+
+#GB loses the debts modifier
+country_event = {
+	id = debt.01
+	title = GER_debts_ENG.t
+	desc = GER_debts_ENG.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+	
+	#Britain loses the debts modifier
+	option = {
+		name = GER_debts_ENG.a
+		
+		GBR = {
+			remove_idea = { GBR_indepted_to_germany }
+		}
+	}
+}
+
+#France loses the debts modifier
+country_event = {
+	id = debt.02
+	title = GER_debts_FRA.t
+	desc = GER_debts_FRA.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+	
+	#France loses the debts modifier
+	option = {
+		name = GER_debts_FRA.a
+		
+		NFA = {
+			remove_idea = { NFA_indepted_to_germany }
+		}
+	}
+}
+
+#Germany adresses the Reichstag
+country_event = {
+	id = reichstag.0
+	title = GER_reichstag.t
+	desc = GER_reichstag.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+	
+	##TODO - Create descision catagory based on what is chosen. Should be civilian and industry if stability, and military buffs if war support
+	option = {
+		name = GER_reichstag.a
+		
+		GER = {
+            stability_factor = 0.05
+		}
+	}
+
+    option = {
+		name = GER_reichstag.b
+		
+		GER = {
+            war_support_factor = 0.05
+		}
+	}
+}
+
+#Germany adresses the Reichstag
+country_event = {
+	id = election.1962.1
+	title = GER_election_1962.t
+	desc = GER_election_1962.d
+	#add
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+	
+	##TODO - Chooses Junger
+	option = {
+		name = GER_election_1962.a
+		
+		GER = {
+            complete_national_focus = GER_choose_junger
+		}
+		set_country_flag = GER_had_1962_election
+		set_country_flag = GER_chanc_junger
+		set_politics = {
+			ruling_party = social_conservative
+			elections_allowed = yes
+		}
+	}
+
+	#TODO - Choose frahm 
+    option = {
+		name = GER_election_1962.b
+		
+		GER = {
+            complete_national_focus = GER_choose_frahm
+		}
+	}
+
+}
+
+country_event = {
+	id = revolution_1963.1
+	title = revolution_1963.t
+	desc = revolution_1963.d
+	#add
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+	
+	## Gives Germany the revolutions idea, allows the focus tree to be loaded
+	option = {
+		name = revolution_1963.a
+		
+		GER = {
+            add_ideas = {
+                GER_revolution_idea
+            }
+            load_focus_tree = {
+                tree = GER_junger
+                keep_completed = yes 
+            }
+            mark_focus_tree_layout_dirty = yes
+		}
+	}
+
+}

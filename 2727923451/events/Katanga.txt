@@ -1,0 +1,12 @@
+﻿###########################
+# Katanga
+###########################
+
+add_namespace = ktg
+
+add_namespace = ktgfla
+
+
+country_event = { 
+}
+

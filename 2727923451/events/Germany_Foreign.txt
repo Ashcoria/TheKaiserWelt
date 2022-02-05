@@ -1,0 +1,8 @@
+﻿###########################
+# German Foreign Events
+
+add_namespace = gerfor
+
+country_event = {
+}
+

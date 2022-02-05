@@ -1,0 +1,10 @@
+﻿####################
+###Haitian Events###
+
+add_namespace = hai
+add_namespace = hai_civ
+add_namespace = hai_cal
+add_namespace = hai_les
+
+country_event = {
+

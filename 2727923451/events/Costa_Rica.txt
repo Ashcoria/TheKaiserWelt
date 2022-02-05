@@ -1,0 +1,6 @@
+﻿# Costa Rica 
+add_namespace = cos
+
+country_event = {
+}
+

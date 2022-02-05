@@ -1,0 +1,5 @@
+﻿add_namespace = honduras
+
+country_event = {
+}
+

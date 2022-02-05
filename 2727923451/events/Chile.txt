@@ -1,0 +1,9 @@
+﻿###########################
+# Chile Federation Events
+###########################
+
+add_namespace = chl
+
+country_event = { 
+}
+

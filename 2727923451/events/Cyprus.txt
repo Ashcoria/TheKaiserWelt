@@ -1,0 +1,7 @@
+﻿# Cyprus 
+add_namespace = cyp
+
+
+country_event = {	
+}
+

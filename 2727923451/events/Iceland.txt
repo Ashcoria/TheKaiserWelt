@@ -1,0 +1,8 @@
+﻿###########################
+# Iceland Events
+
+add_namespace = ice
+
+country_event = {
+}
+

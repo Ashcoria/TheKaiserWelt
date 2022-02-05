@@ -1,0 +1,8 @@
+﻿#####################
+## Estonian Events ##
+
+add_namespace = KREST
+
+country_event = {
+}
+

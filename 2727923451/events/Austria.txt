@@ -1,0 +1,8 @@
+﻿###########################
+# Austrian Events
+
+
+add_namespace = austria
+
+}
+

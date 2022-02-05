@@ -1,0 +1,9 @@
+﻿###########################
+# Denmark Events
+
+
+add_namespace = den
+
+country_event = {
+}
+
