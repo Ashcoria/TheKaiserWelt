@@ -1,0 +1,91 @@
+on_actions = {
+	# ROOT is capitulated country, FROM is winner
+	on_capitulation = {
+		effect = {
+			### Naval transfers
+			if = {
+				limit = {
+					is_spanish_civil_war_tag = yes
+					is_in_faction = no
+					FROM = { is_spanish_civil_war_tag = yes }
+				}
+				transfer_navy = { target = FROM }
+			}
+		}
+	}
+
+	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					spanish_civil_war = yes
+					is_spanish_civil_war_tag = yes
+				}
+				if = {
+					limit = {
+						SPA_SPR_SWF_has_fervor_idea = yes
+					}
+					FROM = {
+						SPA_SPR_SWF_calculate_fervor_effects = yes
+					}
+					SPA_SPR_SWF_calculate_fervor_effects = yes
+				}
+
+				# Random terror events when occupying states that are not yours
+				random_list = {
+					8 = {
+						country_event = { id = sprc.122 days = 7 random_days = 20 }
+					}
+					92 = {
+						# Intentionally left empty
+					}
+				}
+
+				### Chance for POR to seize Galicia
+				if = {
+					limit = {
+						NOT = {
+							POR = {
+								has_country_flag = POR_chance_to_take_GLC
+							}
+						}
+						FROM = {
+							tag = SPR
+							owns_state = 171 # Galicia
+							has_full_control_of_state = 171 # Galicia
+						}
+						SWF = {
+							controls_state = 41 # Madrid
+							controls_state = 176 # Old Castile (Burgos)
+							controls_state = 174 # León
+						}
+					}
+					POR = {
+						country_event = {
+							id = por.308
+							days = 3
+							random = 5
+						}
+					}
+				}
+			}
+		}
+	}
+	on_war = {
+		effect = {
+			#Add Fervor dynamic modifier to ROOT if SCW tag
+			if = {
+				limit = {
+					spanish_civil_war = yes
+					is_spanish_civil_war_tag = yes
+					SPA_SPR_SWF_has_fervor_idea = no
+				}
+				SPA_SPR_SWF_calculate_fervor_effects = yes
+				SPA_SPR_SWF_add_fervor_idea = yes
+				log = "Added SCW fervor idea to [THIS.GetName]"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,50 @@
+on_actions = {
+	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { tag = POR }
+					FROM.FROM = {
+						OR = {
+							state = 112 #Lisbon
+							state = 179 #Beja
+							state = 180 #Porto
+							state = 181 #Guarda
+						}
+					}
+				}
+				FROM = {
+					country_event = portugal_exile.1
+					country_event = portugal_exile.2
+				}
+			}
+		}
+	}
+
+	# ROOT is capitulated country, FROM is winner
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					tag = POR
+					MAF = {
+						has_idea = MAF_border_shit_show
+						exists = yes
+					}
+				}
+				MAF = { country_event = portugal_exile.6 }
+			}
+		}
+	}
+
+	on_peace = {
+		effect = {
+			if = {
+				limit = { tag = POR }
+				BRA = { country_event = { id = bra.752 days = 180 random = 540 } }
+			}
+		}
+	}
+}
+
