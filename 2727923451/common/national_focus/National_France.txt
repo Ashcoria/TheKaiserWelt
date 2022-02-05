@@ -1,0 +1,440 @@
+###########################
+# National France Focus Tree
+# By Edouard_Saladier, BlueFoxy, Lucina, Battleship_Richelieu, Nijato, The Alpha Dog, Rnk, DragonMaggot and Thomahawk2k
+###########################
+
+focus_tree = {
+	id = NFA_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NFA
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = {
+		x = 1250 #300
+		y = 1000 #2400
+	}
+	focus = {
+		id = president_juins_speech
+		icon = GFX_goal_president_juin's_speech
+		cost = 1
+		x = 12
+		y = 1
+		#relative_position_id = NATFRA_Civ_Mission
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = {
+			focus = NATFRA_Civ_Mission
+			focus = NATFRA_Promote_Autonomy
+		}
+
+		available = {
+			owns_state = 16
+			owns_state = 459
+			controls_all_owned_states = yes
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = anti_detente_diplomacy
+		icon = GFX_goal_NFA_anti_detente_diplomacy
+		cost = 5 
+		x = 0
+		y = 1
+		relative_position_id = president_juins_speech
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = {
+			focus = president_juins_speech
+		}
+
+		available = {
+			owns_state = 16
+			owns_state = 459
+			controls_all_owned_states = yes
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = empower_the_french_officer_corp
+		icon = GFX_goal_NFA_Marechal_Cap
+		cost = 5 
+		x = 2
+		y = 1
+		relative_position_id = president_juins_speech
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = {
+			focus = president_juins_speech
+		}
+
+		available = {
+			owns_state = 16
+			owns_state = 459
+			controls_all_owned_states = yes
+		}
+
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+	focus = {
+		id = support_the_pied_noirs
+		icon = GFX_goal_NFA_support_the_pied_noirs
+		cost = 5 
+		x = -3
+		y = 1
+		relative_position_id = president_juins_speech
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = {
+			focus = president_juins_speech
+		}
+
+		available = {
+			owns_state = 16
+			owns_state = 459
+			controls_all_owned_states = yes
+		}
+
+		completion_reward = {
+			add_political_power = 50
+			political_power_gain = 0.3
+		}
+	}
+	focus = {
+		id = continue_tests
+		icon = GFX_goal_NFA_continue_tests
+		cost = 5 
+		x = -1
+		y = 1
+		relative_position_id = support_the_pied_noirs
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = {
+			focus = support_the_pied_noirs
+		}
+
+		available = {
+			owns_state = 16
+			owns_state = 459
+			controls_all_owned_states = yes
+		}
+
+		completion_reward = {
+			add_stability = -0.005
+		}
+	}
+	focus = {
+		id = anti_detente_diplomacy
+		icon = GFX_goal_NFA_anti_detente_diplomacy
+		cost = 5 
+		x = 0
+		y = 1
+		relative_position_id = president_juins_speech
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = {
+			focus = president_juins_speech
+		}
+
+		available = {
+			owns_state = 16
+			owns_state = 459
+			controls_all_owned_states = yes
+		}
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = end_student_protests
+		icon = GFX_goal_crush_revolts
+		cost = 5 
+		x = 0
+		y = 1.5
+		relative_position_id = continue_tests
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = {
+			focus = continue_tests
+		}
+
+		available = {
+			owns_state = 16
+			owns_state = 459
+			controls_all_owned_states = yes
+		}
+
+		completion_reward = {
+			add_stability = 0.003
+		}
+	}
+	focus = {
+		id = pied_noirs_are_french
+		icon = GFX_goal_NFA_france_first
+		cost = 5 
+		x = 0
+		y = 1.5
+		relative_position_id = invest_in_algerian_cities
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = {
+			focus = invest_in_algerian_cities
+		}
+
+		available = {
+			owns_state = 16
+			owns_state = 459
+			controls_all_owned_states = yes
+		}
+
+		completion_reward = {
+			add_political_power = 10
+			remove_ideas = {
+				unequal_partners
+			}
+		}
+	}
+	focus = {
+		id = release_film
+		icon = GFX_goal_release_film
+		cost = 5 
+		x = 0
+		y = 1
+	
+		relative_position_id = empower_the_french_officer_corp
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = {
+			focus = empower_the_french_officer_corp
+		}
+
+		available = {
+			owns_state = 16
+			owns_state = 459
+			controls_all_owned_states = yes
+		}
+
+		completion_reward = {
+			add_political_power = 25
+			add_manpower = 10000
+		}
+	}
+	focus = {
+		id = dont_forget_al
+		icon = GFX_goal_release_film
+		cost = 5 
+		x = 0
+		y = 2
+	
+		relative_position_id = anti_detente_diplomacy
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = {
+			focus = anti_detente_diplomacy
+		}
+
+		available = {
+			owns_state = 16
+			owns_state = 459
+			controls_all_owned_states = yes
+		}
+
+		completion_reward = {
+			add_political_power = 25
+			add_manpower = 10000
+		}
+	}
+	focus = {
+		id = keep_constitution
+		icon = GFX_goal_NFA_Restore_the_Suspended_Constitution
+		cost = 5 
+		x = 4
+		y = 1
+	
+		relative_position_id = president_juins_speech
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = {
+			focus = president_juins_speech
+		}
+
+		available = {
+			owns_state = 16
+			owns_state = 459
+			controls_all_owned_states = yes
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = invest_in_algerian_cities
+		icon = GFX_goal_NFA_Return_to_Marseille
+		cost = 5 
+		x = 1
+		y = 1
+		relative_position_id = support_the_pied_noirs
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		prerequisite = {
+			focus = support_the_pied_noirs
+		}
+
+		available = {
+			owns_state = 460
+			owns_state = 459
+			owns_state = 805
+			controls_all_owned_states = yes
+		}
+
+		completion_reward = {
+			460 = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			805 = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			459 = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+	}
+
+}
+
