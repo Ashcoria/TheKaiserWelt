@@ -1,0 +1,9 @@
+﻿###########################
+# Zimbabwe Events
+###########################
+
+add_namespace = zim
+
+country_event = {
+}
+
