@@ -1,0 +1,13 @@
+defined_text = {
+	name = LAT_withriga_scripted
+	text = {
+		trigger = {
+			LAT = { owns_state = 842 } #Riga
+		}
+		localization_key = LAT_withriga_scripted_yes
+	}
+	text = {
+		localization_key = LAT_withriga_scripted_no
+	}
+}
+

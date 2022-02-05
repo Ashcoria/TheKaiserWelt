@@ -1,0 +1,15 @@
+defined_text = {
+	name = GetSuccessorFullName
+	text = {
+		trigger = {
+			OR = {
+				has_country_flag = UKR_DAN
+				has_country_leader = { character = UKR_danylo_skoropadskyi ruling_only = no }
+			}
+		}
+		localization_key = UKR_danylo_skoropadskyi
+	}
+	text = {
+		localization_key = UKR_leo_stefan_von_habsburg
+	}
+}

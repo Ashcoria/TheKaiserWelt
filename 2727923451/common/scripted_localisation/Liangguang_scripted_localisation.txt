@@ -1,0 +1,141 @@
+defined_text = {
+	name = GetTangStatus
+	text = {
+		trigger = {
+			NOT = { YUN = { has_country_leader = { character = YUN_tang_jiyao } } }
+		}
+		localization_key = GXC_tang_ded
+	}
+	text = {
+		trigger = {
+			OR = {
+				YUN = {
+					has_country_flag = not_attending_shantou_conference
+				}
+				AND = {
+					YUN = {
+						has_country_leader = { character = YUN_tang_jiyao }
+						NOT = { has_country_flag = attending_shantou_conference }
+					}
+				}
+			}
+		}
+		localization_key = GXC_tang_jerk
+	}
+	text = {
+		trigger = {
+			YUN = {
+				has_country_flag = attending_shantou_conference
+			}
+		}
+		localization_key = GXC_tang_there
+	}
+}
+
+defined_text = {
+	name = GetConferenceCity
+	text = {
+		trigger = {
+			if = {
+				limit = { has_event_target = UPC_leader }
+				event_target:UPC_leader = { original_tag = GXC }
+			}
+			else = {
+				original_tag = GXC
+			}
+		}
+		localization_key = UPC_conference_shantou
+	}
+	text = {
+		trigger = {
+			if = {
+				limit = { has_event_target = UPC_leader }
+				event_target:UPC_leader = { tag = SZC }
+			}
+			else = {
+				tag = SZC
+			}
+		}
+		localization_key = UPC_conference_chengdu
+	}
+}
+
+defined_text = {
+	name = GXC_UPC_ultimatums_titles
+	text = {
+		trigger = {
+			FROM = {
+				tag = YUN
+				has_country_leader = { character = YUN_tang_jiyao }
+				NOT = { has_country_flag = YUN_isolationists_chosen }
+			}
+		}
+		localization_key = GXC_UPC_ultimatums_titles_YUN
+	}
+	text = {
+		localization_key = GXC_UPC_ultimatums_titles_default
+	}
+}
+
+defined_text = {
+	name = GXC_UPC_ultimatums_descs
+	text = {
+		trigger = {
+			FROM = { tag = HNN }
+		}
+		localization_key = GXC_UPC_ultimatums_descs_HNN
+	}
+	text = {
+		trigger = {
+			FROM = { tag = SZC }
+		}
+		localization_key = GXC_UPC_ultimatums_descs_SZC
+	}
+	text = {
+		trigger = {
+			FROM = { tag = LEP }
+		}
+		localization_key = GXC_UPC_ultimatums_descs_LEP
+	}
+	text = {
+		trigger = {
+			FROM = { tag = ANQ }
+		}
+		localization_key = GXC_UPC_ultimatums_descs_ANQ
+	}
+	text = {
+		trigger = {
+			FROM = { tag = SQI }
+		}
+		localization_key = GXC_UPC_ultimatums_descs_SQI
+	}
+	text = {
+		trigger = {
+			FROM = { tag = SHX }
+		}
+		localization_key = GXC_UPC_ultimatums_descs_SHX
+	}
+	text = {
+		trigger = {
+			FROM = {
+				tag = YUN
+				if = {
+					limit = { has_country_leader = { character = YUN_tang_jiyao } }
+					has_country_flag = YUN_isolationists_chosen
+				}
+			}
+		}
+		localization_key = GXC_UPC_ultimatums_descs_YUN
+	}
+	text = {
+		trigger = {
+			FROM = {
+				tag = YUN
+				has_country_leader = { character = YUN_tang_jiyao }
+				has_country_flag = YUN_isolationists_chosen
+			}
+		}
+		localization_key = GXC_UPC_ultimatums_descs_YUN_tang
+	}
+}
+

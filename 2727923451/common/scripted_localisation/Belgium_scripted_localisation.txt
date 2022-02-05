@@ -1,0 +1,10 @@
+defined_text = {
+	name = BEL_GetAdalbertsDreamName
+	text = {
+		trigger = { has_country_leader = { character = BEL_adelbert_von_hohenzollern } }
+		localization_key = BEL_Adalberts_Dream_Adalbert
+	}
+	text = {
+		localization_key = BEL_Adalberts_Dream_Generic
+	}
+}
