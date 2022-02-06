@@ -1,0 +1,33 @@
+state = {
+	id = 129
+	name = "STATE_129"
+	manpower = 2274727
+	state_category = eleven
+
+	resources = {
+		steel = 14
+		oil = 13
+	}
+
+	history = {
+		owner = GBR
+		add_core_of = GBR
+		victory_points = {
+			11279 2
+		}
+		victory_points = {
+			6237 2
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 5
+		}
+	}
+
+	provinces = {
+		364 3353 6237 9250 9268 9322 11279
+	}
+}
+
