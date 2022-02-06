@@ -1,0 +1,374 @@
+﻿capital = 48
+
+oob = "BUL"
+set_naval_oob= "BUL_naval"
+
+BUL_start_naval_variant = yes
+
+set_technology = {
+	### General ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	cv_naval_bomber1 = 1
+}
+
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_heavy = 1
+		panzerschiffe = 1
+
+		## Modules##
+		basic_depth_charges = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_secondary_battery = 1
+		improved_ship_torpedo_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		basic_naval_mines = 1
+	}
+}
+
+### Navy - Non MtG ###
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_submarine = 1
+		basic_submarine = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+	}
+}
+
+country_event = { id = bulgaria.1 hours = 2 } #Intro event
+country_event = { id = bulgaria.2 days = 7 } #Intro event
+country_event = { id = bulgaria.7 days = 40 random_days = 610 }
+country_event = { id = bulgaria.8 days = 40 random_days = 550 }
+country_event = { id = bulgaria.14 days = 60 random_days = 300 }
+country_event = { id = bulgaria.27 days = 90 random_days = 250 }
+country_event = { id = bulgariaflavour.1 days = 60 random_days = 400 }
+country_event = { id = bulgariaflavour.2 days = 35 random_days = 100 }
+country_event = { id = bulgariaflavour.3 days = 35 random_days = 350 }
+country_event = { id = bulgariaflavour.6 days = 720 random_days = 350 }
+country_event = { id = bulgariaflavour.13 days = 1000 random_days = 350 }
+country_event = { id = bulgariaflavour.14 days = 4380 random_days = 350 }
+country_event = { id = bulgariaflavour.16 days = 450 random_days = 30 }
+country_event = { id = bulgariaflavour.19 days = 150 random_days = 30 }
+
+set_research_slots = 3
+set_convoys = 40
+
+TUR = {
+	give_military_access = ROOT
+}
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1934.6.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 0
+	syndicalist = 0
+	radical_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	market_liberal = 0
+	social_conservative = 3
+	authoritarian_democrat = 5
+	paternal_autocrat = 90
+	national_populist = 2
+}
+
+create_country_leader = {
+	name = "Vasil Ikonomov"
+	picture = "Portrait_BUL_Vasil_Ikonomov.png"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
+}
+
+create_country_leader = {
+	name = "Manol Vasev"
+	desc = "POLITICS_VASEV_DESC"
+	picture = "Portrait_BUL_Manol_Vasev.png"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+}
+create_country_leader = {
+	name = "The Suvet"
+	desc = "POLITICS_SUVET_DESC"
+	picture = "gfx/leaders/BUL/portrait_BUL_suvet.png"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+}
+
+create_country_leader = {
+	name = "Georgi Dimitrov"
+	desc = "POLITICS_DIMITROV_DESC"
+	picture = "Portrait_BUL_Georgi_Dimitrov.png"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+}
+
+### Field Marshals ###
+
+create_field_marshal = {
+	name = "Teodosi Daskalov"
+	picture = "Portrait_BUL_Teodosi_Daskalov.png"
+	traits = {
+		career_officer
+		defensive_doctrine
+		skilled_staffer
+	}
+	id = 491820
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Boris Sakskoburggotski"
+	picture = "Portrait_BUL_Boris.png"
+	id = 76891
+	traits = {
+		politically_connected
+		infantry_officer
+		inspirational_leader
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+### Corps Commanders ###
+
+create_corps_commander = {
+	name = "Nikola Nedev"
+	picture = "Portrait_BUL_Nikola_Nedev.png"
+	id = 351378
+	traits = {
+		career_officer
+		artillery_officer
+		fortress_buster
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Asen Nikolov"
+	picture = "Portrait_BUL_Asen_Nikolov.png"
+	traits = {
+		harsh_leader
+		trickster
+		artillery_specialist
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Pencho Zlatev"
+	picture = "Portrait_BUL_Pencho_Zlatev.png"
+	traits = {
+		career_officer
+		cavalry_leader
+		combined_arms_expert
+		hidden_sympathies
+	}
+	id = 666555
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Rusi Rusev"
+	picture = "Portrait_BUL_Rusi_Rusev.png"
+	traits = {
+		career_officer
+		artillery_officer
+		artillery_specialist
+		artillery_expert
+	}
+	id = 391820
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Konstantin Lukash"
+	picture = "Portrait_BUL_Konstantin_Lukash.png"
+	traits = {
+		infantry_officer
+		urban_assault_specialist
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Nikola Hadzhipetov"
+	picture = "Portrait_BUL_Nikola_Hadzhipetov.png"
+	traits = {
+		career_officer
+		commando
+		trickster
+	}
+	id = 91820
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ivan Valkov"
+	picture = "Portrait_BUL_Ivan_Valkov.png"
+	traits = {
+		old_guard
+		career_officer
+		skilled_staffer
+	}
+	id = 18401
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kimon Georgiev"
+	picture = "Portrait_BUL_Kimon_Georgiev.png"
+	traits = {
+		career_officer
+		trait_cautious
+		hidden_sympathies
+	}
+	id = 555666
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Nikola Nakov"
+	picture = "Portrait_BUL_Nikola_Nakov.png"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Hristo Lukov"
+	picture = "Portrait_BUL_Hristo_Lukov_KR.png"
+	traits = {
+		artillery_officer
+		hill_fighter
+		hidden_sympathies
+	}
+	id = 71209
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kyril Sakskoburggotski"
+	picture = "Portrait_BUL_Prince_Kyril.png"
+	traits = {
+		politically_connected
+	}
+	id = 91024
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+### Admirals ###
+
+create_navy_leader = {
+	name = "Ivan Variklechkov"
+	picture = "Portrait_BUL_Ivan_Variklechkov.png"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Sava Ivanov"
+	picture = "Portrait_BUL_Sava_Ivanov.png"
+	traits = { spotter }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+

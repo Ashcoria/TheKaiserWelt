@@ -1,0 +1,150 @@
+﻿capital = 230
+set_stability = 0.35
+set_war_support = 0.8
+set_research_slots = 2
+
+add_ideas = {
+}
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1934.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	totalist = 3
+	syndicalist = 0
+	radical_socialist = 13
+	social_democrat = 40
+	social_liberal = 3
+	market_liberal = 8
+	social_conservative = 2
+	authoritarian_democrat = 31
+	paternal_autocrat = 0
+	national_populist = 0
+}
+
+create_country_leader = {
+	name = "Anastas Mikoyan"
+	picture = "gfx/leaders/RM/Portrait_Armenia_Anastas_Mikoyan.png"
+	expire = "1965.1.1"
+	ideology = totalist_subtype
+}
+create_country_leader = {
+	name = "Avetis Nazarbekian"
+	picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_14.png"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
+}
+create_country_leader = {
+	name = "Avetis Nazarbekian"
+	picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_14.png"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+}
+create_country_leader = {
+	name = "Simon Vratsian"
+	picture = "gfx/leaders/ARM/Portrait_Armenia_Vratsian.png"
+	expire = "1985.1.1"
+	ideology = social_democrat_subtype
+}
+create_country_leader = {
+	name = "Levon Pashalian"
+	picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_2.png"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+}
+create_country_leader = {
+	name = "Mihran Damadian"
+	picture = "gfx/leaders/ARM/Portrait_Armenia_Mihran_Damadian.png"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+}
+create_country_leader = {
+	name = "Kâzım Karabekir"
+	picture = "gfx/leaders/TUR/Portrait_TUR_Musa_Kazim.png"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+create_country_leader = {
+	name = "Garegin Nzhdeh"
+	picture = "gfx/leaders/ARM/Portarit_Armenia_Garegin_Nzhdeh.png"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+}
+create_country_leader = {
+	name = "Garegin Nzhdeh"
+	picture = "gfx/leaders/ARM/Portarit_Armenia_Garegin_Nzhdeh.png"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
+}
+
+create_field_marshal = {
+	name = "Garegin Nzhdeh"
+	portrait_path = "gfx/leaders/ARM/Portarit_Armenia_Garegin_Nzhdeh_general.png"
+	traits = {
+		brilliant_strategist
+		politically_connected
+		inspirational_leader
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Christophor Araratov"
+	portrait_path = "gfx/leaders/ARM/Portrait_Armenia_Christophor_Araratov.png"
+	traits = {
+		old_guard
+		artillery_officer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Drastamat Kanayan"
+	portrait_path = "gfx/leaders/ARM/Portrait_Armenia_Drastamat_Kanayan.png"
+	traits = {
+		old_guard
+		infantry_officer
+		organizer
+		politically_connected
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Hamazasp Babadzhanian"
+	portrait_path = "gfx/leaders/ARM/Portrait_Armenia_Hamazasp_Babadzhanian.png"
+	traits = {
+		trait_reckless
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Hamazasp Srvandztyan"
+	portrait_path = "gfx/leaders/ARM/Portrait_Armenia_Hamazasp_Srvandztyan.png"
+	traits = {
+		harsh_leader
+		infantry_officer
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
