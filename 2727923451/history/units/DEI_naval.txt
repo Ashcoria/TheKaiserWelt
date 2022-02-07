@@ -1,0 +1,277 @@
+﻿###OOB File for DEI.txt
+instant_effect = {
+	create_equipment_variant = {
+		name = "O9 Class"					# represents O9-15, K XI-XIII subs
+		type = ship_hull_submarine_1
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "K-XI Class"					# represents K XIV-XVIII, O16 subs
+		type = ship_hull_submarine_2
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Gouden Leeuw Class"
+		type = ship_hull_carrier_conversion_ca
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = empty
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Gerard Callenburgh Class"
+		type = ship_hull_light_2
+
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_2
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Iazon Class"
+		type = ship_hull_light_1
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Maastricht Class"
+		type = ship_hull_light_1
+
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "Van Galen Class"
+		type = ship_hull_light_1
+
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "Aemalia Class"
+		type = ship_hull_heavy_1
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_anti_air_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "Willem van Oranje Class"
+		type = ship_hull_heavy_2
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Soerabaja Class"				# represents Soerabaja (De Zeven Provinciën) and Jacob van Heemskerck
+		type = ship_hull_cruiser_coastal_defense_ship
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "Jakob van Heemskerck Class"
+		type = ship_hull_cruiser_coastal_defense_ship
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_torpedo_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "Java Class"
+		type = ship_hull_cruiser_1
+
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_light_medium_battery_1
+			rear_1_custom_slot = ship_airplane_launcher_1
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {
+		name = "De Ruyter Class"
+		type = ship_hull_cruiser_2
+
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_light_medium_battery_2
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "Koninklijke Marine"
+		naval_base = 7381 ###Change to proper province number
+		task_force = {
+			name = "1e Eskader"
+			location = 7381 ###Change to proper province number
+			ship = { name = "HrMs Gouden Leeuw" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = DEI version_name = "Gouden Leeuw Class" } }
+				air_wings = {
+					cv_fighter_equipment_0 = { owner = "DEI" amount = 16 }
+					cv_nav_bomber_equipment_1 = { owner = "DEI" amount = 4 }
+				}
+			}
+			ship = { name = "HrMs Mercurius" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = DEI version_name = "Willem van Oranje Class" } } }
+			ship = { name = "HrMs Willem van Oranje" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = DEI version_name = "Willem van Oranje Class" } } }
+			ship = { name = "HrMs Rotterdam" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Van Galen Class" } } }
+			ship = { name = "HrMs 's-Hertogenbosch" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Van Galen Class" } } }
+			ship = { name = "HrMs Tilburg" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Van Galen Class" } } }
+			ship = { name = "HrMs Utrecht" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Van Galen Class" } } }
+			ship = { name = "HrMs Van Galen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Van Galen Class" } } }
+			ship = { name = "HrMs Van Ghent" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Van Galen Class" } } }
+			ship = { name = "HrMs Van Nes" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Van Galen Class" } } }
+			ship = { name = "HrMs Witte de With" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Van Galen Class" } } }
+			ship = { name = "HrMs Zoetermeer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Van Galen Class" } } }
+			ship = { name = "HrMs De Ruyter" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEI version_name = "De Ruyter Class" } } }
+			ship = { name = "HrMs Piet Hein" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEI version_name = "De Ruyter Class" } } }
+		}
+		task_force = {
+			name = "2e Eskader"
+			location = 7381 ###Change to proper province number
+			ship = { name = "HrMs Groote Liefde" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = DEI version_name = "Aemalia Class" } } }
+			ship = { name = "HrMs Sint Matheuus" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = DEI version_name = "Aemalia Class" } } }
+			ship = { name = "HrMs Celebes" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DEI version_name = "Java Class" } } }
+			ship = { name = "HrMs Sumatra" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DEI version_name = "Java Class" } } }
+			ship = { name = "HrMs Java" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DEI version_name = "Java Class" } } }
+			ship = { name = "HrMs Iazon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Iazon Class" } } }
+			ship = { name = "HrMs Orestes" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Iazon Class" } } }
+			ship = { name = "HrMs Dordrecht" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Maastricht Class" } } }
+			ship = { name = "HrMs Maastricht" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Maastricht Class" } } }
+			ship = { name = "HrMs Zwolle" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Maastricht Class" } } }
+			ship = { name = "HrMs Groningen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Van Galen Class" } } }
+			ship = { name = "HrMs Haarlemmermeer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Van Galen Class" } } }
+			ship = { name = "HrMs Kortenaer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Van Galen Class" } } }
+			ship = { name = "HrMs Leiden" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Van Galen Class" } } }
+			ship = { name = "HrMs Nijmegen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DEI version_name = "Van Galen Class" } } }
+		}
+	}
+
+	fleet = {
+		name = "Nederlands-Indische Onderzeebootvloot"
+		naval_base = 4608 ###Change to proper province number
+		task_force = {
+			name = "2e Onderzeebootseskader"
+			location = 4608 ###Change to proper province number
+			ship = { name = "HrMs K II" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEI version_name = "O9 Class" } } }
+			ship = { name = "HrMs K V" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEI version_name = "O9 Class" } } }
+			ship = { name = "HrMs K VI" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEI version_name = "O9 Class" } } }
+			ship = { name = "HrMs K VII" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEI version_name = "O9 Class" } } }
+			ship = { name = "HrMs K IX" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEI version_name = "O9 Class" } } }
+			ship = { name = "HrMs K VIII" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEI version_name = "O9 Class" } } }
+			ship = { name = "HrMs K X" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEI version_name = "O9 Class" } } }
+			ship = { name = "HrMs K XI" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K-XI Class" } } }
+			ship = { name = "HrMs K XII" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K-XI Class" } } }
+			ship = { name = "HrMs K XIII" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = DEI version_name = "K-XI Class" } } }
+		}
+	}
+}
+

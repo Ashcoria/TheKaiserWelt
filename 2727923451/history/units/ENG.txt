@@ -1,0 +1,441 @@
+﻿instant_effect = {
+	### Variants ###
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		create_equipment_variant = {
+			name = "Light Tank Mk. IV"
+			type = light_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_heavy_machine_gun
+				turret_type_slot = tank_light_one_man_tank_turret
+				suspension_type_slot = tank_christie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 1
+			}
+			icon = "gfx/interface/technologies/ENG_basic_light_tank.dds"
+			obsolete = yes #used for oob
+		}
+		create_equipment_variant = {
+			name = "Light Tank Mk. VI"
+			type = light_tank_chassis_1
+			parent_version = 1
+			modules = {
+				main_armament_slot = tank_heavy_machine_gun
+				turret_type_slot = tank_light_two_man_tank_turret
+				suspension_type_slot = tank_christie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = tank_radio_1
+				special_type_slot_2 = smoke_launchers
+			}
+			icon = "gfx/interface/technologies/ENG_basic_light_tank.dds"
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Medium Mk. II"
+			type = medium_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon
+				turret_type_slot = tank_medium_three_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = tank_radio_1
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 1
+				tank_nsb_engine_upgrade = 2
+			}
+			icon = "gfx/interface/technologies/ENG_basic_light_tank.dds"
+		}
+
+		create_equipment_variant = {
+			name = "Vickers 6 ton A"
+			type = light_tank_chassis_1
+			parent_version = 2
+			modules = {
+				main_armament_slot = tank_heavy_machine_gun
+				turret_type_slot = tank_light_one_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = secondary_turret_hmg
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 3
+				tank_nsb_engine_upgrade = 2
+			}
+			icon = "gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_light_BAB_camo.dds"
+			obsolete = yes #export only
+		}
+
+		create_equipment_variant = {
+			name = "Vickers 6 ton B"
+			type = light_tank_chassis_1
+			parent_version = 3
+			modules = {
+				main_armament_slot = tank_small_cannon
+				turret_type_slot = tank_light_two_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 3
+				tank_nsb_engine_upgrade = 2
+			}
+			icon = "gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_light_BAB_camo.dds"
+			obsolete = yes #export only
+		}
+	}
+
+	### Production ###
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		requested_factories = 10
+		progress = 0.82
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.83
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+		}
+		requested_factories = 2
+		progress = 0.44
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+		}
+		requested_factories = 3
+		progress = 0.29
+		efficiency = 100
+	}
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_1
+				version_name = "Light Tank Mk. VI"
+			}
+			requested_factories = 3
+			progress = 0.59
+			efficiency = 100
+		}
+	}
+	else = {
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_equipment_1
+			}
+			requested_factories = 3
+			progress = 0.59
+			efficiency = 100
+		}
+	}
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.48
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = nav_bomber_equipment_1
+		}
+		requested_factories = 2
+		progress = 0.88
+		efficiency = 100
+	}
+}
+
+########
+# Templates
+########
+
+division_template = {
+	name = "Cavalry Division"
+	division_names_group = ENG_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Infantry Division"
+	division_names_group = ENG_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	template_counter = 66
+}
+division_template = {
+	name = "Motor Division"
+	division_names_group = ENG_MOT_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Armour Division"
+	division_names_group = ENG_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Republican Marines"
+	division_names_group = ENG_MAR_01
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+### Units ###
+units = {
+	division = {
+		location = 9458
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 9458
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 3273
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 351
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 9397
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11218
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 11253
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 11221
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 3287
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 6318
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 311
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 6384
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 13070
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		location = 3369
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 6351
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		location = 11297
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 407
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		location = 407
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		location = 9239
+		division_template = "Armour Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		location = 540
+		division_template = "Republican Marines"
+		start_experience_factor = 0.4
+	}
+	division = {
+		location = 540
+		division_template = "Republican Marines"
+		start_experience_factor = 0.4
+	}
+}
+
+air_wings = {
+	### RAF Fighter Command ###
+	129 = {
+		fighter_equipment_0 = {
+			owner = "ENG"
+			amount = 216
+		}
+	}
+	130 = {
+		fighter_equipment_0 = {
+			owner = "ENG"
+			amount = 144
+		}
+	}
+	127 = {
+		fighter_equipment_0 = {
+			owner = "ENG"
+			amount = 96
+		}
+	}
+	131 = {
+		fighter_equipment_0 = {
+			owner = "ENG"
+			amount = 72
+		}
+	}
+
+	### RAF Bomber Command ###
+	125 = {
+		CAS_equipment_1 = {
+			owner = "ENG"
+			amount = 64
+		}
+	}
+	125 = {
+		tac_bomber_equipment_0 = {
+			owner = "ENG"
+			amount = 48
+		}
+	}
+	126 = {
+		tac_bomber_equipment_0 = {
+			owner = "ENG"
+			amount = 64
+		}
+	}
+	130 = {
+		tac_bomber_equipment_0 = {
+			owner = "ENG"
+			amount = 80
+		}
+	}
+	128 = {
+		CAS_equipment_1 = {
+			owner = "ENG"
+			amount = 64
+		}
+	}
+	130 = {
+		nav_bomber_equipment_1 = {
+			owner = "ENG"
+			amount = 24
+		}
+	}
+}
+
+focus = {
+	current = "ENG_tuc"
+	progress = 0
+}
