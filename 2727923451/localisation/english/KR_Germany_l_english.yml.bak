@@ -1,0 +1,1379 @@
+﻿l_english:
+
+ german_focus:0 "Germany Focus Tree"
+
+### Leaders ###
+ POLITICS_WILHELM_II_DESC:0 "Wilhelm II von Hohenzollern, the 'Father of the Reichspakt', has ruled the German Empire for nearly 50 years. His reign has seen the rise of Germany to the status of foremost world power, and is considered to have brought on the 'German Golden Age.' Since the Weltkrieg, Germany has eclipsed its rivals, and its drive to acquire a place in the sun has been fulfilled. Even if dark clouds loom over the horizon, Kaiser Wilhelm has the support of his people, his military, and the aristocracy which lord over both."
+ POLITICS_WILLY_3_DESC:0 "Emperor Wilhelm III, despite lacklustre performance as commander of Germany's Army Group B during the Weltkrieg, was hailed as a hero upon his return home. With the death of his father, Wilhelm the war hero was enthroned as the new Emperor of Germany. Wilhelm is a friend and ally of Kurt von Schleicher, and affirms the importance of the aristocracy in governance."
+
+ POLITICS_GERD_VON_RUNDSTEDT_DESC:0 "§YGeneral Description\n§YBorn:§L\nDecember 12th, 1875, in Aschersleben, Province of Saxony, Kingdom of Prussia, German Empire\n§YMilitary Career:§L\nBorn to a dynasty of Prussian nobility whose men all served in the military since Frederick the Great, Gerd von Rundstedt did not stray from this tradition - his path since maturity strayed little from the ordinary Prussian noble officer, first the Kadettenanstalt Oranienstein, then Royal Prussian Main Cadet Institute at Groß-Lichterfelde, in Berlin. Commissioned as an infantry officer, he made a good impression on his superiors for outstanding ability and so began to climb the ranks. At the beginning of the Weltkrieg, he was the 22nd Division's Chief of Staff - throughout the course of the war, he saw little action, mostly serving in various staff positions, but with a high reputation among his peers.\n\nAfter the war, he used this good impression and connections to climb the ranks again, ultimately reaching the rank of Generaloberst. A competent and experienced commander respected by pretty much everyone in the General Staff, von Rundstedt is also perhaps the most apolitical - no matter what the topic or issue may be, his view is that the Army must stay out of any political affairs. After all, Prussian field marshals never mutiny."
+ POLITICS_RUPPRECHT_VON_BAYERN_DESC:0 "§YGeneral Description\n§YBorn:§L\nMay 18th, 1869, in Munich, Kingdom of Bavaria\n§YMilitary Career:§L\nThe incumbent King of Bavaria, Rupprecht Maria Luitpold Ferdinand, is also one of the most decorated commanders of the Imperial German Army during the Weltkrieg. Trained as an infantry officer in the Bavarian Army, he eventually rose to command the Bavarian I Army Corps, all while travelling extensively, taking up carpentry, and fulfilling his duties as a prince of the Bavarian royal family. In 1913, he became the heir apparent of the Kingdom, and a year later, he was assigned to lead the German Sixth Army during the Schlieffen Plan. Though his assignment was made due to his royal status, he proved to be an able and innovative commander. At the same time, however, he used his military command to push for Bavarian interests - refusing to withdraw his army from the Western Front to defend Prussia and thus forcing the General Staff to move troops from Belgium instead.\n\nIn July 1916, he was promoted to Generalfeldmarschall and was assigned to command the Army Group Rupprecht, a rank he has held onto until today. In 1921, after the passing of his father, Ludwig III of Bavaria, Rupprecht was crowned as the new King of Bavaria, and since then reigns as a constitutional monarch with respect for the laws and institutions of his homeland. Though having to occupy two chairs at once may seem exhausting for some, the King seems none worse for wear, and dutifully awaits Germany's next great war."
+ POLITICS_AUGUST_VON_MACKENSEN_DESC:0 "§YGeneral Description\n§YBorn:§L\nDecember 6th, 1849, in Leipnitz, Province of Saxony, Kingdom of Prussia\n§YMilitary Career:§L\nThe oldest general in the Imperial German Army, known as 'the Last Hussar', August Mackensen came from a middle-class upbringing in rural Prussia. His father, an agricultural administrator, hoped for his son to follow the same career path, but he instead volunteered for the Prussian army and served with distinction in the Franco-Prussian War. In the years following the war, Mackensen broke expectations one after the other, bypassing the three-year preparation period for the General Staff and later serving as an adjutant to Wilhelm II himself, the first commoner to do so. On the Kaiser's 40th birthday, he was ennobled, becoming August von Mackensen, and was assigned to command XVII Army Corps - a prestigious position, as Crown Prince Wilhelm now served under him.\n\nDuring the Weltkrieg, he was one of Germany's most successful and prestigious commanders, assigned to front after front in Europe - Galicia, Serbia, and finally Romania, shattering Entente resistance in all three campaigns. He returned to Germany a war hero and a Generalfeldmarschall, and continued to serve in the Army thenceforth. By now, however, von Mackensen is over eighty years old, his sharpness has dulled and his body is no longer as able as it once was - most assume retirement is coming soon, the only thing that matters is when."
+ POLITICS_WILHELM_III_GENERAL_DESC:0 "§YGeneral Description\n§YBorn:§L\nMay 6th, 1882, in the Marmorpalais of Potsdam, Kingdom of Prussia, German Empire\n§YMilitary Career:§L\nThe heir apparent of the German Empire since the age of six, Crown Prince Wilhelm is a decorated commander in the Imperial German Army in his own right. A modern royal well-liked within German society, a competent equestrian and a student of administrative law, he began his career in the army in 1911, commissioned to command the 1st Life Hussar Regiment. When the Weltkrieg began, he rose to command the 5th Army, and then the Army Group Kronprinz Wilhelm, despite his young age and lack of military experience. His influence in decision-making on the front was minimal, however, and Wilhelm instead used the prestige of his position to support Paul von Hindenburg and Erich Ludendorff - he described the ousting of Theobald von Bethmann Hollweg as "the most beautiful day of his life".\n\nCrown Prince Wilhelm returned from the Western Front a war hero and continued his duties as the heir apparent. In the post-war years, he has retained his position in the Army, while growing increasingly close with the German right wing - especially Kurt von Schleicher, who is a friend and ally of Wilhelm's."
+
+ POLITICS_ERICH_VON_MANSTEIN_DESC:0 "§YGeneral Description\n§YBorn:§L\nNovember 24th, 1887, in Berlin, Kingdom of Prussia, German Empire\n§YMilitary Career:§L\nBorn as von Lewinski, Erich von Manstein comes from the family of a noble Prussian general with Kashubian heritage, and is the nephew of Paul von Hindenburg. Much like the rest of his extended family, he followed a career in the military. After six years in the cadet corps in Plön and Groß-Lichterfelde, he was commissioned into the Third Foot Guards Regiment - and reached the Weltkrieg as an infantry lieutenant enrolled in the Prussian War Academy. The war put an end to his studies and sent him to the front - both East and West, to several fronts and several world-renown campaigns, ending with the victorious march into France in 1919.\n\nAfter the end of the war, Manstein remained in the army and continued climbing the ranks, having shown his talent and intelligence in the years prior. As a newly inducted member of the General Staff, he toured countries across Europe to study their military facilities and breakthroughs in new tactics, all while developing his own. Regarded as an innovative commander with a knack for unorthodox strategies, he is one of the main proponents of combined arms, mobile warfare in the German army."
+
+# Crete stuff at the bottom
+
+### Temporary ###
+ GER_poli_temp:0 "Final Reforms"
+ GER_poli_temp_desc:0 "For too long people have battled over where power should lie in our great government. It is time to answer that question once and for all."
+
+### Ideas ###
+
+ GER_imperial_pride:0 "Imperial Pride"
+ GER_imperial_pride_desc:0 "The German Empire rests at the very top of the world's pecking order, a place it has enjoyed since the end of the Weltkrieg. It would take a great deal for them to admit defeat in the coming war... Though there are some who suggest that Germany's resilience is more brittle than it appears. Should the unthinkable happen and Berlin falls, or Germany loses control of many of its major cities, the nation would likely capitulate long before most of its territory is actually occupied."
+ GER_ready_to_surrender:0 "Submission"
+
+ GER_black_monday:0 "Black Monday Effects"
+ GER_black_monday_desc:0 "The stock market in Berlin has collapsed, and with it, Germany's already stagnant economy. If Germany is to retain its hegemonic position, the 'Black Monday' crisis must be addressed."
+
+ GER_black_monday1:0 "Schachtplan"
+ GER_black_monday1_desc:0 "Hjalmar Schacht, president of the German state bank, has implemented a controversial economic stimulus programme. His efforts seem to have succeeded in at least partially alleviating the Black Monday crisis, and public markets have already begun to slowly trend upwards."
+
+ GER_military_tradition:0 "German Military Tradition"
+ GER_military_tradition_desc:0 "Ever since the days of Teutonic Knights and the military victories of Frederick the Great, the Kingdom of Prussia has prided itself on its military tradition. This tradition has continued since the unification of the empire and through both Weltkriegs. Even in this new age of warfare and technology, Germany continues to have that Prussian strut."
+
+ GER_WilhelmIII:0 "Wilhelm III"
+ GER_WilhelmIII_desc:0 "Wilhelm, by the Grace of God, Kaiser of the German Empire, King of Prussia, Margrave of Brandenburg, Sovereign and Supreme Duke of Silesia, Grand Duke of the Lower Rhine and Posen, Duke of Saxony, and holder of other titles across the realm. The 78 year old monarch saw Germany victorious in the Second Weltkrieg and continued rise on the world stage as an economic, technological, and military power. In his nearly twenty year reign, Wilhelm III has continued the legacy of great German kings such as Frederick the Great, Wilhelm I, and his father, Wilhelm II."  
+
+ GER_space:0 "German Space Program"
+ GER_space_desc:0 "Since the development of the German rocket program in the latter years of the Second Weltkrieg, Germany has been the leading nation in the field of aerospace engineering. It sent the Kepler 1, the first artificial satellite into orbit, in 1956, as well as the first Intercontinental Ballistic Missile that same year. It was only three years later in 1959 that Germany sent the first man into space, the 22 year old Sigmund Jähn. While other nations try to compete, it is clear that the German Empire is on top."
+
+ GER_reichstag_division:0 "Reichstag Division"
+ GER_reichstag_division_desc:0 "Starting in the 1940s after the Second Weltkrieg, the German Empire has taken an effort to liberalize its government, with the Constitution of 1945 being a staple of this change. Most of these reforms however were under the leadership of the SDP, causing much division between the left wing and conservative parties within the Reichstag."
+
+ GER_black_monday2:0 "Grönerplan"
+ GER_black_monday2_desc:0 "Statesman Wilhelm Gröner's proposal to allow conscripts to fulfil a year of military service through labour has been implemented, and the Black Monday crisis has been partially resolved by the extra employment boost."
+
+ GER_address_reichstag:0 "Address the Reichstag"
+ GER_address_reichstag_desc:0 "While we've implemented the preliminary steps to solve the Black Monday crisis, the situation is still dire. Despite his senility and failing health, Kaiser Wilhelm II has expressed in an address to the Reichstag that their first priority must be fixing the economy as soon as possible. Which proposals will be accepted, however, has yet to be seen..."
+
+
+### Research Groups ###
+ german_research_name:0 "Kaiser Wilhelm Society"
+ german_research_desc:0 "The Kaiser Wilhelm Society is the principle joint-research organisation of Mitteleuropa."
+
+### Tooltips ###
+ GER_oil_imports:0 "Importing more than §H100§! units of §HOil§!"
+ GER_oil_shortage_smaller:0 "§RWe shall try to mitigate the effects of the oil shortage, but a long term solution must be found.§!"
+ GER_gulf_oil_not_wait:0 "§RWe shall demand our oil before the war is over, though our partners may not be happy about this.§!"
+ GER_gulf_oil_wait:0 "§GWe shall wait for the end of the war to get our oil.§!"
+ GER_oil_shortage_venezuela:0 "§GVenezuela could be a valuable trading partner but they are an ocean away. Those oil tankers could be tempting targets.§!"
+ GER_oil_shortage_gulf:0 "§GThe Ottoman empire has been an ally before and may be willing to help, however, they are far from strong. Siding with the wrong party could prove disastrous.§!"
+ GER_oil_shortage_caucasus:0 "§GThe Caucasus has long belonged to our sphere of influence, but it is far closer to the Russian Empire than us and they may not take kindly to our diplomatic push there.§!"
+ GER_oil_shortage_romania:0 "§GRomania is close to home and has plenty of oil, however, it is unlikely they will listen without force.§!"
+ focus_not_finished_tp:0 "§RThis focus is currently unfinished, and as such it has no effect.§!"
+ GER_mackensen_retires:0 "You can now reform the military high command"
+ GER_army_reform:0 "§GYou can now reform the military high command.\n§!"
+ german_panzers:0 "New Panzer divisions will be built"
+ naval_construction:0 "§GNaval construction projects will begin.§!"
+ GER_ECO_REFORM:0 "Six months post-Black Monday"
+ FAUD_ban1:0 "Take no chances with these reds!"
+ FAUD_allow1:0 "The FAUD has been allowed to operate"
+ ENG_GER_protection:0 "Protecting Ireland"
+ mauser_werke_desc:0 "§GWill unlock the Mauser Werke Company.\n§!"
+ eco_reco:0 "Economy recovered from Black Monday"
+ GER_unlocks_junkers:0 "Will upgrade the Junkers Company."
+ GER_krupp_steel_unlock:0 "§GWill upgrade Krupp.\n§!"
+ GER_siemens_unlock:0 "§GWill unlock Siemens.\n§!"
+ GER_hahn_meitner_unlock:0 "Will upgrade Hahn & Meitner."
+ DEN_ENG_ultimatum:0 "Sent ultimatum"
+ DEN_abandon:0 "Abandoned conflict"
+ DEN_ENG_back_down:0 "Ceasefire"
+ occupy_wall:0 "Occupied Wallonia"
+ women_suffrage:0 "Awareness of the women's suffrage movement"
+ GER_women_suffrage_tp:0 "§GAwareness of the women's suffrage movement will increase.\n§!"
+ GER_women_suffrage_high_tp:0 "§GAwareness of the women's suffrage movement will increase greatly.\n§!"
+ GER_halbstarke:0 "Problems with the Halbstarke"
+ navy_1934_complete:0 "1934 Navy programme completed"
+ GER_parlamentsvertrauen_tp:0 "§GElection results will determine governments.§!"
+ GER_disband_reichstag_tp:0 "§GElections will not be held.§!"
+ GER_cult_of_aviation_tp:0 "Our pilots will push themselves to their very limits"
+ GER_DEN_neutralist_pigs:0 "Denmark has refused our aid"
+ security_backdown:0 "Security Backs Down"
+ GER_schleicher_tp:0 "§RThis marks a point of no return...\n§!"
+ GER_black_monday_wow:0 "Black Week has ended"
+ GER_int_reaction:0 "Second Congress of the Internationale has ended"
+ GER_oil_tp:0 "Lack of Oil"
+ GER_RUS_bjorko:0 "Bjorko Pact"
+ RUS_GER_ceased_contacts:0 "Ceased contacts"
+ GER_grand_battleplan_req:0 "Adopted Hammerstein-Equord's plan"
+ GER_mobile_warfare_req:0 "Adopted Guderian's plan"
+ GER_superior_firepower_req:0 "Adopted Bruchmüller's plan"
+ GER_not_fled_europe:0 "Germany has not fled Europe\n"
+ GER_fled_europe:0 "Germany has fled Europe\n"
+ POL_decide_fate:0 "§GWe must first decide on our diplomatic approach to Poland§!"
+ Spain_gave_us_the_rock:0 "Spain gave up Gibraltar"
+ Bulgaria_said_yes_to_help:0 "Bulgaria accepted our assistance"
+ DKB_said_yes_to_GER_has_oil:0 "Don-Kuban Union accepted our economic mission"
+ DKB_said_no_to_GER_has_oil:0 "Don-Kuban Union refused our economic mission"
+ DKB_said_yes_to_GER_has_oil_2:0 "Don-Kuban Union accepted our military mission"
+ VEN_said_yes_to_GER_has_oil:0 "Venezuela has agreed to our deal"
+ SER_supported_bulgaria:0 "Offered Bulgaria assistance"
+ FAUD_allow:0 "We allowed the FAUD to operate"
+ FAUD_ban:0 "We have banned the FAUD"
+ GER_seeckt_dead:0 "Hans von Seeckt has died and August von Mackensen has retired."
+ OTT_yes_to_GER:0 "The Ottomans have agreed to our proposal"
+ GER_gulf_oil_obligations:0 "§GWe shall fulfil our obligations as per the treaty terms.§!"
+ GER_angry_ukraine:0 "§RThis will harm our relationship with the Ukraine and weaken their government.§!"
+ GER_angry_socialists:0 "§GThey will become part of our army.§!"
+ GERfor.25_tooltip:0 "We will spawn some divisions to help in the conflict."
+ german_investments_flock_in_aze:0 "Investors will increasingly flock to Azerbaijan."
+ GER_frapartwll_tt:0 "A Walloon militia will be formed."
+ GER_frapartals_tt:0 "Two Alsatian militias will be formed."
+ GER_ruswar_tt:0 "Eleven new reserve divisions will be raised."
+ GER_cannot_join_ally_war:0 "Cannot join this war"
+ GER_colonial_resources_distribution_full_tt:0 "§REight§! of our civilian factories will work for the needs of our colonies for §R365§! days.\n"
+ GER_colonial_resources_distribution_partly_tt:0 "§RFive§! of our civilian factories will work for the needs of our colonies for §R260§! days.\n"
+ GER_agricultural_mitteleuropa_help_tt:0 "§ROur country is falling apart.§!\n"
+ GER_csavol_tt:0 "Two volunteer divisions will arrive"
+ GER_received_equipment_10000:0 "We will receive 10000 units of infantry equipment."
+ GER_cannot_join_until_WK:0 "§R[From.GetName] cannot join the [ROOT.GetFactionName] before the Weltkrieg.§!"
+ GER_doctrine_mobile_3_tooltip:0 "Modify §H$GER_invest_arms_industry$§! by\nConsumer Goods Factories: [?-0.05|=%1H]\n§HArmour§!: £production_cost  Production Cost:  [?-0.2|-=%]"
+ GER_no_appointed_chancellors:0 "§HKaiser [Root.GetLeader]§! will no longer be able to appoint the chancellor."
+
+ GER_has_black_monday:0 "Has national spirit §H$GER_black_monday$§!"
+ GER_has_black_monday_NOT:0 "Does not have national spirit §H$GER_black_monday$§!"
+ is_GER_or_ally_tt:0 "is §Y[GER.GetNameDef]§! or an ally"
+ is_controlled_by_GER_or_ally_tt:0 "is controlled by §Y[GER.GetNameDef]§! or an ally"
+ is_owned_by_GER_or_ally_tt:0 "is owned by §Y[GER.GetNameDef]§! or an ally"
+
+### Opinion Modifiers ###
+ sri_lanka:0 "Imperialist bastard"
+ colonial_master:0 "Colonial Master"
+ agriculture_help_denied:0 "Refused to give agricultural assistance"
+ agriculture_help_granted:0 "Granted agricultural assistance"
+ women_maybe:0 "Women's suffrage considered a potential issue"
+ women_no:0 "Women's suffrage considered unimportant"
+ women_yes:0 "Women's suffrage considered a serious issue"
+ ITA_SUP:0 "Supported the Pope"
+ ITA_COR:0 "Cordial Papal relations"
+ GER_INVEST:0 "German Investments"
+ DKB_aid:0 "Military Aid"
+ condem:0 "International Condemnation"
+ GER_foreign_missions:0 "German Aid"
+ DEN_position_plus:0 "War stance"
+ DEN_position_minus:0 "War stance"
+ DEN_thank:0 "Grateful for support"
+ return_wll:0 "Returned Wallonia"
+ wll_int:0 "Snubbed us"
+ give_holl:0 "The Holland Award"
+ occupy_mor:0 "Occupied Morocco"
+ financial_help_granted:0 "Full financial help granted"
+ financial_help_denied:0 "Financial help denied"
+ financial_help_too_low:0 "Not satisfied with limited help"
+ financial_help_satisfactionary:0 "Satisfied with provided help"
+ GER_raised_tarrifs:0 "Raised tariffs"
+ ott_ger_statusquo:0 "Upheld the status-quo in the Middle-East"
+ egy_ger_statusquo:0 "Upheld the status-quo in the Middle-East"
+
+### Parties ###
+ GER_totalist_party:0 "BK"
+ GER_totalist_party_long:0 "Bund der Kommunisten"
+ GER_syndicalist_party:0 "KAPD/KAUD"
+ GER_syndicalist_party_long:0 "Kommunistische Arbeiterpartei Deutschlands/Kommunistische Arbeiter-Union Deutschlands                                                         §gThe two organizations share as much history as they have their own history. The KAPD (Communist Workers' Party) was formed in April 1920 as a split from the KPD based upon tactical and political differences, with the most important one being the KAPD's strong council-communist bent, anti-parliamentarianism and their tactics of 'leadership by example', decried as adventurist by the KPD majority. The KAPD's primary ally is the KAUD, formed in 1931 as a merger of the anti-trade union organisation AAUD (Allgemeine Arbeiter-Union Deutschland, General Workers' Union of Germany) and the AAUD-E (Allgemeine Arbeiter-Union – Einheitsorganisation, General Workers' Union of Germany - Unitary Organisation). Both the KAPD and KAUD express their support for 'Unionen', unions that are formed based upon economic regions, not trades, unlike the traditional 'Gewerkschaften'. These 'Unionen' are made out of factory organizations (Betriebsorganisationen, BO). They also both support the formation of a unitary organisation for the proletariat, however most agree that this is not possible currently and thus are willing to maintain the KAPD as a 'necessary evil' (the AAUD-E demanded immediate unification and thus split from the AAUD in 1921, which however after becoming fully decimated re-unified with the AAUD). The organizations insist that the revolution is not a task of a party, but the task of the proletariat, seeing the KAPD's role as merely being a catalyst for their action, with the task of the KAUD being meanwhile to fight against the traditional trade unions and take control of the workplaces.§! "
+ GER_radical_socialist_party:0 "KPD"
+ GER_radical_socialist_party_long:0 "Kommunistische Partei Deutschlands"
+ GER_social_democrat_party:0 "SPD"
+ GER_social_democrat_party_long:0 "Sozialdemokratische Partei Deutschlands              §gWith its first predecessor being founded in 1863, the SPD (Social Democratic Party Germany) is one of the oldest parties in Germany, and one of the most popular left-wing parties in Europe. The SPD was regularly fought by the conservative establishment, with the two most important ones being the suppression of the SPD under Bismarck and later Ludendorff. Before the First World War, the SPD was the strongest party in the Reichstag. During the War, however, the SPD split in two; the moderate MSPD and the more radical anti-war USPD. After a failed peaceful revolution in September 1918, both parties once more reconciled and reunited under the banner of the SPD. The SPD was the most vocal opponent of the Ludendorff dictatorship and the target of many government-instructed sanctions.    SPD representatives were present at the dismissal of the dictator and many people within the Empire attribute the fall of the dictatorship to them. Under Germany’s "second-greatest" chancellor, Alfred von Tirpitz, the SPD also has had to struggle against increasing levels of wealth among workers leading to decreased electoral output even in former core territories. The SPD's voter block is mostly among the lower classes and the industrial areas along the Rhine in the Kingdom of Saxony and in cities in Silesia, but Elsaß-Lothringen is also proving to be a hotbed of German social democracy, especially after the decline of the Zentrum and the ongoing centralisation efforts of the government.§!"
+ GER_social_liberal_party:0 "FVP"
+ GER_social_liberal_party_long:0 "Fortschrittliche Volkspartei                                   §gCreated in 1910, the FVP (Progressive People's Party) is the social liberal alternative to the NLP. The FVP was a staunch opponent of the Ludendorff dictatorship, supporting political liberalisation and electoral reform. Thanks to the FVP's strong support among liberal civil servants, the FVP managed to become the largest bourgeois opposition party after the 1923 elections – but wasn't able to capitalise on this success properly. The party lost many seats in the disastrous elections of 1928 and 1932, with many going to the SPD. The FVP is currently lead by its left-wing wing lead by Anton Erkelenz, being supportive of a number of socially liberal reforms, like voting rights for women, strong economic intervention, et cetera.§!"
+ GER_market_liberal_party:0 "NLP"
+ GER_market_liberal_party_long:0 "Nationalliberale Partei                                   §gCreated in 1866, the NLP began as the most prominent German party, becoming a main backer of the Bismarck chancellorship. However, after Bismarck's turn to the right, the party's influence has been continuously waning. The NLP was mainly powerless in the Reichstag during the Weltkrieg, though cooperating with the left-wing parties at times. When the DVLP was created, some thought the NLP would get usurped by them, but Stresemann was able to keep the NLP independent, with him leading the NLP to be neutral on the Ludendorff dictatorship.                    After Ludendorff's fall and the rise of Tirpitz, the NLP joined Tirpitz's great coalition, with it supporting German colonialism, expansion of the military, and liberal economic policies in the government. Stresemann was able to make the NLP flourish, thus his death in 1929 strongly weakened the NLP. Dingeldey led the NLP in its worst election result ever, causing his resignation, and him unable to give the NLP a position in the government. Dingeldey was replaced by Reichsbankpräsident Hjalmar Schacht as leader, with Julius Curtius being the chancellor candidate of the NLP. The NLP has strong support among industry giants and the more well-off, though some of them have been moving away from the NLP, looking for a new champion of their interests.§!"
+ GER_social_conservative_party:0 "Zentrum"
+ GER_social_conservative_party_long:0 "Zentrumspartei                                                        §gCreated in 1870, the Zentrum (Centre) has always represented the interests of German Catholics. The party was the main enemy of Bismarck during the Kulturkampf, with it later becoming more and more integrated into day-to-day ruling. The Zentrum was a main architect of the Reichstag’s Peace Resolution of 1917, under the guise of the leader of the parliamentary faction, Matthias Erzberger. The Zentrum was opposed to the Ludendorff dictatorships, though it refrained from supporting protests. The party tried to widen its appeal in 1923, however, this failed massively, causing the rise of the centrist Wilhelm Marx, but he too was unable to turn the fortunes of the party, with the Zentrum losing another election in 1932.                             With both the leftists and centrists within the party discredited, the right-wing under the leadership of Franz von Papen took over, pursuing a unitarian vision, which caused many defections from the party, with him also causing the left-wing of the party to jump ship and form the CSRP. The party is strongly aligned to the DkP, however there Heinrich Brüning is leading the opposition towards von Papen's leadership, wanting a return to the original federalist elements of the Zentrum, with him also wishing to reunite the Zentrum with its splinter parties. §!"
+ GER_paternal_autocrat_party:0 "DRP"
+ GER_paternal_autocrat_party_long:0 "Deutsche Reichspartei                                   §gFounded in 1866, the DRP (German Imperial Party) is a liberal-conservative party in the German Empire. For most of its existence, the DRP tried to act as a compromiser between NLP and DRP, however, with the beginning of the 20th century, it began drawing closer to the DkP. It opposed the democratic alliance of SPD, FVP, and Zentrum in the Reichstag together with the DkP during the First World War. The party was a silent supporter of the Ludendorff dictatorship, with it becoming the smallest member of the Great Coalition of von Tirpitz. The party is a strong supporter of colonialism and fleet expansion while opposing electoral reform in Prussia strongly. The DRP has been seeing a slight resurgence since the death of the Tirpitz and the subsequent collapse of the DVLP as a political heavy-weight.§!"
+ GER_authoritarian_democrat_party:0 "DkP"
+ GER_SCH_authoritarian_democrat_party:0 "Kamarilla"
+ GER_SCH_authoritarian_democrat_party_long:0 "Schleicher's Kamarilla                                             §gThe kamarilla around Kurt von Schleicher is a clique of military officers aligned to him, with them being united around their support to Schleicher; with them also generally supporting the strengthening the military in the civil society - though they are not totally opposed to democracy, with Schleicher himself being known for his track record of cooperating with both progressive and conservative parties if it suited him.§!"
+ GER_AFR_paternal_autocrat_party:0 "Notstandsregierung"
+ GER_authoritarian_democrat_party_long:0 "Deutschkonservative Partei                                   §gThe DkP (German Conservative Party) was founded in 1876, being extremely influential during the Bismarck era, leading the shift towards protectionism. However, after 1912 the party was unable to become the leading party of the right, which caused the formation of the DVLP, which usurped a lot of DkP members. The DkP was initially a supporter of the Ludendorff dictatorship but turned against it in the 1920s.                               After the 1923 elections, the DkP under Ernst von Heydebrand und der Lasa and Kuno Graf von Westarp reluctantly joined the Great Coalition of von Tirpitz. After the 1928 elections, Kuno von Westarp, under the pressure of the growing DVLP began the process of modernising the DkP to also attract urban right-wing voters and reform into a conservative-tent party. With it even backing an expansion of social welfare, though it also is in favour of cutting spending, except for agricultural subsidies. After the surprising death of von Tirpitz in 1930, the Kaiser picked von Westarp as his successor. Following two years of uneventful rule, the German electorate voted to let von Westarp be the new administrator and keeper of its wealth. Kuno von Westarp has done as was demanded, and the last few years have been quiet, with as little change as possible. The party continues to support the centralisation of the Empire and strictly opposes voting reforms.§!"
+ GER_national_populist_party:0 "DVLP"
+ GER_national_populist_party_long:0 "Deutsche Vaterlandspartei                                   §gThe DVLP (German Fatherland Party), was formed in late 1917 to represent the jingoist, anti-democratic and radical nationalist political class, with it being strongly aligned to the Alldeutscher Verband. The DVLP was the most prominent supporter of the Ludendorff dictatorship, though there were some differences in opinion over economic issues. When the Ludendorff dictatorship was removed, Alfred von Tirpitz was picked by Wilhelm as his successor, with him creating a Great Coalition of right-wing parties to solve the issues brought on by the Ludendorff dictatorship. This moderation of the party caused a lot of upset from the right-wing of the party, manifesting itself when they took over the party in the wake of the death of von Tirpitz. However, this takeover caused many supporters of the DVLP to abandon the party in favour of the DkP and DRP. The DVLP advocates for pan-Germanism, anti-parliamentarianism, anti-socialism and anti-semitism.§!"
+ GER_social_conservative_party_cvp:0 "CVP"
+ GER_social_conservative_party_long_cvp:0 "Christliche Volkspartei"
+
+ GER_KAI_paternal_autocrat_party:0 "Kaisertreue"
+ GER_KAI_paternal_autocrat_party_long:0 "Kaisertreue Kamarilla"
+
+### Decisions ###
+ GER_send_support_to_bulgaria:0 "Send Support to Bulgaria"
+ GER_send_support_to_bulgaria_desc:0 "While they may not have been a game-changer, Bulgaria was still our loyal ally during the Weltkrieg, and they are not at risk from the Serbian invasion. [Root.GetNameDefCap] does not forget its friends, and we shall move to help the Tsar at once!"
+
+ GER_join_kaiser_wilhelm_society:0 "Join the Kaiser Wilhelm Society"
+ GER_puppet_core_germany:0 "Restore Order in [From.GetName]"
+
+ french_occupation_decisions:0 "The French Occupation"
+ french_occupation_decisions_desc:0 "Resistance is ongoing within the territory of [FRA.GetNameDef]. Short of defeating the entirety of the Third Internationale, it might be possible to erode the legitimacy of the Communard government-in-exile to the point that resistance forces in France surrender completely.\n\nThe current §YLegitimacy§! of [FRA.GetNameDef]: §R[?FRA.legitimacy|-0]§!\n"
+ GER_erode_cof_legitimacy:0 "Erode Communard Legitimacy"
+ GER_erode_cof_legitimacy_desc:0 "Our efforts must be to convince the French people that the Communard government is and always was an illegitimate construction, as well as their true oppressor. If their will to fight on behalf of the syndicalists collapses, there will be little opposition to our occupation."
+ GER_invite_nfa_to_france:0 "Invite [NFA.GetNameDef] Back to France"
+ GER_invite_nfa_to_france_desc:0 "[NFA.GetNameDefCap] has far more ability than we do to erode [FRA.GetNameDef]'s legitimacy... but only if they hold enough territory in continental France to claim some kind of victory. Currently, that isn't the case. In order to expedite the progress of defeating the French resistance, perhaps it's worth considering whether we could turn over some of our occupied territory in the South to them? At the very least, it would establish some gratitude on their part."
+
+ GER_seize_morocco_decisions:0 "Seizing Moroccan Territories"
+ GER_seize_morocco_decisions_desc:0 "Since the twentieth century, we have fostered ambitions on Morocco. Now that the other powers that have a stake there are in turmoil, it is time to take these lands for our own."
+ GER_seize_spanish_morocco:0 "Seize Spanish Morocco"
+
+ GER_black_monday_category:0 "Dealing with Black Monday"
+
+ GER_factories_for_colonies_full:0 "Fulfilling the needs of our colonies"
+ GER_factories_for_colonies_full_desc:0 "We have decided to stress the coffers of the Kaiserreich for the betterment of our colonies, to ensure their continued loyalty while lowering the damage from Black Monday to a minimum, even if it is routing much-needed resources away from the fatherland."
+
+ GER_factories_for_colonies_partly:0 "Granting limited help to our colonies"
+ GER_factories_for_colonies_partly_desc:0 "Due to the dire situation our colonies have found themselves in, we have decided to tactically divert a little of our economic leeway into helping the hardest struck areas in our Weltreich, to bolster morale and keep our chain of governance safe and running."
+
+ GER_agricultural_help:0 "The price of doing business"
+ GER_agricultural_help_desc:0 "As we have decided to not put a wall between the Kaiserreich and the Eastern European granaries, our subpar domestic agricultural exploiters have begun to show their disappointment in our choice, while their properties are quickly going into the red."
+
+ GER_foreign_policy_decisions:0 "Germany looking outwards"
+
+### Focuses ###
+ GER_pax_germanica:0 "The Pax Germanica"
+ GER_pax_germanica_desc:0 "For over fifteen years, the world has seen a period of relative peace between the Great Powers, during which the German Empire has taken its place as the global hegemonic power. Like Britain for much of the 19th century, Germany has adopted the role of a \"global policeman'\, mediating disputes and conflicts.\n\nMilitarily, the German Empire is unmatch with a large professional army and the Imperial Navy that commands the sea. It's nuclear arsenal is equally unchallenged, with thousands of weapons that can reach as far as East Asia and North America. While many nations try to compete with Germany's dominance, it is clear that the German Empire's power reigns supreme."
+ 
+ GER_approach_prussia:0 "Approach the Prussian Staff College"
+ GER_approach_prussia_desc:0 "The Prussian Staff College is one of, if not the most prestigious and well renowned military college in all of Germany. The institution for over one hundered and fifty years has produced some of the best military officers the nation has ever seen. Many of these officers joined the German General Staff which has helped us see countless victorious. While an important instution in German society, the college is also known for its conservatism and political influence. Due to the recent liberal policies and reforms being implemented by the German government, the Prussian Junker nobility that runs the college has become discontnet. It is important we approach the college to try to end these tensions and get their support."
+ 
+ GER_reform_officer:0 "Reform the Officer Corp"
+ GER_reform_officer_desc:0 "Since the days of Frederick the Great, the German Officer Corp has been one of the most professional in Europe. However, in recent years, nepotism and an increase of aristocratic dominance within the corp has resulted in a lack of quality amongst our officers. In order to have a well balanced army, we should begin introducing reforms that will reorganize such an important part of our armed forces."
+
+ GER_mil_reorg:0 "Establish Military Reorganization Commission"
+ GER_mil_reorg_desc:0 "In this new age, with Germany having not see a major conflict in almost two decades, it is more important than ever that our military be reformed in all of its aspects. While reformist movements have existed in the armed forces for decades, the bulward of conservatism that has only gained strength in recent years has prevented this."
+### Decisions ###
+ GER_appeal_to_old_friends:0 "Appeal to [From.GetNameDef] for Help"
+ GER_appeal_to_old_friends_desc:0 "With the war turning against us, it is becoming clear that we need powerful allies. Perhaps it would be wise to turn to our old allies in [From.GetNameDef] for support? The unity of the Central Powers quickly fell apart at the end of the Weltkrieg, but they remain states generally sympathetic to the protection of monarchism. Surely they would not leave us to stand alone in the face of the syndicalist threat?"
+
+### Domestic Events ###
+
+ gerdom.1.t:0 "The Constitution of the German Kaiserreich"
+ gerdom.1.d:0 "After the crushing defeat of the Second French Empire by forces of the North German Federation, our constitution was signed in 1871 by representatives of the Federation and four other states in southern Germany. The new constitutional framework created integrated the southern states into the Prussian-led Federation, thus giving the enlarged entity a new identity as the Deutsches Reich.\n\nAccording to the constitution, the Empire is a federation of twenty-five German states. The title of Bundespräsidium, or Federation President, was held by the King of Prussia, a figure now invested with the title of Emperor of Germany. The Emperor directly appoints the Chancellor, the head of government and chairman of the Bundesrat, the council of representatives of the German states. Laws are enacted by both the Bundesrat and the Reichstag, the lower house Imperial Diet elected by male Germans above the age of 25 years.\n\nWith an option to dissolve the Reichstag on a whim, it is clear that the main political power in the German Empire actually rests not in Reichstag, elected by the people, but in the hands of the non-elected German Emperor. Another issue is the Prussian three-class voting system, which has remained mostly unchanged since 1849.\n\nOver sixty years after the founding of the Kaiserreich, the liberals and social democrats are growing increasingly disgruntled with the status quo and our constitution may need revision soon to help us weather the upcoming turbulence..."
+ gerdom.1.a:0 "A constitution guarantees stability, at least."
+
+ gerdom.2.t:0 "Hans von Seeckt's Funeral"
+ gerdom.2.d:0 "Our Chief of General Staff, Hans von Seeckt, has died today in Berlin. The hero of the Intervention in China passed away peacefully in his sleep.\n\nOur nation is mourning the loss of a true German hero, and every important dignitary was in attendance at his funeral in Berlin. Afterwards, the Chief of the Army, August von Mackensen, could be seen whispering something to the Kaiser in private. It was revealed shortly thereafter that von Mackensen himself intends to retire."
+ gerdom.2.a:0 "Farewell to you both."
+
+ gerdom.4.t:0 "The Grain Crisis"
+ gerdom.4.d:0 "With parts of our grain supply in the Baltic and the Ukraine no longer under our control, we have begun encountering severe problems. Our burgeoning urban population cannot rely on German agriculture alone, and there have been scattered reports of state granaries going empty. Let's hope that this does not escalate as far as the horrible hunger winter of 1916/17..."
+ gerdom.4.a:0 "Scheiße!"
+
+### Agricultural crisis in Mitteleuropa ###
+
+ gerdom.11.t:0 "Agricultural Crisis in Mitteleuropa"
+ gerdom.11.d:0 "During this time of great crisis, the complacent agricultural sector of the German economy has proven to be particularly vulnerable to the economic downturn. With this in mind several Junkers, representing the landed nobility of the Kingdom of Prussia, have asked for protectionist legislation and state subsidies for their agricultural production. By imposing tariffs on foreign produce, we will strengthen this vital sector of the Reich's economy and protect our farmers. Unfortunately, such a measure is likely to cause further damage to the economy of our neighbours, dependent as they are on German markets for their food exports. The wheat crop in the Ukraine is particularly vulnerable, and choosing to enact protectionist measures might seriously damage them and our other agrarian partners."
+ gerdom.11.a:0 "We must protect our own peasants."
+ gerdom.11.b:0 "We shall not risk our Mitteleuropan ties."
+
+ gerdom.12.t:0 "Suffragist Movement Gathers Strength"
+ gerdom.12.d:0 "Lately there has been increased momentum in the women's suffrage movement, which seeks to force the government to enfranchise women by giving them the right to vote and stand for elected office. In these troubled times for the Empire, we must be careful in formulating a policy response liable to cause domestic tensions. Granting the suffragists what they ask would anger the more conservative elements of our government, particularly members of the Reichstag, a body currently elected solely by universal male suffrage. On the other hand, a stern refusal followed by reprisals may lead to further protests and riots, especially in the more liberal states, many of which already permit female voting in regional assemblies."
+ gerdom.12.a:0 "It's a cause worth supporting!"
+ gerdom.12.b:0 "Promise action but do nothing."
+ gerdom.12.c:0 "Women. Know your limits."
+
+ gerdom.13.t:0 "German Women Demand Recognition"
+ gerdom.13.d:0 "In the great war against the Syndicalists, German women have assiduously proven their loyalty to the Empire. Some of them have proven fundamental to our propaganda efforts with very many of them began working in factories to relieve the men that had to leave and fight the enemy at the front. Their contribution has been invaluable and they have proven their ability and independence time and time again. For these reasons, the suffragist movement is stronger than ever and asking once again that the government grant women the right to vote and to run for office."
+ gerdom.13.a:0 "Will they never stop?"
+
+ gerdom.14.t:0 "The Halbstarke Terror"
+ gerdom.14.d:0 "With the devastating economic situation, many families struggle to earn their daily bread and the social security net is strained to the breaking point. In recent weeks the streets of many German cities have been increasingly terrorised by gangs of teenagers. These 'Halbstarke' steal products from the markets and shops, and often money from innocent pedestrians, or commit acts of vandalism to escape boredom and frustration. Few citizens feel safe on the streets anymore and it is clear that what some in the government might see merely as low-level civic disorder instead has the makings of total societal breakdown."
+ gerdom.14.a:0 "Mein Gott! How shocking!"
+
+### Tirpitzprogramm ###
+
+ gerdom.15.t:0 "The 1934 Naval Programme"
+ gerdom.15.d:0 "The Kaiserliche Marine stands as the strongest navy in the world in the year 1936, but many challenges will face it in the coming years. The expansionist Empire of Japan and resurgent Syndicalist fleets of Britain and France are both key future enemies seeking to unseat German naval superiority across the world.\n\nIn 1934, we started a major naval construction plan, and many of the ships laid down in that period are well on their way to being finished. Unfortunately, with our naval industry limited due to ongoing economic malaise, we will have to limit ourselves to one area of production. The question is - what should we focus on during the next six months?"
+ gerdom.15.a:0 "Battleships."
+ gerdom.15.b:0 "Carriers."
+ gerdom.15.c:0 "Destroyers."
+ gerdom.15.e:0 "U-Boats."
+
+ gerdom.16.t:0 "Reviewing the 1934 Naval Programme"
+ gerdom.16.d:0 "With the Naval programme of 1934 well underway it is incumbent on us to choose how we wish to continue. After all, priorities in the shifting sands of modern naval warfare seldom stay the same for long. What should we do?"
+ gerdom.16.a:0 "Begin the construction of a pair of Battleships!"
+ gerdom.16.b:0 "Begin the construction of a pair of Carriers!"
+ gerdom.16.c:0 "A squadron of Destroyers!"
+ gerdom.16.e:0 "Some U-Boats!"
+ gerdom.16.f:0 "Continue Battleship construction."
+ gerdom.16.g:0 "Continue Carrier construction."
+ gerdom.16.h:0 "More Destroyers."
+ gerdom.16.i:0 "More U-Boats."
+ gerdom.16.j:0 "The programme has been fulfilled!"
+ gerdom.16.k:0 "There is nothing we can do until Kiel is back under our control..."
+
+### Schleicher and the DVLP ###
+
+ gerdom.17.t:0 "Kurt von Schleicher and the DVLP"
+ gerdom.17.d:0 "'Scandal! Scandal! Reichskanzler von Schleicher observed dining with Alfred von Hugenberg! Scandal!' cry the newspaper boys today. The prestigious Berliner Tagblatt, already responsible for the publication of the infamous Osthilfeskandal in 1923 that led to the end of the Ludendorff regime, has landed another major scoop.\n\nA reporter was able to observe and even partially overhear a conversation between Reichskanzler Kurt von Schleicher and the leader of the reactionary Junker party DVLP, Alfred von Hugenberg, at a Berlin varieté. The relatively low standing of the establishment only adds to the scandal and while crowds come together to discuss the news, one question is on everyone's lips - what will the Kaiser's reaction be once he opens his morning newspaper?"
+ gerdom.17.a:0 "We should turn to von Papen."
+ gerdom.17.b:0 "The SPD can't be any worse..."
+ gerdom.17.c:0 "Brüning's Zentrum will ensure order."
+ gerdom.17.e:0 "It's made-up nonsense."
+
+### Election of 1937 ###
+
+ gerdom.27.t:0 "Elections of 1937"
+ gerdom.27.d:0 "Today, the German people will elect their representative to the Reichstag! The elections have been tightly fought, and the results are awaited with much anticipation. The fate of several parties and, of course, the Kaiserreich itself could be decided today.\n\nIf the Social Democrats manage to secure enough votes, the 'realist' wing of the Social Liberal FVP will form a coalition with them. Another possibility would be a coalition of nearly all liberal and bourgeois parties - NLP, FVP and Bavarian splinter party BVP - against the predominance of the DkP, led by the beloved Lion of Africa, Paul von Lettow-Vorbeck. Or the DkP could just continue their comfortable majority.\n\nWho shall win?"
+ gerdom.27.a:0 "SPD and 'realist' FVP!"
+ gerdom.27.b:0 "The lion roars! The Neue große Koalition!"
+ gerdom.27.c:0 "Change? Who needs change?"
+
+ gerdom.28.t:0 "A New Reichskanzler?"
+ gerdom.28.d:0 "Under the constitution of 1871, there is no formal government in the Kaiserreich. Instead, the Kaiser appoints a person of his liking to the post of Reichskanzler, who then fills the state secretary posts of the 'Reichsleitung' - the 'Reich administration'.\n\nEven though the SPD won the most Reichstag posts in the elections, this does not mean the Kaiser has to even consider appointing a new chancellor. However, following the Ludendorff regime, this gesture of goodwill has become the modus operandi, and abandoning it could lead to public unrest. What shall we do?"
+ gerdom.28.a:0 "Appoint Otto Wels, the first SPD Reichskanzler!"
+ gerdom.28.b:0 "Keep the current Reichskanzler."
+ gerdom.28.c:0 "Appoint Kurt von Schleicher, the kaisertreue alternative!"
+
+ gerdom.29.t:0 "A New Reichskanzler?"
+ gerdom.29.d:0 "Under the constitution of 1871, there is no formal government in the Kaiserreich. Instead, the Kaiser appoints a person of his liking to the post of Reichskanzler, who then fills the state secretary posts of the 'Reichsleitung' - the 'Reich administration'.\n\nEven though NLP, FVP and BVP won the most Reichstag posts in the elections, this does not mean the Kaiser has to even consider appointing a new chancellor. However, following the Ludendorff regime, this gesture of goodwill has become the modus operandi, and abandoning it could lead to public unrest. What shall we do?"
+ gerdom.29.a:0 "Appoint Paul von Lettow-Vorbeck, the Lion of Afrika!"
+ gerdom.29.b:0 "Appoint Paul von Lettow-Vorbeck - but demand concessions."
+ gerdom.29.c:0 "Keep the current Reichskanzler."
+ gerdom.29.e:0 "Appoint Kurt von Schleicher, the kaisertreue alternative!"
+
+ gerdom.30.t:0 "A New Reichskanzler?"
+ gerdom.30.d:0 "Under the constitution of 1871, there is no formal government in the Kaiserreich. Instead, the Kaiser appoints a person of his liking to the post of Reichskanzler, who then fills the state secretary posts of the 'Reichsleitung' - the 'Reich administration'.\n\nEven though the DkP defended their Reichstag majority in the elections, this does not mean the Kaiser has to keep Franz von Papen. What shall we do?"
+ gerdom.30.a:0 "Von Papen is the man for the job."
+ gerdom.30.b:0 "Appoint Heinrich Brüning - it's time for fresh air!"
+ gerdom.30.c:0 "Appoint Kurt von Schleicher, the kaisertreue alternative!"
+
+ gerdom.32.t:0 "War!"
+ gerdom.32.d:0 "We are at war with the forces of Syndicalism! This is a battle for the survival and very soul of our great empire and we must focus on winning it. All democratic niceties must be set aside for the greater good, just as was the case with Burgfriedenspolitik during the Weltkrieg. There can be no distractions!"
+ gerdom.32.a:0 "No elections. Not until we stand in Paris!"
+
+### Election of 1942 ###
+
+ gerdom.33.t:0 "Elections of 1942"
+ gerdom.33.d:0 "Today, the German people will elect their representative to the Reichstag! The elections have been tightly fought, and the results are awaited with much anticipation. The fate of several parties and, of course, the Kaiserreich itself could be decided today.\n\nIf the Social Democrats manage to secure enough votes, the 'realist' wing of the Social Liberal FVP will form a coalition with them. Another possibility would be a coalition of nearly all liberal and bourgeois parties - NLP, FVP and Bavarian splinter party BVP - against the old DkP, led by the beloved Lion of Africa, Paul von Lettow-Vorbeck. Or the DkP could once again get a comfortable majority.\n\nWho shall win?"
+ gerdom.33.a:0 "SPD and 'realist' FVP!"
+ gerdom.33.b:0 "The lion roars! The Neue große Koalition!"
+ gerdom.33.c:0 "The good old DkP."
+
+ gerdom.34.t:0 "A New Reichskanzler?"
+ gerdom.34.d:0 "Under the constitution of 1871, there is no formal government in the Kaiserreich. Instead, the Kaiser appoints a person of his liking to the post of Reichskanzler, who then fills the state secretary posts of the 'Reichsleitung' - the 'Reich administration'.\n\nEven though the SPD won the most Reichstag posts in the elections, this does not mean the Kaiser has to even take this into consideration when choosing his chancellor. However, following the Ludendorff regime, this gesture of goodwill has become the modus operandi, and abandoning it could lead to public unrest. What will the Kaiser do?"
+ gerdom.34.a:0 "Appoint Hans Vogel of the SPD!"
+ gerdom.34.b:0 "Keep the current Reichskanzler."
+
+ gerdom.35.t:0 "A New Reichskanzler?"
+ gerdom.35.d:0 "Under the constitution of 1871, there is no formal government in the Kaiserreich. Instead, the Kaiser appoints a person of his liking to the post of Reichskanzler, who then fills the state secretary posts of the 'Reichsleitung' - the 'Reich administration'.\n\nEven though NLP, FVP and BVP won the most Reichstag posts in the elections, this does not mean the Kaiser has to even take this into consideration when choosing his chancellor. However, following the Ludendorff regime, this gesture of goodwill has become the modus operandi, and abandoning it could lead to public unrest. What will the Kaiser do?"
+ gerdom.35.a:0 "Appoint Paul von Lettow-Vorbeck, the Lion of Afrika!"
+ gerdom.35.b:0 "Appoint Paul von Lettow-Vorbeck - but demand concessions."
+ gerdom.35.c:0 "Keep the current Reichskanzler."
+
+ gerdom.36.t:0 "A New Reichskanzler?"
+ gerdom.36.d:0 "Under the constitution of 1871, there is no formal government in the Kaiserreich. Instead, the Kaiser appoints a person of his liking to the post of Reichskanzler, who then fills the state secretary posts of the 'Reichsleitung' - the 'Reich administration'.\n\nEven though the DkP once again won a Reichstag majority in the elections, this does not mean the Kaiser has to even take this into consideration when choosing his chancellor. What will the Kaiser do?"
+ gerdom.36.a:0 "Von Papen is doing a fine job."
+ gerdom.36.b:0 "Appoint Heinrich Brüning - it's time for fresh air!"
+ gerdom.36.c:0 "Keep the current Reichskanzler."
+
+ gerdom.37.t:0 "War!"
+ gerdom.37.d:0 "We are at war with the forces of Syndicalism! This is a battle for the survival and very soul of our great empire and we must focus on winning it. All democratic niceties must be set aside for the greater good, just as was the case with Burgfriedenspolitik during the Weltkrieg. There can be no distractions!"
+ gerdom.37.a:0 "No elections. Not until we stand in Paris!"
+
+# ### Election of 1947 ###
+
+ # gerdom.36.t:0 "1947 German Elections"
+ # gerdom.36.d:0 "Today the German people will elect their representative to the Reichstag! A tightly fought election this 1947 election might yet bring surprising results for the Kaiserreich. Will the coalition of centre-left parties emerge victoriously or will the more hard-line parties win the election?"
+ # gerdom.36.a:0 "The Grand Reform Coalition, SPD, FVP, and NLP wins!"
+ # gerdom.36.b:0 "The Moderate Reform coalition, Zentrum, NLP, and FVP wins!"
+ # gerdom.36.c:0 "The Hardline Conservative Coaltion, DkP, AV, and Zentrum."
+
+ # gerdom.37.t:0 "SPD led coalition victory!"
+ # gerdom.37.d:0 "Following a victory of the SPD, FVP, and NLP coalition in the elections the Kaiser must appoint a new Reichkanzler"
+ # gerdom.37.a:0 "The Kaiser appoints Kurt Schumacher of the SPD."
+ # gerdom.37.b:0 "The Kaiser appoints War Hero and NLP leader Paul von Lettow-Vorbeck."
+ # gerdom.37.c:0 "The Kaiser appoints FVP leader, Walther von Rathenau."
+
+ # gerdom.38.t:0 "DkP led coalition Victory!"
+ # gerdom.38.d:0 "Following a victory of the DkP, AV, and Zentrum coalition in the elections the Kaiser must appoint a new Reichkanzler"
+ # gerdom.38.a:0 "The Kaiser appoints Johann Schwerin von Krosigk."
+ # gerdom.38.b:0 "The Kaiser appoints Carl Goerdeler."
+ # gerdom.38.c:0 "The Kaiser appoints leader of the Zentrum- Heinrich Brüning."
+ # gerdom.38.e:0 "The Kaiser appoints AV leader- Gregor Strasser."
+
+ gerdom.40.t:0 "The First SPD Reichskanzler Dies"
+ gerdom.40.d:0 "Reichskanzler Otto Wels has passed away in office today. His health had not been the best for a long time, and the stress of the office did not prolong his life either, most likely. The Kaiser will need to appoint a new Reichskanzler as soon as possible.\n\nIn his long career, he also held - among many other titles - the office of chairman of the SPD. Now he is dead, and it remains to be seen who will lead the Social Democrats from now on."
+ gerdom.40.a:0 "Hans Vogel succeeds him."
+ gerdom.40.b:0 "Appoint Hans Vogel, the SPD candidate, as Reichskanzler."
+ gerdom.40.c:0 "Appoint Heinrich Brüning, for stability."
+ gerdom.40.e:0 "Another chance for Franz von Papen!"
+ gerdom.40.f:0 "Enough of this! Kurt von Schleicher!"
+
+ gerdom.41.t:0 "Otto Wels Dies"
+ gerdom.41.d:0 "The chairman of the SPD, Otto Wels, has passed away today. It remains to be seen who will lead the Social Democrats from now on."
+ gerdom.41.a:0 "He has been a worthy opponent."
+
+ gerdom.43.t:0 "Germany and the Papacy"
+ gerdom.43.d:0 "With a Catholic as our new Reichskanzler we can embark on a new relationship with the Papacy and the Catholic world in general."
+ gerdom.43.a:0 "A cordial relationship is enough."
+ gerdom.43.b:0 "Announce our support for the Pope!"
+ gerdom.43.c:0 "Support the Catholic Church and invest in our Catholic regions."
+
+
+ gerdom.47.t:0 "The Death of Wilhelm II"
+ gerdom.47.d_GER:0 "Our Kaiser Wilhelm II has died of a pulmonary embolism in the charité hospital in Berlin today. It is the end of an age. Wilhelm II was the last European monarch who reigned during the 19th century, and his whole life he tried to uphold - sometimes succeeding, often failing - the values that he identified with that era. With his death, the 20th century will, at last, be fully upon us.\n\nAll over the Empire, flags are flying at half-mast, and public ceremonies are being organised to honour the Weltkriegskaiser, the Kaiser who won the world for Germany. One of the onlookers in Berlin is Kronprinz Friedrich Wilhelm, who will now have to uphold the honour of the Kaiserreich in the world."
+ gerdom.47.d_GEX:0 "Our Kaiser Wilhelm II has died of a pulmonary embolism in a hospital in Dar-es-Salaam today. It is the end of an age. Wilhelm II was the last European monarch who reigned during the 19th century, and his whole life he tried to uphold - sometimes succeeding, often failing - the values that he identified with that era. With his death, the 20th century will, at last, be fully upon us.\n\nAll over the Empire, or what's left of it, flags are flying at half-mast, and public ceremonies are being organised to honour the Weltkriegskaiser, the Kaiser who won and lost the world for Germany. One of the onlookers in Dar-es-Salaam is Kronprinz Friedrich Wilhelm, who will now have to uphold the honour of the Kaiserreich in the world."
+ gerdom.47.a:0 "The Kaiser is dead! Long live Kaiser Wilhelm III!"
+
+ gerdom.49.t:0 "Reichskanzler Vogel Dies"
+ gerdom.49.d:0 "Reichskanzler Vogel has passed away in office today. It is up to the Kaiser now to appoint a new Reichskanzler."
+ gerdom.49.a:0 "Appoint Kurt Schumacher, from the SPD."
+ gerdom.49.b:0 "Appoint Heinrich Brüning, for stability."
+ gerdom.49.c:0 "A new face from the DkP - Carl Friedrich Gördeler!"
+
+ gerdom.51.t:0 "The Security of the Reich"
+ gerdom.51.d:0 "With our Vaterland now at war with the Commune of France and its Internationale allies, the Prime Minister has put forward a statute intending to disband all openly dangerous elements within our society, which includes leading elements of the SPD leadership! It is now up to the Kaiser to decide on this controversial subject!"
+ gerdom.51.a:0 "Disband the socialists and other malcontents and arrest their ringleaders."
+ gerdom.51.b:0 "Ich sehe keine Parteien mehr, sondern nur noch Deutsche!"
+
+### General Strike ###
+
+ gerdom.52.t:0 "The FAUD"
+ gerdom.52.d:0 "The Freie Arbeiterunion Deutschlands, or Free Worker's Union of Germany, is an umbrella organisation of several trade unions founded during the turbulent period in 1919 during the French Revolution. They have repeatedly denounced the Syndicalist terror and therefore been allowed to operate unimpeded until now. However, our intelligence services have produced definite proof that their leaders are in contact with Syndicalist organisations in other nations, such as the CNT-FAI in Spain. We also suspect that some members may be directly plotting against the Kaiser!"
+ gerdom.52.a:0 "Jail the leaders and ban the party. Force them underground!"
+ gerdom.52.b:0 "Allow them to continue operating, but watch them closely..."
+
+ gerdom.53.t:0 "Germany Bans the FAUD"
+ gerdom.53.d:0 "The Free Worker's Union of Germany, or Freie Arbeiter Union Deutschlands, is an Anarcho-Syndicalist trade union that has been operating in Germany since its creation on September 15, 1919. They had been free to operate but the German government has just decided to arrest its leaders and ban the organisation. How should we react?"
+ gerdom.53.a:0 "It is too early to confront Germany."
+ gerdom.53.b:0 "We must defend our brothers in Germany! Solidarity!"
+
+ gerdom.54.t:0 "Rhineland Unrest!"
+ gerdom.54.d:0 "Workers in the Rhineland are protesting against the recent anti-leftist actions of our government, especially the scandalous crackdown on the FAUD which many Rhenish citizens had viewed as a legitimate institution free of serious Syndicalist influence and strong in its support for the working man."
+ gerdom.54.a:0 "Hopefully this will not cause tragedy!"
+
+ gerdom.55.t:0 "Worker's Unrest in the Rhineland!"
+ gerdom.55.d:0 "Workers in western Germany are protesting against their oppressive government! This might be a chance to weaken our mortal enemy if we are prepared for the possible consequences of such a choice."
+ gerdom.55.a:0 "We must help them!"
+ gerdom.55.b:0 "We are not ready for this."
+
+ gerdom.56.t:0 "General Strike in the Rhineland!"
+ gerdom.56.d:0 "Angered by our previous actions aimed against labour fronts the workers have launched massive demonstrations throughout the Rhineland. A major police station in Mainz was burned down in a suspected arson attack and a shell factory near Landau smashed up by angry workers. These demonstrations are seriously undermining our military production and endangering the stability of our most important industrial region."
+ gerdom.56.a:0 "Send in the army to deal with the strike!"
+ gerdom.56.b:0 "Negotiate with the workers."
+
+ gerdom.57.t:0 "Rhenish Strikers Cave!"
+ gerdom.57.d:0 "The slow war of attrition between us and the strikers has been won by the government. The strikers, seeing little success in their efforts, have decided to call off the strike."
+ gerdom.57.a:0 "Great!"
+
+ gerdom.58.t:0 "Rhineland Strike Negotiations"
+ gerdom.58.d:0 "An attempt to negotiate with the striking workers has been made. With all major political groups in the country closely watch the meeting, some are even hoping that the strike will set a precedent for further reforms in the Empire."
+ gerdom.58.a:0 "Stall the negotiations and send in the army!"
+ gerdom.58.b:0 "Reach a partial agreement."
+ gerdom.58.c:0 "Reach a complete agreement."
+
+ gerdom.59.t:0 "Rhenish Workers Return to the Factories"
+ gerdom.59.d:0 "With the crisis resolved the factories may return to their previous efficiency."
+ gerdom.59.a:0 "Splendid!"
+
+ gerdom.60.t:0 "Rhenish Workers Return to the Factories"
+ gerdom.60.d:0 "Thankfully, our armed forces were able to suppress the revolting workers, forcing them to abandon their hopeless struggle."
+ gerdom.60.a:0 "Splendid!"
+
+ gerdom.61.t:0 "Syndicalist Involvement in the General Strike"
+ gerdom.61.d:0 "Although the general strike in the Rhineland is finally over an official inquiry into the event has suggested that a number of rebellious workers were supplied from abroad. Agitators, likely French Communards, handed out military-grade equipment and distributed Syndicalist propaganda to the masses. How should we react to this insolence?"
+ gerdom.61.a:0 "We cannot tolerate such insolence!"
+ gerdom.61.b:0 "We need solid proof of Syndicalist involvement."
+
+### Death Events ###
+
+ gerdom.62.t:0 "Johann von Bernstorff Dies"
+ gerdom.62.d:0 "Today it was announced that the former ambassador to the United States and the Ottoman Empire and former State Secretary for the Interior, Johann von Bernstroff, has died."
+ gerdom.62.a:0 "Ruhe in Frieden."
+
+ gerdom.63.t:0 "Wilhelm Groener Dies"
+ gerdom.63.d:0 "One of the heroes of the Weltkrieg and the victor over the Bolsheviks during the Russian Intervention, Feldmarschall Wilhelm Groener has passed away today. All Germany is in mourning for one of the great generals of the post-Weltkrieg Golden Age."
+
+ gerdom.64.t:0 "Ludwig von Reuter Dies"
+ gerdom.64.d:0 "A hero of the Weltkrieg and commander of the Kaiserliche Marine, Ludwig von Reuter has died today. Famed for his actions during the battle of the Skagerrak and decisive actions against the British blockade, the German nation is in mourning."
+
+ gerdom.65.t:0 "Wilhelm Souchon Dies"
+ gerdom.65.d:0 "Admiral Wilhelm Souchon, a hero of the Weltkrieg and a Großadmiral in both our fleet and the Ottoman fleet, has passed away today. Souchon initially commanded the small Mediterranean Fleet before daringly handing his forces to the Ottomans and precipitating their entry into the war as a Central Power."
+
+ gerdom.66.t:0 "Georg Bruchmüller Dies"
+ gerdom.66.d:0 "Feldmarschall Bruchmüller a hero of the Weltkrieg and key developer of modern artillery tactics, has passed away today. Known to all as 'Breakthrough Müller' for his decisive actions during campaigns on both the Western and Eastern fronts, he will surely be missed by all Germans."
+
+### The Kaiserbund ###
+
+ gerdom.72.t:0 "Status of Indonesia"
+ gerdom.72.d:0 "As part of our Kaiserbund programme we have decided to make our Indonesian holdings a semi-autonomous state in our empire. How would we like to divide the lands?"
+ gerdom.72.a:0 "Create a pan-Malayan state."
+ gerdom.72.b:0 "Divide the lands between Sarawak and Malaysia."
+
+ gerdom.73.t:0 "Status of Indochina"
+ gerdom.73.d:0 "As part of our Kaiserbund programme we have decided to make our Indochinese holdings a semi-autonomous state in our empire. How would we like to divide the lands?"
+ gerdom.73.a:0 "Create a pan-Indochinese state."
+ gerdom.73.b:0 "Divide it into states."
+
+ gerdom.74.t:0 "The Division of Mittelafrika"
+ gerdom.74.d:0 "As part of our new Kaiserbund policy it is incumbent on us to issue directions as new administrative arrangements in our colonies. One such territory is Mittelafrika. While conservative members of the Reichstag are eager to leave the autonomous state unmolested, the bulk of our political establishment has already realised that Freistaat of Mittelafrika acts as a burden for both the German armed forces and our economy. Among the limited benefits, the colony offers us is imperial prestige, and even then the Dark Continent is no longer seen in the same light as during Scramble for Afrika. Therefore, drastic reorganisation of this area is needed if we want to retain our presence in Afrika while limiting our costs as much as possible."
+ gerdom.74.a:0 "Divide Mittelafrika into states."
+ gerdom.74.b:0 "Federalise them."
+ gerdom.74.c:0 "Keep the status quo."
+
+ gerdom.75.t:0 "Status of Malta"
+ gerdom.75.d:0 "With our new Kaiserbund policy currently being instituted by all limbs of the German state, the gaze of our officials has reached the Mediterranean island of Malta. Almost all important members of the general staff and many conservative politicians are arguing for keeping this island under direct control. They argue that Malta is crucial for the security of our Mediterranean shipping lanes between Marokko and the Suez, and point to its function as an 'unsinkable aircraft carrier'."
+ gerdom.75.a:0 "Grant them limited autonomy."
+ gerdom.75.b:0 "Keep them under our direct control."
+
+ #gerdom.76.t:0 "Status of Somaliland"
+ #gerdom.76.d:0 "With our decision to implement the Kaiserbund programme we still have to decide the extent of its implementation on various fringe regions under our control. One such region is the German Somaliland. While admirals of Kaiserliche Marine are arguing for keeping this territory under our direct control as a way to keep the Gulf of Aden under our control, most of our politicians would rather cut down our expenses with the administration of this territory even at cost of diminishing our presence in this area."
+
+ gerdom.77.t:0 "The Reorganisation of Mittelafrika"
+ gerdom.77.d:0 "We will have to reorganise our internal structure in accordance with the new orders from Germany..."
+ gerdom.77.a:0 "A new order for Africa!"
+ gerdom.77.b:0 "Oh, I don't think so."
+
+ gerdom.78.t:0 "The Reorganisation of Mittelafrika"
+ gerdom.78.d:0 "We will have to reorganise our internal structure in accordance with the new orders from Germany..."
+ gerdom.78.a:0 "A new order for Africa!"
+ gerdom.78.b:0 "Oh, I don't think so."
+
+ gerdom.81.t:0 "Status of Aden"
+ gerdom.81.d:0 "With our decision to implement the Kaiserbund programme we still have to decide the extent of its implementation in various fringe regions under our control. One such region is Aden in Yemen. While admirals of Kaiserliche Marine are arguing for keeping this territory under our direct control as a way to keep the Gulf of Aden under our control, most politicians would rather cut down on our administrative expenses even at the cost of diminishing our presence in the region."
+ gerdom.81.a:0 "Grant them limited autonomy."
+ gerdom.81.b:0 "Offer Aden to Yemen."
+ gerdom.81.c:0 "Keep them under our direct control."
+
+ gerdom.82.t:0 "Germany Offers Us Aden"
+ gerdom.82.d:0 "The Germans have sent us an offer in which they will secede us the Aden and in return, we become their protectorate. The offer is tempting, to say the least, should we accept it?"
+ gerdom.82.a:0 "Accept the offer!"
+ gerdom.82.b:0 "We refuse!"
+
+ gerdom.83.t:0 "Yemen Accepted"
+ gerdom.83.d:0 "The Mutawakkilite Kingdom of Yemen has agreed to our offer and they have become our protectorate."
+ gerdom.83.a:0 "Great!"
+
+ gerdom.84.t:0 "Coronation of Wilhelm III"
+ gerdom.84.d:0 "With the passing of the great Weltkriegskaiser Wilhelm II, Wilhelm III has given a grand speech on his coronation day to guide all of Germany towards prosperity and to safeguard our interests across the globe!"
+ gerdom.84.a:0 "Heil dir im Siegerkranz!"
+
+ gerdom.85.t:0 "Germany Bans French Organisations!"
+ gerdom.85.d:0 "In response to the increasing self-assurance and revolutionary spirit of the Commune, the pathetic German leadership has instituted a harsh policy of cracking down on any organisations funded by us or related to French culture or politics in any manner. These discriminatory actions aimed against the struggling French minority within Germany, particularly in our occupied regions of Lorraine and Alsace, are absolutely intolerable."
+ gerdom.85.a:0 "This shall not stand. To war!"
+ gerdom.85.b:0 "Assist French resistance groups."
+ gerdom.85.c:0 "Publicly condemn German actions."
+ gerdom.85.e:0 "We should avoid entanglements at this stage."
+
+ gerdom.86.t:0 "International Condemnation of Our Ban!"
+ gerdom.86.d:0 "The Commune of France used our recent actions aimed against all French organisations within the German Empire to organise an international conference on the issue. They publicly condemned what they call 'German Imperialism' and pledged to do everything possible to protect the French minority within the Reich. In response, several important members of the international community similarly condemned our actions against the French population, stating that such actions are a stain on the honour of a modern state. How should we react to this public humiliation?"
+ gerdom.86.a:0 "The Communards are behind this, destroy them!"
+ gerdom.86.b:0 "Germany cares not for the protests of minnows."
+ gerdom.86.c:0 "Restore the rights of the French minority."
+
+ gerdom.91.t:0 "German Mission Arrives In Don-Kuban"
+ gerdom.91.d:0 "The German Empire decided to send an official military mission to our homeland in order to help us improve our obsolete armed forces. Such missions are well regarded for their impact on the militaries of nations like Ukraine and Venezuela, and we are fortunate to have them."
+ gerdom.91.a:0 "We will show them Cossack hospitality!"
+
+ gerdom.92.t:0 "Lettow-Vorbeck and the Flame of German Resistance"
+ gerdom.92.d:0 "This is the darkest hour of the German Empire. Defeated by the planes, tanks and tactics of a brutal foe, the imperial government has evacuated Berlin and is currently converging, shell-shocked and battered, on Dar-es-Salaam. However, the army is not Germany itself, and under the African skies, our loyal colonies remain committed to the war effort. All the same, the Reich's government as it stands is facing loathing for presiding over the greatest military catastrophe in German history, and many senior army officers are demanding the appointment of a new emergency chancellor. Many of them are clamouring for Paul von Lettow-Vorbeck to be elevated to this position, given his successes in Afrika during the Weltkrieg and the loyalty and affection that he commands among the askaris we must now rely on."
+ gerdom.92.a:0 "Yes! Appoint von Lettow-Vorbeck! Heia Safari!"
+ gerdom.92.b:0 "No! This would be the last nail in the coffin of our democracy!"
+
+ gerdom.93.t:0 "Lettow-Vorbeck Proposes an 'Afrikakorps'"
+ gerdom.93.d:0 "Chancellor von Lettow-Vorbeck has stood before the emergency government and argued that the German state must raise additional units of native Schutztruppen, also known as askaris. These doughty soldiers have served the Reich faithfully ever since the chancellor outwitted the Entente in the jungles of Ostafrika during the Weltkrieg. Controversially, von Lettow-Vorbeck has also proposed that we grant the native kings, princes and vassals that rule Afrika in our stead complete independence once we retake our Vaterland. Such a reward would incentivise our native population and leaders and invigorate them to assist us in getting to Berlin. This is a desperate proposal, but the Reich is going through desperate times."
+ gerdom.93.a:0 "Rally the askaris from all of Mittelafrika!"
+ gerdom.93.b:0 "Pointless. We need German troops for a German war!"
+
+ gerdom.94.t:0 "Afrikakorps in Südwestafrika"
+ gerdom.94.d:0 "One of the first German colonies, Südwestafrika has proven especially loyal to the imperial government. However, its close connection with the founding of the German colonial empire might make it difficult for conservatives within our cabinet to accept the prospect of independence that has promised by von Lettow-Vorbeck."
+ gerdom.94.a:0 "Excellent."
+
+ gerdom.95.t:0 "Afrikakorps in Deutsch-Ostafrika"
+ gerdom.95.d:0 "The site of some of the most impressive battles fought by the German colonial army under von Lettow-Vorbeck during the Weltkrieg, Ostafrika, with its capital of Dar-es-Salaam, is seen by most officials as the jewel in the crown of the Reich's African possessions. As such the German administration is deeply entrenched here and cooperation with the natives run smoothly, resulting in a large turnout of volunteers for the new Schutztruppen."
+
+ gerdom.96.t:0 "Afrikakorps in Deutsch-Kongo"
+ gerdom.96.d:0 "Taken from the defeated Belgian state after the Weltkrieg, the Congo occupies the heart of Central Africa and has for decades of German administration been heavily militarised to secure the Reich's control over the province."
+
+ gerdom.97.t:0 "Afrikakorps in Äquatorialafrika"
+ gerdom.97.d:0 "Strategically located to the immediate south of the Sahara, the colony of German Equatorial Africa employs some of the most impressive auxiliary troops, most of which have spent years fighting nomadic raiders on the border."
+
+ gerdom.98.t:0 "Afrikakorps in Niger-Kamerun"
+ gerdom.98.d:0 "One of the more recently acquired African provinces, Niger was merged with the German colony of Kamerun in the Mittelafrikan state. Though somewhat disunited, the natives stand ready to earn their independence in the pay of the Reich!"
+
+ gerdom.99.t:0 "Afrikakorps in Togoland"
+ gerdom.99.d:0 "Consisting of the original German colony of Togo and the annexed British and French colonies of the Gold Coast and Dahomey, the askaris formed here are of a notably lesser quality than seen elsewhere in Mittelafrika. All the same, they stand ready to assist Germany in its hour of need - for the right price."
+
+ gerdom.100.t:0 "Decolonisation of Afrika"
+ gerdom.100.d:0 "In the darkest hour of the German Empire, Paul von Lettow-Vorbeck rallied the colonial askaris behind the Reich by promising them independence once the war had been won. Our enemies have been crushed and Berlin liberated, leading to many of our African subjects humbly asking us to uphold our promises and commence the decolonisation of our domains in Africa."
+ gerdom.100.a:0 "We shall uphold our promises."
+ gerdom.100.b:0 "Afrika shall remain German forevermore!"
+
+### Security ###
+
+ gerdom.105.t:0 "Germany Suppresses its French Population!"
+ gerdom.105.d:0 "The German Empire, afraid of the rising power of our state, decided to tighten control of the border regions since they are fearful of our growing influence! We must be patient, soon the time will come when our brothers in Wallonia, Lorraine and Alsace shall be liberated!"
+ gerdom.105.a:0 "Soon, our time shall come!"
+
+ gerdom.106.t:0 "Further Internal Security Measures"
+ gerdom.106.d:0 "Despite the gradual increase of military and police presence in our border region, it is still not enough. Underground French Syndicalist leaders are still on loose, poisoning the minds of our French minority with propaganda, with many using existing French organisations as cover for their vile acts. In order to fully secure our territorial integrity, right-wing members of our government have demanded the complete dissolution of all French or French funded organisations. However, even if such drastic step may seem necessary, it will undoubtedly damage our reputation in the international community..."
+ gerdom.106.a:0 "Current security measures are sufficient!"
+ gerdom.106.b:0 "It's time to ban all French organisations in Germany!"
+ gerdom.106.c:0 "This plan was madness from the beginning, abandon it..."
+
+### Rhenish Syndicalist Volunteers ###
+
+ gerdom.200.t:0 "Bertolt Brecht Requests Visa"
+ gerdom.200.d:0 "For some time now, Syndicalist sympathisers from the Rhineland have been going abroad to help their 'comrades' in their various conflicts around the world. Today, the famous underground writer Bertolt Brecht has announced his intent to join these 'International Divisions'.\n\nWe could let him go, which would most likely inspire quite a number of other Syndicalists to go abroad after him, or we could confiscate his passport and prohibit him from leaving the country. As Brecht is a prominent figure, blocking him could perhaps weaken the Syndicalist cause, but on the other hand, it would likely cause tremendous outrage..."
+ gerdom.200.aa:0 "Let him go to wild America."
+ gerdom.200.ab:0 "He can go to Brazil if he wants."
+ gerdom.200.ac:0 "He can go to Brazil if he wants."
+ gerdom.200.ad:0 "Let's hope he freezes in Russia."
+ gerdom.200.ae:0 "He can sweat in Spain."
+ gerdom.200.af:0 "We should keep him where we can watch him."
+
+ gerdom.201.t:0 "German Volunteers Arrive in America"
+ gerdom.201.d:0 "Two German volunteer divisions, headed by the writer Bertolt Brecht and other figures of the German Syndicalist scene, have arrived to support us in our struggle!"
+ gerdom.201.a:0 "Die Internationale erkämpft das Menschenrecht!"
+
+ gerdom.202.t:0 "German Volunteers Arrive in Brazil"
+ gerdom.202.d:0 "Two German volunteer divisions, headed by the writer Bertolt Brecht and other figures of the German Syndicalist scene, have arrived to support us in our struggle!"
+ gerdom.202.a:0 "Die Internationale erkämpft das Menschenrecht!"
+
+ gerdom.203.t:0 "German Volunteers Arrive in Russia"
+ gerdom.203.d:0 "Two German volunteer divisions, headed by the writer Bertolt Brecht and other figures of the German Syndicalist scene, have arrived to support us in our struggle!"
+ gerdom.203.a:0 "Die Internationale erkämpft das Menschenrecht!"
+
+ gerdom.204.t:0 "German Volunteers Arrive in Spain"
+ gerdom.204.d:0 "Two German volunteer divisions, headed by the writer Bertolt Brecht and other figures of the German Syndicalist scene, have arrived to support us in our struggle!"
+ gerdom.204.a:0 "Die Internationale erkämpft das Menschenrecht!"
+
+ gerdom.205.t:0 "Calm in the Rhineland"
+ gerdom.205.d:0 "With a number of prominent Syndicalists out of the country and allowed to fight, and hopefully die, in foreign lands, tensions in our lands have decreased greatly without their malign influence. The Rhineland is finally seeing some peace and quiet."
+ gerdom.205.a:0 "Let's hope things stay this way."
+
+ gerdom.206.t:0 "Policy on Returning Syndicalists"
+ gerdom.206.d:0 "Now that their war has been lost, the 'International Divisions' formed from our volunteers are trying to return to their homes. Many still have their arms and all survivors are battle-hardened, indoctrinated Syndicalists. However, if we prohibit them from entering over our borders, we should be able to keep them away without much of a scandal due to the hardening of the German population's views on the Red Menace. Still, we might risk them turning against us when we inevitably come to blows with the Internationale."
+ gerdom.206.a:0 "They'll have to serve their term in the Heer!"
+ gerdom.206.b:0 "Let them return to their families."
+ gerdom.206.c:0 "Close the borders!"
+
+ gerdom.207.t:0 "Bertolt Brecht Dies in Suspicious Circumstances"
+ gerdom.207.d:0 "Though rumours have been spreading for weeks, we now have official confirmation; Syndicalist writer Bertolt Brecht has died in some rotten cellar, most likely at the hands of foreign police. After serving abroad as a Syndicalist volunteer, Brecht was blocked from re-entering Germany.\n\nHis family, together with other Syndicalist elements, staged scale demonstrations in Berlin, blaming our hardline policy towards Syndicalist volunteers for his death."
+ gerdom.207.a:0 "It seems that we have created a martyr."
+
+ gerdom.208.t:0 "Bertolt Brecht Returns to Germany"
+ gerdom.208.d:0 "Despite our best efforts, it seems like the Syndicalist writer Bertolt Brecht has somehow managed to smuggle himself over the border. He and his family have gone underground and the controversial figure is openly preaching for solidarity by the workers against the capitalist system."
+ gerdom.208.a:0 "Can't he ever shut up?!"
+
+ gerdom.209.t:0 "International Divisions Offer Their Service"
+ gerdom.209.d:0 "After valiantly fighting for the Syndicalist cause, the comrades and veterans of the International Divisions have cowardly been denied entrance to their own homeland in Germany. After months of drifting, many of the former members have now reassembled and decided to take up arms to liberate Germany from the scourge of imperialism. While their numbers have been reduced by fighting and poverty, they are battle-hardened veterans and would make a worthy addition to the forces of the Internationale."
+ gerdom.209.a:0 "Welcome comrades!"
+ gerdom.209.b:0 "A needless expense."
+
+### Foreign Events ###
+
+ gerfor.1.t:0 "Union of Britain Attacks Denmark"
+ gerfor.1.d:0 "The Union of Britain has declared war on Denmark. This invasion threatens to disrupt the balance of power in favour of the Internationale, and the Danish government has asked for our help. Shall we warn the Syndicalists about the foolishness of their actions or say nothing, and risk losing Denmark?"
+ gerfor.1.a:0 "Warn them to turn back or face German arms!"
+ gerfor.1.b:0 "We have enough problems to be dealing with."
+
+ gerfor.2.t:0 "Germany Sends an Ultimatum over Denmark"
+ gerfor.2.d:0 "The Second Reich has sent an ultimatum to London. We are to either make peace with Denmark and declare a ceasefire or Germany will come to Denmark's aid. Though it is certainly in our interests to seize the Skagerrak and pose a dangerous threat to Germany on its northern border, calling their bluff may prove to be extremely risky."
+ gerfor.2.a:0 "We will not risk war with Germany over this."
+ gerfor.2.b:0 "We do not negotiate with imperialists."
+
+ gerfor.3.t:0 "German Assistance Against Britain"
+ gerfor.3.d:0 "We are in a state of war with the Union of Britain. Our military, while proud, will not be able to withstand the Syndicalist onslaught. Some influential figures are petitioning us to ask the Germans for help, even if it might mean having to accept some German influence after the invasion is repelled. What shall we do?"
+ gerfor.3.a:0 "Thank you Berlin!"
+ gerfor.3.b:0 "The Germans cannot be trusted."
+
+ gerfor.4.t:0 "Union of Britain Backs Down"
+ gerfor.4.d:0 "After the ultimatum was received by London they quickly sent orders to all of their commanders on the ground to cease fire and return to the British Isles. We have achieved a diplomatic victory today. We have shown the world that we will stand up to Socialist and Syndicalist aggression. We will protect any nation under threat from Britain or the Commune."
+ gerfor.4.a:0 "Yet again German diplomacy wins the day."
+
+ gerfor.5.t:0 "Britain Ignores Our Denmark Ultimatum"
+ gerfor.5.d:0 "Despite the ultimatum being received by London their forces continue their move towards Danish territory, demonstrably ignoring our simple demands. We can either declare war and bring Denmark into our alliance or we can stand down and let Denmark fall, creating a northern front with our Syndicalist foe."
+ gerfor.5.a:0 "They have made their choice, war it is!"
+ gerfor.5.b:0 "Back down. There will be peace in our time."
+
+ gerfor.6.t:0 "Britain Backs Down Over Denmark"
+ gerfor.6.d:0 "After the ultimatum was received by London they quickly sent orders to all of their commanders ordering an immediate ceasefire and withdrawal to British territory. Denmark's independence has been preserved and our pride left intact. All the same, the fact that it took German intervention to protect us is somewhat unsettling."
+ gerfor.6.a:0 "We couldn't have done it without them."
+
+ gerfor.7.t:0 "Internationale Seeks to Reunify Italy"
+ gerfor.7.d:0 "The combined forces of the French Commune and the Socialist Republic of Italy have launched an attempt to seize the entirety of Italy. This invasion threatens to disrupt the balance of power in Europe in favour of the Syndicalists. Shall we warn the Internationale that this threatens world peace or let the peninsula fall to their malignant ideology?"
+
+ gerfor.8.t:0 "Germany Sends an Ultimatum over Italy"
+ gerfor.8.d:0 "The German Empire has sent us a telegram, demanding that either we end our intervention in Italy and declare a ceasefire with the Italian states or the Reich will intervene by force."
+
+ gerfor.9.t:0 "Germany Sends the Internationale an Ultimatum"
+ gerfor.9.d:0 "The Kaiserreich has come to our aid! They have sent an ultimatum to the Commune of France over their support for the Socialist Republic of Italy in its attempts to conquer the entire peninsula. The Germans demand that the Syndicalists fall back or risk utter annihilation."
+
+ gerfor.10.t:0 "Commune of France Withdraws from Italy"
+ gerfor.10.d:0 "After the ultimatum was received by Paris, they quickly withdrew their forces from the frontlines and abandoned the peninsula. Our independence will be preserved, and our pride left intact."
+ gerfor.10.d.sri:0 "Drawing [FRA.GetNameDef] into our war with [ITA.GetNameDef] was perhaps not the wisest idea. The war drew the attention of the Reich which issued an ultimatum to [FRA.GetNameDef] to cease the invasion. The [FRA.GetAdjective] government has complied, ordering our forces to stand down. We have little choice but to comply."
+
+ gerfor.11.t:0 "Commune of France Backs Down in Italy"
+ gerfor.11.d:0 "After we sent an ultimatum to the Commune of France to cease their intervention in Italy and backing for the Italian Syndicalists in the war, they wisely decided to comply. Already Red forces are withdrawing and our prestige has been greatly heightened. Yet again we have used diplomacy to help guard the balance, and improve prospects for European peace."
+
+ gerfor.12.t:0 "Commune of France Ignores Italian Ultimatum"
+ gerfor.12.d:0 "Our ultimatum was flatly ignored. Already SRI and Communard forces are on the march in Italy and refusing to return to their pre-war boundaries. The other states of the Italian peninsula are threatened existentially and Syndicalism is poised to spread its vile ideology to every corner of the land. The issue now is, do we back up our ultimatum with force and declare war on the Internationale?"
+
+ gerfor.13.t:0 "Commune of France Invades Spain"
+ gerfor.13.d:0 "The armed forces of the Commune of France have launched an invasion of the Spanish state. This invasion threatens to disrupt the balance of power in favour of the syndicalist alliance. Shall we warn the syndicalists about the foolishness of their actions or let Spain fall?"
+
+ gerfor.14.t:0 "Germany Sends an Ultimatum over Spain"
+ gerfor.14.d:0 "Monarchies are as thick as thieves. After we began our campaign against the Spanish kingdom we received a message from Berlin ordering us to cease and desist in our military efforts. They claim that if we do not bring our forces back beyond the Pyrenees they will intervene militarily to preserve the current status quo."
+
+ gerfor.16.t:0 "Commune of France Backs Down in Spain"
+ gerfor.16.d:0 "The Germans have achieved a significant diplomatic coup today, and helped preserve our independence. After the Reich sent an ultimatum to the Commune of France ordering them to cease their military aggression towards us, the French wisely decided to comply and brought their troops back from beyond the Pyrenees. The status quo remains, for now at least, intact."
+
+ gerfor.17.t:0 "Commune of France Ignores Spanish Ultimatum"
+ gerfor.17.d:0 "Despite our public condemnation of the Communard invasion of the Spanish Kingdom and subsequent ultimatum, the French have refused to pull their forces back. The possibility of the loss of yet another European monarchy can no longer be discounted, and the choice is now incumbent on us to decide how we should respond to this flagrant dismissal of German hegemony."
+
+ gerfor.24.t:0 "Enemy at the Gates"
+ gerfor.24.d:0 "The Russians have reached the Oder. There has been little outright panicking in Berlin but it is clear that without a counter-attack Germany is greatly endangered. The last supply reserves have been distributed to volunteers and everyone is participating in this last effort to defend the Fatherland."
+ gerfor.24.a:0 "Not one step back!"
+
+ gerfor.25.t:0 "Die Wacht am Rhein"
+ gerfor.25.d:0 "The French have reached the Rhine. Our substantial border fortifications were seemingly unable to stop their inexorable advance and now our crucial industrial cities are falling one after another. The situation is quite dire, and already there are treasonous murmurings that the Communards could reach Berlin itself."
+ gerfor.25.a:0 "They must be stopped!"
+
+ gerfor.27.t:0 "Germany Occupies Spanish Morocco!"
+ gerfor.27.d:0 "The German Empire, in a show of absolute arrogance and disrespect towards our state, has occupied Spanish Morocco. Shockingly, their forces have even moved into Ceuta and Melilla, two cities that have been an inviolable Spanish territory for many centuries."
+ gerfor.27.a:0 "There is nothing we can do..."
+ gerfor.27.b:0 "Such outrage will not be tolerated!"
+
+ gerfor.28.t:0 "Logging in Madagascar"
+ gerfor.28.d:0 "The island of Madagascar has been under our rule for several decades and it is an untapped source of rare timbers like ebony and several varieties of rosewood. As these sources have not been exploited, several industrialists and members of the colonial government have proposed that we establish a joint-stock company with authority over the timber industry on the island. Shall we decree the establishment of such a company?"
+ gerfor.28.a:0 "Create a new joint-stock company."
+ gerfor.28.b:0 "Leave the industry alone."
+
+ gerfor.29.t:0 "Expanded Logging in Madagascar"
+ gerfor.29.d:0 "The joint-stock company that we established has begun to show some results and our inventory of rare timber has steadily increased. However, with the mechanisation of logging, several thousand locals have been put out of work. The company has at the same time advised that we begin construction on a new timber processing plant to streamline production. If we were to fund this new project it would kill two birds with one stone, so to speak."
+ gerfor.29.a:0 "Create the new processing complex."
+ gerfor.29.b:0 "In this economy?"
+
+ gerfor.30.t:0 "New Madagascan Processing Complex"
+ gerfor.30.d:0 "The new timber processing complex has opened and the transformative effects on the local economy were immediate. Many workers responsible for the initial construction were retained by the company and many new workers were needed after construction was complete, dramatically increasing employment in the area. The access to rare timbers has also increased and a gala was held in Tananarive to toast the new complex's opening."
+ gerfor.30.a:0 "A successful colonial endeavour."
+
+ gerfor.31.t:0 "Uprising on Madagascar"
+ gerfor.31.d:0 "With no end in sight to the rising unemployment on Madagascar, many Malagasy locals, and especially the former loggers, have risen against us. What started as merely a local insurrection quickly spiralled into outright rebellion with an independence war brewing."
+ gerfor.31.a:0 "We really don't need this right now..."
+
+ gerfor.32.t:0 "A Second Peace With Honour"
+ gerfor.32.d:0 "With the fall of France our armed forces have unsuccessfully tried to gain control over the British Isles and decisively end the war in our favour. Unfortunately, Republican resistance has proven stronger than we previously anticipated, and attempts to launch a full-scale naval invasion have soured. We can now either continue the armed struggle or try to end this futile conflict by way of a peace treaty."
+ gerfor.32.a:0 "It is time for an armistice."
+ gerfor.32.b:0 "This will only end with German boots marching through London."
+
+ gerfor.33.t:0 "Germany Proposes a Second Peace With Honour"
+ gerfor.33.d:0 "Attempts from the Reichspakt to gain a foothold on our island and decisively end the war have failed miserably. Though the collapse of the Commune was a terrible blow to the Revolutionary cause, British arms have proven to be too much for Jerry to handle. Now the leadership of the German Empire is offering us a proposal - to terminate conflict between the Reichspakt and the remaining members of Internationale in exchange for mutual recognition. How shall we react?"
+ gerfor.33.a:0 "Survival is all we can hope for. Sign."
+ gerfor.33.b:0 "Another humiliation? Never again!"
+
+ gerfor.34.t:0 "Second Peace with Honour Signed"
+ gerfor.34.d:0 "It is finally done. Though we had hoped for the total obliteration of the Union of Britain and the end to Syndicalist influence in Europe, alas it was not to be. Instead the British wisely decided to make terms with us, signing the treaty with a view of a full German military parade. With this, the bulk of the fighting is now over, and the Second Weltkrieg virtually ended in Europe."
+ gerfor.34.a:0 "Peace at last!"
+
+ gerfor.35.t:0 "The British Refused Peace!"
+ gerfor.35.d:0 "In a staggering display of British stubbornness, the Syndicalist wretches flatly denied our calls for a peace treaty. Instead of swallowing their pride and accepting the inevitable, the Republican government stated that they would not have a Second Peace With Honour, and would end the war by marching through Berlin."
+ gerfor.35.a:0 "They will pay for this insolence."
+
+ gerfor.36.t:0 "Ethnic Conflict on Sri Lanka"
+ gerfor.36.d:0 "Ceylon Island is settled by Sinhalese and Tamils, who have battled for supremacy on the island for ages. With Black Monday wreaking havoc on our economy and colonial administration, disobedience from the native population is becoming intolerable. Our presence on Ceylon, crucial for its supplies of rubber, is becoming increasingly precarious."
+ gerfor.36.a:0 "Damn those nationalists!"
+
+ gerfor.37.t:0 "Union of Britain Invades Norway"
+ gerfor.37.d:0 "The Union of Britain has made the bold move of declaring war on the Norwegians, seeking to impose Syndicalism on them by force of arms. This invasion shows scant regard for German supremacy in Europe and the status quo that we have spent years maintaining. The question now is, what should our response to be this act of barbarism by the British?"
+
+ gerfor.38.t:0 "Germany Sends an Ultimatum over Norway"
+ gerfor.38.d:0 "We have received a damning telegram from the Reich. They are demanding that either we cease our invasion of Norway or face the full might of the Kaiserliche Marine. They cite the inviolability of sovereign European nations and a whole lot of guff about guarding the balance, but everyone knows that this act stems from Germany’s desperate attempts to hold onto their hegemonic status on the continent. What should our response be?"
+
+ gerfor.39.t:0 "Germany Warns the Union of Britain over Norway"
+ gerfor.39.d:0 "Germany has come to our aid! They have sent an ultimatum to the Union of Britain, either fall back to their home islands or risk annihilation."
+
+ gerfor.40.t:0 "The Union of Britain Backs Down"
+ gerfor.40.d:0 "After the ultimatum was received by London they quickly sent orders to all of their commanders on the ground to cease fire and return to the coast. We have achieved a diplomatic victory today, we have shown the world we will stand up to Socialist and Syndicalist aggression. We will protect any nation under threat from Britain or France."
+
+ gerfor.41.t:0 "Britain Ignores our Norwegian Ultimatum"
+ gerfor.41.d:0 "In a display of repugnant audacity, the Union of Britain ignored our ultimatum. North Sea operations do not seem to have altered at all and the Republicans are continuing the war against Norway. We cannot risk the red tide of Syndicalism sinking its tendrils into yet another nation, particularly one important to our strategic interests. At the same time, open war with London would distract us at an inopportune time and potentially lead to the Internationale joining in."
+
+ gerfor.42.t:0 "The British Withdraw from Norway"
+ gerfor.42.d:0 "The Union of Britain appears to have listened to wise counsel and ceased their operations in the North Sea. The German ultimatum appears to have scared them off, and Syndicalism stopped from claiming yet another scalp."
+
+ gerfor.43.t:0 "Treaty with Ireland"
+ gerfor.43.d:0 "With the Syndicalists awakening all over the world it is crucial for the Reichspakt to help potential allies whenever possible. With Irish sympathies swayed towards Germany due to our support during the War of Independence there now exists the possibility of gaining a strong foothold just under the socialists' noses by getting Ireland into the Reichspakt. We should start by offering them equipment and construction support."
+ gerfor.43.a:0 "Offer Ireland aid if they join the Reichspakt."
+
+ gerfor.44.t:0 "German Offers Support"
+ gerfor.44.d:0 "The German ambassador has approached us with an offer: if Ireland signs a treaty of association with the Reichspakt Germany will invest in our economy and military. While the benefits from this deal would be immense, there are some in the government who are unwilling to rely on foreign aid."
+ gerfor.44.a:0 "Where do I sign?"
+ gerfor.44.b:0 "We are doing fine on our own."
+
+ gerfor.45.t:0 "Ireland Signs the Treaty"
+ gerfor.45.d:0 "The Irish have agreed to our offer. According to the treaty we are to supply industrial machines and the licences required to construct additional ones in Ireland itself. Additionally, we are obliged to construct and deliver guns, artillery pieces, and a number of aircraft and armour pieces to bolster their armed forces."
+ gerfor.45.a:0 "Begin the construction then!"
+
+ gerfor.46.t:0 "Ireland Refuses the Treaty"
+ gerfor.46.d:0 "Unfortunately, the Irish have decided to turn our offer down. Still, our obligations towards Ireland remain the same as they were before."
+ gerfor.46.a:0 "Oh well."
+
+ gerfor.47.t:0 "Irish Treaty Obligations"
+ gerfor.47.d:0 "We have finally finished preparations of all of the material ordered by the Irish as part of our treaty obligations. The goods are now ready to be delivered and we will give the convoy a military escort all the way to Ireland."
+ gerfor.47.a:0 "Get it to Dublin, posthaste."
+
+ gerfor.48.t:0 "German Aid Arrives"
+ gerfor.48.d:0 "The guns, armour, aircraft and industrial machinery that Germany promised us as part of their treaty obligations have finally arrived. We have received a squadron each of fighters and bombers, a number of tanks as well as many artillery pieces and new German machine guns. This could be the first step in a fruitful relationship."
+ gerfor.48.a:0 "Great!"
+
+ gerfor.49.t:0 "Our Irish Treaty Obligations"
+ gerfor.49.d:0 "Unfortunately, with Ireland no longer able or willing to receive our aid the whole programme had to be aborted. Luckily, the equipment and craft already produced remain in our hands and is ready to be used."
+ gerfor.49.a:0 "Better than nothing."
+
+ gerfor.50.t:0 "Peace with [ENG.GetNameDef]?"
+ gerfor.50.d:0 "[GER.GetNameDefCap] has negotiated a Second Peace with Honour with [ENG.GetNameDef], since it's clear the [ENG.GetAdjective] have lost their will to carry on the war. This might be a chance for us to end our war with them, as well. Should we take advantage of the opportunity, or continue the battle?"
+ gerfor.50.a:0 "Let's end this now"
+ gerfor.50.b:0 "No, we continue the war!"
+
+ gerfor.51.t:0 "Germany Requests Austrian Support"
+ gerfor.51.d:0 "The Germans have asked us to join them in their war against Syndicalism and the forces of the Internationale. Conservative elements in the country say that it is our sacred duty to defend Europe against the godless Reds while others say that we should not fight Germany's war for them. After all, Germany treated us rather shabbily when it came to the Brest-Litovsk divisions, with Poland and Ukraine being forced from our sphere of influence by the glory-hogging Reich. The question now is whether we should assist the Germans in their fight?"
+ gerfor.51.a:0 "The Kaisers will fight together again!"
+ gerfor.51.b:0 "The Germans are on their own this time."
+ gerfor.51.c:0 "Send supplies and volunteers."
+
+ gerfor.53.t:0 "Germany Requests Bulgarian Support"
+ gerfor.53.d:0 "The Germans have asked us to join them in their war against Syndicalism and the forces of the Internationale. Conservative elements in the country say that it is our sacred duty to defend Europe against the godless Reds while others say that we should not fight Germany's war for them. After all, despite our contributions to the Central Powers in the Weltkrieg being recognised to an extent, Germany seized control of Romania's coveted oil supplies for itself and has neglected us ever since. The question now is whether we should assist the Reich?"
+ gerfor.53.a:0 "We owe them. It is time to repay the debt!"
+ gerfor.53.b:0 "The Germans are on their own this time."
+ gerfor.53.c:0 "Send supplies and volunteers."
+
+ gerfor.54.t:0 "Austria Heeds the Call!"
+ gerfor.54.d:0 "Austria listened to our plea for help and decided to join our alliance! the Reichspakt grows stronger, the Syndicalists will not be able to crush us!"
+ gerfor.54.a:0 "Welcome to the Reichspakt!"
+
+ gerfor.56.t:0 "Bulgaria Heeds the Call!"
+ gerfor.56.d:0 "Bulgaria listened to our plea for help and decided to join our alliance! the Reichspakt grows stronger, the Syndicalists will not be able to crush us!"
+ gerfor.56.a:0 "Welcome to the Reichspakt!"
+
+ gerfor.57.t:0 "Austria Refused to Help!"
+ gerfor.57.d:0 "Austria listened to our plea but pointedly refused to help us in our time of need. We stand alone in our struggle against Syndicalism."
+ gerfor.57.a:0 "Shameful."
+
+ gerfor.58.t:0 "The Ottomans Refused to Help"
+ gerfor.58.d:0 "Despite all of our exhortations the Sultan refused to support us at all in our fight against the Internationale."
+ gerfor.58.a:0 "Damn him!"
+
+ gerfor.59.t:0 "Bulgaria Refused to Help!"
+ gerfor.59.d:0 "The Bulgarians ignored our call for support and instead decided to stay out of the crusade against the Syndicalists. It is not like a Balkan country to avoid a fight."
+ gerfor.59.a:0 "Traitorous curs."
+
+ gerfor.60.t:0 "Austria Promises Some Support"
+ gerfor.60.d:0 "Austria listened to our plea for help but decided not to join our alliance or begin military operations against the Internationale. Instead, they will send supplies and volunteers to help in our struggle against Syndicalism!"
+ gerfor.60.a:0 "It's better than nothing!"
+
+ gerfor.61.t:0 "The Ottoman Empire Promises Some Support"
+ gerfor.61.d:0 "Though the Sultan was sympathetic to our cause, he made it clear that he did not wish to drag his realm into a needless war with the Internationale. Instead, he promised to give us material support and to send volunteers."
+ gerfor.61.a:0 "The irony is palpable."
+
+ gerfor.62.t:0 "Bulgaria Promises Some Support"
+ gerfor.62.d:0 "The Bulgarian government did not wish to offer us overt military support, believing that though Syndicalism is a terrible plague, war with the Communards would be pointless. They promised to at least give us some equipment and volunteers."
+ gerfor.62.a:0 "Thank you Bulgaria."
+
+ gerfor.63.t:0 "Germany Requests Trondheim Leasehold"
+ gerfor.63.d:0 "The Kaiserreich has approached our ambassador with a somewhat strange offer: we have been offered a substantial sum of money if we lease them our harbour of Trondheim for twenty-five years, to allow for the creation of a forward base against the Republican navy of the Union of Britain. The Norwegian inhabitants would be allowed to stay, as would our civilian administration, and the boost to commerce in the region would be immense. However, the Syndicalists might decide to retaliate against us if we agree to the offer...\n\nWhat shall we do?"
+ gerfor.63.a:0 "Money is good!"
+ gerfor.63.b:0 "We can't anger the British!"
+
+ gerfor.64.t:0 "Norway Agrees Trondheim Lease"
+ gerfor.64.d:0 "The Norwegian government has decided to agree to our offer of leasing Trondheim for the next twenty-five years! A small commission is already on its way to assess the level of investment required to make Trondheim an integral part of our defence against Syndicalism."
+ gerfor.64.a:0 "Very good."
+
+ gerfor.65.t:0 "Norway does not agree to lease Trondheim"
+ gerfor.65.d:0 "The Norwegian government has decided to not agree to our offer of leasing Trondheim for the next twenty-five years, citing the threat of British retaliation. While understandable and not unexpected, this is still unfortunate."
+ gerfor.65.a:0 "Kiel will have to be good enough."
+
+ gerfor.66.t:0 "Deal with the Devil?"
+ gerfor.66.d:0 "We have been defeated by the Syndicalist bastards but the Entente still fights on. While it was the inability of their governments to hold on to their lands that led to this whole mess in the first place, many say that we should put aside our differences and join with the Entente to reclaim our homeland."
+ gerfor.66.a:0 "Talk to the Entente."
+ gerfor.66.b:0 "We do not need them!"
+
+ gerfor.67.t:0 "Germans Seek Alliance with the Entente"
+ gerfor.67.d:0 "The Germans have been defeated by the syndicalist usurpers. While there are those who argue it was their fault that the syndicalists control Europe, they are now in the same position as we were just a few years ago and they have sent a delegation to the [Root.GetAdjective] government asking to become part of the Entente - promising that any disputes between Germany and Entente members regarding territory or colonies can be handled once Europe is regained. What do we say?"
+ gerfor.67.a:0 "Let them join"
+ gerfor.67.b:0 "Nonsense!"
+
+ gerfor.68.t:0 "Entente Talks Successful"
+ gerfor.68.d:0 "The Entente has accepted our alliance proposal, agreeing to discuss any conflicts regarding territory or colonies once Europe is regained - though it is clear that they expect us to approach those questions as an equal member of their alliance and not just as a matter of convenience."
+ gerfor.68.a:0 "So be it!"
+
+ gerfor.69.t:0 "Entente Talks Break Down"
+ gerfor.69.d:0 "[From.GetNameDefCap] has refused our offer to ally with them. They blame us for this whole mess and claim they don't need any help to defeat the syndicalists!"
+ gerfor.69.a:0 "Verdammt!"
+
+ gerfor.77.t:0 "The Reichspakt Merges With The Entente"
+ gerfor.77.d:0 "With the German Empire uniting the Reichspakt with the Entente to save the world from the syndicalist threat, it is time to follow suit or we will be conquered."
+ gerfor.77.a:0 "We're all in it together, now"
+
+ gerfor.80.t:0 "An Offer From Berlin"
+ gerfor.80.d:0 "Entangled in a war for its survival, the German Empire has reopened negotiations concerning the permanent presence of our empire in the Reichspakt, their military alliance. Although the people are exhausted from years of war, there still remains a strong pro-German sentiment amongst the ruling class and a desire to stand side by side with the victors of the new order.\n\nNonetheless our empire does not intend to sell its skin cheaply and has demanded that the Caucasus, traditionally part of the Ottoman sphere, be restored to its control and that Azerbaijan becomes more tightly connected to the Sublime Porte. Although angered by our demands, it nonetheless seems like the German government is willing to consider the cost if it leads to the strengthening of their Southern Flank."
+ gerfor.80.a:0 "Very well, let us rekindle the old alliance."
+ gerfor.80.b:0 "No, this isn't in our best interests."
+
+ cancel_ott:0 "Not: [OTT.GetNameDefCap] has refused the Baku Accords"
+ GER_upon_completion_of_focus:0 "Within the next month:"
+
+ gerfor.81.t:0 "[FROM.GetNameDefCap] Accepts"
+ gerfor.81.d:0 "Fantastic news from Kostantiniyye today as the Sublime Porte agreed with our proposal and has today declared its full intention to take up arms with its German comrades. Faced with an evergrowing threat posed by the Russian bear, the Caliph has already given the order to announce Jihad against the godless heathens we call the Eastern Orthodox Church."
+ gerfor.81.a:0 "Excellent."
+
+ gerfor.82.t:0 "[FROM.GetNameDefCap] Refuses"
+ gerfor.82.d:0 "Faced with the burden of a struggling empire and decades of nigh constant war it can't recover from, the Sublime Porte has refused our offer and instead chosen for a neutral approach to world affairs. Whilst they don't deny the good relations with the German Kaiser, something they can't praise enough, they have let it be known that for the time being, their interests don't align with ours."
+ gerfor.82.a:0 "Traitors!"
+
+ gerfor.83.t:0 "Signing the Baku Accords"
+ gerfor.83.d:0 "Realising that a friendly Turk is more valuable than an angry Turk, the government of [GER.GetLeader] has agreed with our offer and has decreed the departure of all German troops from Azeri territory. Whilst we won't get access to the powerful oil deposits of Baku, as the treaty grants these to Germany for a period of 25 years, this is a major victory for all Turkics and has been celebrated with great fanfare in Kostantiniyye."
+ gerfor.83.a:0 "Wonderful!"
+
+ gerfor.107.t:0 "Germany Offers an Oil Treaty"
+ gerfor.107.d:0 "The Germans have approached us with an interesting offer. They promise that they will invest in our economy in return for us guaranteeing the security of the oil shipments and giving them preferential market access. The terms of the treaty are being drawn up right now."
+ gerfor.107.a:0 "Our economy could use this."
+ gerfor.107.b:0 "We do not need Berlin."
+
+ gerfor.108.t:0 "Venezuela Accepts the Oil Treaty"
+ gerfor.108.d:0 "After the offer of economic investment into the Venezuelan economy they quickly agreed to terms and we will begin to receive our oil soon."
+ gerfor.108.a:0 "Excellent."
+
+ gerfor.109.t:0 "Venezuela Refuses the Oil Treaty"
+ gerfor.109.d:0 "Despite our more than generous offer the Venezuelans have rejected the very idea of a treaty concerning their oil supplies."
+ gerfor.109.a:0 "How very dare they!"
+
+ gerfor.110.t:0 "Venezuela Lost Our Oil!"
+ gerfor.110.d:0 "Despite the isolation of South America it appears that somehow Venezuela was unable to keep our oil safe. Our previously uninterrupted supply chain has fallen apart and oil shortages are already making themselves known in the Vaterland and across our colonial empire."
+ gerfor.110.a:0 "Why is it always the oil?"
+
+ gerfor.111.t:0 "Commercial Vessels Refuse to Sail to Venezuela!"
+ gerfor.111.d:0 "With us being at war we need all of the manpower we can get, and our vital oil supply links with Venezuela have become dependent on civilian ships transporting much of our oil. Unfortunately, it is becoming increasingly clear that due to the danger of ships being sunk commercial shippers are becoming reluctant to take the oil, which is causing our oil imports to drop precipitously. Yet again our oil supplies are severely endangered."
+ gerfor.111.a:0 "Only cowards lack faith in the Kaiserliche Marine."
+
+ gerfor.113.t:0 "German Proposes Trade for Oil"
+ gerfor.113.d:0 "The Germans have come to us asking for an economic trade zone of sorts, governed by a new special treaty. They have promised to invest in our industry and give us preferential treatment. In exchange they request we open up the oil markets to the Reich, allow our companies to drill and guarantee the oil trade to avert crisis at home."
+ gerfor.113.a:0 "A deal with our German friends!"
+ gerfor.113.b:0 "We can hold out for more."
+
+ gerfor.114.t:0 "Cossacks Accept the Oil Treaty!"
+ gerfor.114.d:0 "After the promise of getting their economy jumpstarted with German investment the Cossacks of the Don-Kuban Union have agreed fully to our treaty. They promise to maintain the oil supply and give the Reich preferential access to the fields."
+ gerfor.114.a:0 "Our influence grows."
+
+ gerfor.115.t:0 "Cossacks Refuse the Oil Treaty!"
+ gerfor.115.d:0 "Not impressed with the offer of an economic trade zone and investment, the Cossacks have turned us down. Fortunately, there are others still interested in working with us."
+ gerfor.115.a:0 "Perhaps they have interests elsewhere."
+
+ gerfor.116.t:0 "The Reich's New Offer"
+ gerfor.116.d:0 "After the Germans provided us with a lacklustre trade deal in exchange for our oil supplies, they have come forward with a new proposal offering military aid to our force so long as we guarantee the oil. Clearly, the German delegation bothered to do their research this time, since military support is actually something we need."
+ gerfor.116.a:0 "Soon we shall have a truly modern force."
+ gerfor.116.b:0 "We are not a puppet like the Balts."
+
+ gerfor.117.t:0 "Cossacks Accept the Renegotiated Treaty"
+ gerfor.117.d:0 "An offer of military support was exactly what the Cossacks were interested in, and they have agreed to the new proposal put forward by our diplomatics on the ground. In exchange for the German Heer training their military up Don-Kuban will guarantee the oil supplies."
+ gerfor.117.a:0 "They clearly prefer the finer things."
+
+ gerfor.118.t:0 "Cossacks Refuse the Renegotiated Treaty"
+ gerfor.118.d:0 "Even after a second offer of military support and a variety of German concessions in the treaty negotiation the Cossacks have no interest in working with us. They have spurned our goodwill and holding out for further concessions they have damaged the potential for an agreement."
+ gerfor.118.a:0 "Such a stubborn people."
+
+ gerfor.119.t:0 "Ensuring the Protection of the Oil Fields"
+ gerfor.119.d:0 "Russia has been threatening Azerbaijan, which controls the Baku Oil Fields, a region incredibly rich with the so-called black gold. We must ensure that Russia does not take these oil fields, and if possible, secure them for ourselves. We are going to hold a conference in Baku in order to negotiate with Azerbaijan the best way forward, by ensuring the survival of the Azeri state - and more importantly, the oil they hold."
+ gerfor.119.a:0 "It's Baku or bust."
+
+ gerfor.120.t:0 "Germany Proposes the Baku Conference"
+ gerfor.120.d:0 "Germany has come to us with a proposal for a conference in Baku. We and representatives of the Reich will be the only attendees and we will seek to negotiate the future of our oil fields and ways to ensure that the Russians don't threaten us over them. How should we respond?"
+ gerfor.120.a:0 "Attend the conference."
+ gerfor.120.b:0 "This threatens our sovereignty, refuse."
+
+ gerfor.121.t:0 "Azerbaijan Refused to Attend the Conference"
+ gerfor.121.d:0 "Azerbaijan has refused to attend the conference, stating categorically that they believe such a move would herald damage to their national sovereignty and compromise their continued independence. Without their help, we might remain short of oil for a while longer."
+ gerfor.121.a:0 "We'll find different partners then."
+ gerfor.121.b:0 "Those oil fields will be ours one day."
+ gerfor.121.c:0 "We'll take the oil by right of conquest!"
+
+ gerfor.122.t:0 "The Baku Conference"
+ gerfor.122.d:0 "The Baku Conference has officially begun, with diplomats from both countries in attendance. The diplomats from Azerbaijan are waiting to hear what our terms will be."
+ gerfor.122.a:0 "Demand a fixed amount of oil each year in exchange for a guarantee."
+ gerfor.122.b:0 "Demand they embargo Russia and give us yearly oil in exchange for a guarantee."
+ gerfor.122.c:0 "Demand direct control over Azeri oil fields."
+
+ gerfor.123.t:0 "Oil for a Guarantee"
+ gerfor.123.d:0 "The German proposal ended up being surprisingly tame, asking simply for a monthly import of oil in exchange for them guaranteeing our independence, essentially keeping us safe from Russia for as long as this deal lasts. It would be foolish to refuse."
+ gerfor.123.a:0 "Very reasonable."
+ gerfor.123.b:0 "We can't give up our oil."
+
+ gerfor.124.t:0 "Baku Conference is Successful"
+ gerfor.124.d:0 "The Azeri government has accepted our gracious offer, guaranteeing us oil for as long as this deal lasts. Assuming that all goes well, the oil shortage is finally over."
+ gerfor.124.a:0 "The black gold flows again!"
+
+ gerfor.125.t:0 "Baku Conference Fails"
+ gerfor.125.d:0 "The Azerbaijani government has foolishly refused our generous offer, and it seems that the entire conference itself has collapsed. A few diplomats still remain in the building that we could possibly threaten..."
+ gerfor.125.a:0 "We'll look for oil elsewhere."
+ gerfor.125.b:0 "Threaten Azerbaijan with war."
+
+ gerfor.126.t:0 "Germany Threatens War!"
+ gerfor.126.d:0 "Due to our recent refusal of the German deal at the Baku Conference, it seems the German government has threatened us with war if we do not accept their demands. The choice seems clear here, as war with the Kaiserreich would almost certainly mean the end."
+ gerfor.126.a:0 "We have no choice."
+ gerfor.126.b:0 "We remain firm on our decision."
+
+ gerfor.127.t:0 "Azerbaijan Still Refuses!"
+ gerfor.127.d:0 "Even though we, a mighty empire, have threatened tiny Azerbaijan with war, their government has refused to budge on the oil issue. The question remains, should we act on our threats?"
+ gerfor.127.a:0 "They asked for this."
+ gerfor.127.b:0 "We are not warmongers."
+
+ gerfor.128.t:0 "Germany Demands Oil and an Embargo on Russia"
+ gerfor.128.d:0 "Germany's demands were a bit more radical than expected, with them not only demanding oil but also for us to embargo Russia in order to cut off their oil supplies. While our independence will still be guaranteed, Russia will bear much more resentment towards us. In the long run, this could pose a serious risk to our nation."
+ gerfor.128.a:0 "We'll accept."
+ gerfor.128.b:0 "We can't embargo Russia, but the oil is fine."
+ gerfor.128.c:0 "This was a bad idea."
+
+ gerfor.129.t:0 "Azerbaijan Accepts the Oil Treaty"
+ gerfor.129.d:0 "Azerbaijan has accepted the entirety of our deal, which promises to starve the Russians of oil and provide us with it. Not only have we strengthened ourselves greatly, but we have also managed to successfully cripple an enemy in the process."
+ gerfor.129.a:0 "I almost feel bad for them."
+
+ gerfor.130.t:0 "Azerbaijan Changes the Deal"
+ gerfor.130.d:0 "Azerbaijan has changed the treaty to a much more mild approach, removing the Russian embargo clause so that we only get oil from them. In a negotiation, one must always make compromises, but the power disparity between us and the Azeris is massive. Should we accept the clause variation?"
+ gerfor.130.a:0 "We'll concede on the embargo point."
+ gerfor.130.b:0 "Take it or leave it."
+
+ gerfor.131.t:0 "Germany Refuses to Give Concessions"
+ gerfor.131.d:0 "Germany has refused our tamer approach at the conference, and stated that the deal will be off if we do not both guarantee oil supplies and embargo the Russians. It seems we can't make them budge on this point, so acceptance may be our only option. The alternative could be catastrophic."
+ gerfor.131.a:0 "Fine then."
+ gerfor.131.b:0 "Then the conference will end here."
+
+ gerfor.132.t:0 "Azerbaijan Refuses Again"
+ gerfor.132.d:0 "Azerbaijan has refused our deal yet again, and officially put an end to the Baku Conference. The only option left if we want the oil fields is to threaten them with war. The puny state would be foolish to resist us."
+ gerfor.132.a:0 "We'll look for oil elsewhere."
+ gerfor.132.b:0 "Third times a charm. Oil or war!"
+
+ gerfor.133.t:0 "Germany Threatens War!"
+ gerfor.133.d:0 "Germany, fed up with us refusing not once, but twice, has threatened us with war if their side of the deal is not met. The Reich is seemingly willing to fight us over this issue, so the oil must clearly be worth a lot to them. A war would mean an end to our country, so we may have no choice..."
+ gerfor.133.a:0 "Give them their damn treaty."
+ gerfor.133.b:0 "This is ridiculous!"
+
+ gerfor.134.t:0 "Germany Demands Direct Control of Our Oil Fields"
+ gerfor.134.d:0 "The German diplomats have claimed in the conference that the Azeri government and industrial sector is not equipped to properly exploit the oil deposits in the country. They have recommended allowing them to have complete oversight of our industries by placing German directors into key positions in state-owned oil companies, meaning that together we can access even more oil. While we could all get rich off the deal, the problem is that this could possibly threaten our position as an independent nation."
+ gerfor.134.a:0 "Well alright then..."
+ gerfor.134.b:0 "Economic influence is enough, we shall have no directors."
+ gerfor.134.c:0 "Refuse outright."
+
+ gerfor.135.t:0 "Azerbaijan Accepts!"
+ gerfor.135.d:0 "Azerbaijan has accepted our recent deal, giving us direct control over their oil fields and industry. This essentially makes them another one of our subjects, securing oil for a very long time."
+ gerfor.135.a:0 "Let the black gold flow."
+
+ gerfor.136.t:0 "Azerbaijan Varies the Treaty"
+ gerfor.136.d:0 "Azerbaijan has vetoed the idea of us having our directors manage their oil companies, and they only wish to have economic guidance. Our influence over the country and its oil supplies would still be immense, though substantially less than with our German oversight of the oil industry itself."
+ gerfor.136.a:0 "We'll accept the change."
+ gerfor.136.b:0 "It's this or nothing!"
+
+ gerfor.137.t:0 "Germany Accepts the Modified Treaty"
+ gerfor.137.d:0 "Germany has accepted our version of the treaty, which help us get more out of our oil fields and whilst also gaining us a guarantee from the Reich. In exchange, all we need do is ensure that the oil supply remains unmolested and that the shipments reach Germany."
+ gerfor.137.a:0 "Great!"
+
+ gerfor.138.t:0 "Germany Reaffirms the Original Proposal"
+ gerfor.138.d:0 "The Reich's diplomats have seemingly not budged on their position on having German directors control our oil fields, and this is simply unacceptable for us as it essentially makes us a puppet of Germany. Unfortunately, the threat of war is present if we refuse. How do we respond?"
+ gerfor.138.a:0 "It's this or war."
+ gerfor.138.b:0 "Maybe the Russians will help?"
+ gerfor.138.c:0 "We said no the first time, we'll say it again."
+
+ gerfor.139.t:0 "Azerbaijan Requests Assistance"
+ gerfor.139.d:0 "Ever since the collapse of the Baku Conference between Germany and Azerbaijan over the oil supply, tensions have been heating up. Germany has now formally threatened them with war. Azeri diplomats have sent a telegram asking for our assistance in the matter, and a reward of oil might be in it for us if we help. The question is, should we pressure Germany to back down?"
+ gerfor.139.a:0 "Send a stern message to Germany."
+ gerfor.139.b:0 "We won't upset the Germans."
+
+ gerfor.140.t:0 "Germany Proposes Research Treaty"
+ gerfor.140.d:0 "The German government has proposed a military research treaty between our two nations. Though relations between our two nations have not been particularly close for some time, we could benefit greatly from German military assistance."
+ gerfor.140.a:0 "This sounds like a good idea!"
+ gerfor.140.b:0 "Bulgaria needs no help."
+
+ gerfor.141.t:0 "Bulgaria Accepts the Research Treaty"
+ gerfor.141.d:0 "Bulgaria has accepted our very generous military research treaty. As our old Central Power ally, it is in our best interests that they succeed in Balkan affairs."
+ gerfor.141.a:0 "Wonderful!"
+
+ gerfor.142.t:0 "Bulgaria Refuses the Research Treaty"
+ gerfor.142.d:0 "Unfortunately, the Bulgarian government has declined our military research treaty, as they see it as 'unnecessary' for their current military plans."
+ gerfor.142.a:0 "Fine then."
+
+ gerfor.143.t:0 "Germany Demands Gibraltar"
+ gerfor.143.d:0 "The ambassador of Germany has informed us of recent developments in the Reich. As a result of a recent policy change in Berlin, their current priority is solidifying their control over the Mediterranean. Already in control of the Suez, they are now demanding that we hand the Rock over to them."
+ gerfor.143.a:0 "Well, do we even have a choice?"
+ gerfor.143.b:0 "Refuse this outrageous demand."
+
+ gerfor.144.t:0 "Spain Hands Over Gibraltar"
+ gerfor.144.d:0 "Spain, conscious of the righteousness of our claim on Gibraltar, have decided to give the land to us."
+ gerfor.144.a:0 "Smart!"
+
+ gerfor.145.t:0 "Spain Refused Our Demands"
+ gerfor.145.d:0 "The Spanish have refused to hand over Gibraltar to us, jeopardising our entire Mediterranean policy."
+ gerfor.145.a:0 "Fine, but we'll be back."
+
+ gerfor.146.t:0 "The Yemen Question"
+ gerfor.146.d:0 "For a long time, we have wanted to have the Yemeni nation in our sphere of influence so as to safeguard the approaches to the Red Sea and Suez Canal. Now that we have the opportunity to do so, what shall we offer them to incentivise them?"
+ gerfor.146.a:0 "Offer them our Yemeni colonies!"
+ gerfor.146.b:0 "Offer them nothing."
+
+ gerfor.147.t:0 "Germany Proposes An Alliance!"
+ gerfor.147.d:0 "The German Ambassador to our nation has offered us the Aden colony for an alliance."
+ gerfor.147.a:0 "How could we refuse such an offer?"
+ gerfor.147.b:0 "Refuse the offer."
+
+ gerfor.148.t:0 "Yemen Accepts"
+ gerfor.148.d:0 "Yemen has informed us that they accept our generous offer."
+ gerfor.148.a:0 "Great."
+
+ gerfor.149.t:0 "Yemen Declines"
+ gerfor.149.d:0 "Sadly, Yemen has decided to decline our offer of an alliance."
+ gerfor.149.a:0 "Foolish goatherders."
+
+ gerfor.150.t:0 "Germany Offers An Alliance!"
+ gerfor.150.d:0 "The German Ambassador to our nation has given us a proposal for an alliance."
+ gerfor.150.a:0 "Accept it!"
+ gerfor.150.b:0 "Decline it."
+
+ gerfor.151.t:0 "Yemen Accepts"
+ gerfor.151.d:0 "Yemen has informed us that they accept our offer."
+ gerfor.151.a:0 "Great."
+
+ gerfor.152.t:0 "Yemen Declines"
+ gerfor.152.d:0 "Sadly, Yemen has decided to decline our offer."
+ gerfor.152.a:0 "Fine."
+
+ gerfor.156.t:0 "Germany Proposes the Offer Again"
+ gerfor.156.d:0 "Germany, seemingly unwilling to give up, has offered us to have German advisers have direct control of our oil fields. It seems the tension is at a boiling point, and saying no one more time might lead to war."
+ gerfor.156.a:0 "We can't fight the Germans."
+ gerfor.156.c:0 "Once again, we refuse."
+
+ gerfor.157.t:0 "Russia Threatens Us"
+ gerfor.157.d:0 "Apparently, at the instigation of the Azeri government, Russia has gotten involved in the Baku oil dispute and threatened to go to war with us if we enter Azerbaijan's borders. A war with the Russians would be bloody and, while valuable, the Baku oil fields are probably not worth losing a million German men over."
+ gerfor.157.a:0 "Call their bluff."
+ gerfor.157.b:0 "Back down."
+
+ gerfor.158.t:0 "Germany Enters Azerbaijan!"
+ gerfor.158.d:0 "Despite our recent threats, it seems that the Germans think we were bluffing about a potential declaration of war and have entered Azerbaijan anyways. Whether we were actually bluffing is yet to be decided..."
+ gerfor.158.a:0 "They won't get away with this."
+ gerfor.158.b:0 "We can't risk war."
+
+ gerfor.159.t:0 "Russia Assists us!"
+ gerfor.159.d:0 "German troops have just entered our borders, and the Russians responded properly. They have declared war on the Germans, leading to the biggest conflict since the Weltkrieg."
+ gerfor.159.a:0 "Let's hope it ends quickly."
+
+ gerfor.160.t:0 "Russia Declines our Call to Arms!"
+ gerfor.160.d:0 "Russia, despite threatening the Germans with war if they enter our borders, have decided to not declare war on Germany. The end of our regime is near."
+ gerfor.160.a:0 "This is the end."
+
+ gerfor.161.t:0 "Azerbaijan Declines Again"
+ gerfor.161.d:0 "It seems Azerbaijan still fails to recognise our military prowess, since yet again they have declined our offer. It is time to meet them with German arms and seize the oil fields for ourselves!"
+ gerfor.161.a:0 "Actually, perhaps we should reconsider this."
+ gerfor.161.b:0 "Let's deal with this upstart."
+
+ #gerfor.162.t:0 ""
+ #gerfor.162.d:0 "(TEMP LOCALISATON)"
+ #gerfor.162.a:0 ""
+
+ gerfor.163.t:0 "Azerbaijan Denies us Again"
+ gerfor.163.d:0 "The foolish Azerbaijani government has decided to deny our offer again, leaving us with the option to either back down or threaten them with war."
+ gerfor.163.a:0 "We'll get oil elsewhere."
+ gerfor.163.b:0 "Threaten them with war."
+
+ gerfor.164.t:0 "Germany Threatens War!"
+ gerfor.164.d:0 "Due to our denial of the German diplomats, they have gone to the extremes and threatened us with war if their demands are not met. Our small country cannot withstand German military might, so refusal would be foolish."
+ gerfor.164.a:0 "Give them what they want."
+ gerfor.164.b:0 "Our answer will stay the same."
+
+ gerfor.165.t:0 "German Influence on Azerbaijan"
+ gerfor.165.d:0 "Due to our direct control over their oil fields and industry, Azerbaijan has become riddled with German influence, essentially making them into another one of our vassals."
+ gerfor.165.a:0 "The black gold will flow forever"
+ gerfor.165.b:0 "Their independence is preferable"
+
+ gerfor.166.t:0 "Under German Influence"
+ gerfor.166.d:0 "Because of our allowance to let the Germans establish direct control over our industry, we should have expected foreign influence to creep in. The government and industry are now riddled with Germans and Azerbaijan is now under de facto German control. Despite the ruling party retaining power, we are now within the German sphere of influence, whether we like it or not."
+ gerfor.166.a:0 "We knew this was going to happen..."
+
+ gerfor.173.t:0 "Continued Resistance in the Border Strip"
+ gerfor.173.d:0 "Despite our efforts to maintain peace and stability in the region, Polish partisans continue to harass both German citizens and regular army units. The damage they are causing to local productivity is not insignificant, and our efforts to encourage migration are flagging in the face of constant attacks. How should we respond to this renewed threat?"
+ gerfor.173.a:0 "Continue to appease the locals."
+ gerfor.173.b:0 "A stronger crackdown is needed."
+
+ gerfor.174.t:0 "An Invitation to the Reichspakt"
+ gerfor.174.d:0 "Building upon their previous showings of goodwill and the signing of a pact of non-aggression between our two countries, Germany today has offered us an official invitation into the Reichspakt, Germany's economic and military alliance. Joining would bring great benefits to our nation, but put us under strong German influence. How should we respond to the invitation?"
+ gerfor.174.a:0 "We graciously accept."
+ gerfor.174.b:0 "We must decline."
+
+ gerfor.175.t:0 "Poland Joins the Reichspakt"
+ gerfor.175.d:0 "Poland has responded favourably to our invitation to the Reichspakt and has officially accepted our offer. the Reichspakt grows stronger!"
+ gerfor.175.a:0 "Wonderful!"
+
+ gerfor.176.t:0 "Poland Declines our Invitation"
+ gerfor.176.d:0 "Despite our best efforts to woo Poland diplomatically, they have refused our official offer to join the Reichspakt. All signs were pointing to them accepting, what has gone wrong?"
+ gerfor.176.a:0 "How could this happen?"
+
+ gerfor.187.t:0 "The Kaiserreich Besieged"
+ gerfor.187.d:0 "Following the Weltkrieg, Russia was absolutely humiliated and cut down to size. Despite their expansionist agenda as of late, most policy experts within Germany agreed that Ivan would never again challenge our might--Today, we were proven horrendously wrong by a formal declaration of war from the East. Russian troops have crossed the borders and reports are coming in of attacks everywhere. It's debatable if we were ready for a war with the Communards, let alone this..."
+ gerfor.187.a:0 "But we will hold."
+
+ gerfor.188.t:0 "An Invitation to the Reichspakt"
+ gerfor.188.d:0 "Building upon their previous showings of goodwill and the signing of a pact of non-aggression between our two countries, Germany today has offered us an official invitation into the Reichspakt, Germany's economic and military alliance. Joining would bring great benefits to our nation, but put us under strong German influence and risks war with Russia. How should we respond to the invitation?"
+ gerfor.188.a:0 "We graciously accept."
+ gerfor.188.b:0 "We must decline."
+
+ gerfor.189.t:0 "[From.GetNameDefCap] Refuses"
+ gerfor.189.d:0 "While German diplomatic envious spent days in the [From.GetAdjective] capital, attempting to convince [From.GetAdjective] officials of our good intentions, they have rebuffed any intentions to warm the relations between [GER.GetNameDef] and [From.GetNameDef]."
+ gerfor.189.a:0 "We will control [From.GetNameDefCap], one war or another."
+ gerfor.189.b:0 "We can do nothing."
+
+### Flavour Events ###
+
+ gerdom.101.t:0 "The Great Crusade"
+ gerdom.101.d:0 "Right-wing circles have been calling for a crusade against the Commune of France ever since the Syndicalists managed to oust the legal government from mainland France. Now their wishes have finally come true, as a state of war now exists between our glorious Vaterland and the nest of vipers to our west. Kaiser Wilhelm II explained the reasons for Germany's involvement in another war with France in a special radio address, and called for the eradication of the final obstacle to achieving "A Place in the Sun". Subsequently, thousands of young Germans rushed to enlist in the military, following the example of the Kaiser's grandsons, and civilians began gathering on the streets publicly displaying their support for the war. Despite enduring catastrophic crises, the German nation is united once again. Long live Germany! Long live the Kaiser!"
+ gerdom.101.a:0 "Gott erhalte den Kaiser! Der Sieg wird unser sein!"
+
+ gerdom.102.t:0 "Von Hammerstein-Equord Affair"
+ gerdom.102.d:0 "A month before the elections, yet another scandal was revealed by the media, in this instance Die Gartenlaube, one of the newspapers owned by the DVLP chairman Alfred Hugenberg. The paper reported that two daughters of Freiherr Kurt von Hammerstein-Equord, a leading general and friend of influential Reichskriegsminister von Schleicher, were involved in shady dealings with Syndicalist-aligned intelligence agencies. Shortly afterwards, the Reichstag member Franz Seldte fanned the flames by asking why the Abwehr, run by von Schleicher's friend Ferdinand von Bredow, was not able to find out that the family of an associate of the War Secretary was infiltrated by hostile intelligence. While General von Hammerstein-Equord resigned and publicly apologised for his daughters' doings, the real question for von Schleicher is - should he pull strings to replace von Bredow and remove any further threats to his political career from that direction, and if yes - replace him with whom?"
+ gerdom.102.a:0 "Irren ist menschlich!"
+ gerdom.102.b:0 "Does somebody have Nicolai's number?"
+ gerdom.102.c:0 "What was his name again? Kanaris?"
+
+ gerfla.1.t:0 "Sedantag"
+ gerfla.1.d:0 "After the Franco-German war of 1870-1871, the Sedantag was established to celebrate our victory at Sedan, where we captured the last French Emperor Napoleon III and the cream of their army. Originally a holiday to honour the Prussian military, the Sedantag transformed into a celebration of the Reich's foundation, and after the Weltkrieg the humbling of its foes.\n\nIn every town and village from Aachen to Memel, every street is decorated in black, white, and red. Every bell proudly proclaims this day of celebration. Nobles, soldiers and innumerable veterans parade proudly through the streets, cheered by the happy masses. Indeed, this is a good day, a day that reminds us of the peace and prosperity we have enjoyed since the forging of the Reich."
+ gerfla.1.a:0 "Heil dem Kaiserreich!"
+
+ gerfla.2.t:0 "Luise Hoffmann's Pacific Flight"
+ gerfla.2.d:0 "Luise Hoffmann was the first German woman to gain a pilot's licence. After her 1933 transatlantic solo flight, she has become one of Germany's most famous aviation pioneers, along with heroes like Manfred von Richthofen and Gunther Pluschow. Today, Fraulein Hoffmann has accomplished a new long-distance record in her customised Fokker F-IX. Starting in Tahiti 36 hours ago, Fraulein Hoffmann today landed safely in Lae on German Neuguinea, where she was welcomed by a jubilant crowd and local governor Albert Hahl.\n\nIt has been rumoured that Hoffmann will soon attempt a solo flight around the world. This would place her in direct competition with the Red Baron who is planning a similar endeavour..."
+ gerfla.2.a:0 "What an accomplishment!"
+
+ gerfla.3.t:0 "Hoffmann vs von Richthofen"
+ gerfla.3.d:0 "An exciting day for the history of aviation. Manfred von Richthofen has accepted Luise Hoffmann's challenge. Today both pilots, flying customised Fokker XIs, started in Dar-es-Salaam in Mittelafrika for the first solo flight and air race around the world. His Imperial Majesty has wished best luck and Godspeed to both pilots."
+ gerfla.3.a:0 "How exciting!"
+
+ gerfla.4.t:0 "Hoffmann Wins"
+ gerfla.4.d:0 "Luise Hoffmann has just landed in Dar-es-Salaam! She is now officially the first person to fly alone around the world! Manfred von Richthofen has already congratulated his opponent over the radio. Talking to the assembled reporters, Fräulein Hoffmann urged girls and women in Germany to pursue their dreams, whatever may stand in their way."
+ gerfla.4.a:0 "Congratulations to a great woman!"
+
+ gerfla.5.t:0 "Von Richthofen Wins"
+ gerfla.5.d:0 "Manfred von Richthofen has just landed in Dar-es-Salaam! He is now officially the first man to fly alone around the world! Luise Hoffmann has already congratulated her opponent over the radio. Again, the German flying legend has proven to be the world's best pilot."
+ gerfla.5.a:0 "Congratulations to a German hero!"
+
+ gerfla.6.t:0 "Erich von Ludendorff Dies"
+ gerfla.6.d:0 "Even after his death was reported early this morning, Erich von Ludendorff remains one of the most controversial people in recent German history. On the one hand, he was a hero of the Weltkrieg, the orchestrator of the German victory in the 1919 fall of France. On the other hand, most Germans haven't forgotten the ensuing military dictatorship that only ended when Admiral Von Tirpitz forced him to retire after the infamous Osthilfeskandal in 1924. Although Ludendorff still received some honours for his service, like his knighthood, the former quartermaster-general mostly led a secluded life at his estate afterwards."
+ gerfla.6.a:0 "Let's remember the genius, not the dictator."
+
+ gerfla.7.t:0 "Georg Michaelis Dies"
+ gerfla.7.d:0 "The former Reichskanzler Georg Michaelis died today at the age of 78. Succeeding von Bethmann-Hollweg as Imperial Chancellor in 1917, the first and until now the only commoner to have acceded to the post of German chancellor, he was considered by many as the stooge of the Hindenburg-Ludendorff dictatorship, being forced to resign and replaced by Hindenburg after Ludendorff grew dissatisfied with him in 1919. As a former Reichskanzler, he received a state funeral, but the Kaiser pointedly refused to attend."
+ gerfla.7.a:0 "He was a commoner and a stooge, but a Chancellor above all."
+
+ gerfla.8.t:0 "Tenth Anniversary of von Tirpitz' death"
+ gerfla.8.d:0 "Today marks the tenth anniversary of the death of the Great Chancellor and Admiral Alfred von Tirpitz. As the eighth Chancellor and Commander of the German Navy Tirpitz led the Kaiserreich out of the Ludendorff dictatorship, initiating the Golden Age that lasted through the Twenties until his death.\n\nAfter his death, his Deutsche Vaterlandspartei (German Fatherland party, DVLP), reformed into the Junker party it is today under their new leader, Alfred Hugenberg, opening the way for von Papen's Deutschkonservative Partei, or DkP. While the Reich enjoyed prosperity under Tirpitz's reign, he also continued to hold off on fulfilling the Kaiser's Easter Promises made in 1917, leaving us with political tensions brewing in recent years.\n\nStill, his prestige is enormous, and the anniversary of his death has been accompanied by public demonstrations of respect all over the Empire."
+ gerfla.8.a:0 "And what a giant he was!"
+
+ gerfla.11.t:0 "A Return to Europe"
+ gerfla.11.d:0 "Our soldiers line the streets of [GetNameGERCapital], cheering wildly as the leaders of Germany step off their newly-arrived ships onto European soil once more. We are exiles no longer."
+
+ gerfla.11.a:0 "A wonderful day!"
+ GER_Berlin:0 "Berlin"
+ GER_Frankfurt:0 "Frankfurt"
+ GER_Hamburg:0 "Hamburg"
+ GER_Essen:0 "Essen"
+ GER_Munich:0 "Munich"
+
+ gerfla.12.t:0 "A Return to Berlin"
+ gerfla.12.d:0 "With Berlin once more part of [GEX.GetNameDef], we may now return the government to its proper place in the Reichstag."
+ gerfla.12.a:0 "Excellent."
+
+### Mitteleuropa Mechanics ###
+
+ GER_mitteleuropa:0 "Mitteleuropa"
+
+ KR_mitteleuropa_tooltip:0 "§H[GetMitteleuropaName]§!\n[GetMitteleuropaEffects]"
+ KR_mitteleuropa_tooltip_desc:0 "§L[GetMitteleuropaDesc]§!"
+
+ KR_mitteleuropa_name_GER:0 "Leader of Mitteleuropa"
+ KR_mitteleuropa_name:0 "Member of Mitteleuropa"
+
+ KR_mitteleuropa_desc_GER:0 "Officially titled the Central European Economic Union, Mitteleuropa is a customs and economic union unifying Germany and its sphere of influence, established after the Weltkrieg. As the leading member state of Mitteleuropa and the most dominant power in the union, Germany reaps the lion's share of the benefits."
+ KR_mitteleuropa_desc:0 "Officially titled the Central European Economic Union, Mitteleuropa is a customs and economic union unifying Germany and its sphere of influence, established after the Weltkrieg. As a member state of Mitteleuropa, this country finds the impact of this agreement mixed - while the economic connections with Germany are beneficial, the agreement is heavily weighted in German favour."
+
+ KR_mitteleuropa_tooltip_none:0 ""
+ KR_mitteleuropa_tooltip_common_currency:0 "Daily Political Power Gain: [?-0.02|2=+]\nFactory Output: [?0.03|+=%]"
+ KR_mitteleuropa_tooltip_europarat:0 "Daily Political Power Gain: [?0.03|2=+]\nFactory Output: [?0.03|+=%]"
+ KR_mitteleuropa_tooltip_EER:0 "Daily Political Power Gain: [?0.03|2=+]\nResearch Speed: [?0.03|+=%]\nFactory Output: [?0.03|+=%]"
+ KR_mitteleuropa_tooltip_europakommission:0 "Daily Political Power Gain: [?-0.03|2=+]\nFactory Output: [?0.05|+=%]"
+ KR_mitteleuropa_tooltip_paktbrigaden:0 "Daily Political Power Gain: [?-0.03|2=+]\nArmy Experience Gain Daily: [?0.05|+=2]\nDivision Organisation: [?0.08|+=1%]\nRecruitable Population Factor: [?-0.08|+=%2]\nFactory Output: [?0.05|+=%]"
+
+ KR_mitteleuropa_tooltip_europakommission_GER:0 "Daily Political Power Gain: [?0.05|2=+]\nFactory Output: [?0.05|+=%]"
+ KR_mitteleuropa_tooltip_paktbrigaden_GER:0 "Daily Political Power Gain: [?0.05|2=+]\nRecruitable Population: [?0.02|%=H]\nFactory Output: [?0.05|+=%]"
+
+ GER_is_in_mitteleuropa:0 "Is a member of §HMitteleuropa§!"
+ GER_add_to_mitteleuropa:0 "§H[THIS.GetNameDefCap]§! joins §HMitteleuropa§!."
+ GER_add_to_mitteleuropa_effects:0 "\n\nEffects:"
+ GER_remove_from_mitteleuropa:0 "Remove all §HMitteleuropa§! effects."
+
+ germit.1.t:0 "Germany Proposes a Single Currency"
+ germit.1.d.independent:0 "In light of the consequences of Black Monday, the German government has come up with a new proposal to rejuvenate the continental economy. In order to meaningfully increase and simplify commerce and trade across the Reichspakt, they propose that the German currency, the Mark, should become the accepted currency in all Mitteleuropa, renamed formally to the 'Europamark'. This proposal is modelled somewhat after the Zollverein agreements between German states in the 19th century, which, among other things, established a standardised system of currency exchange pegged to the Prussian mark - although its reach and ambition are far greater.\n\nIn many of Germany's 'subject partner' states, the currencies are tied to the Mark already, so the actual impact would be relatively minimal. How should we respond to this proposal?"
+ germit.1.d.subject:0 "In light of the consequences of Black Monday, the German government has come up with a new proposal to rejuvenate the continental economy. In order to meaningfully increase and simplify commerce and trade across the Reichspakt, they propose that the German currency, the Mark, should become the accepted currency in all Mitteleuropa, renamed formally to the 'Europamark'. This proposal is modelled somewhat after the Zollverein agreements between German states in the 19th century, which, among other things, established a standardised system of currency exchange pegged to the Prussian mark - although its reach and ambition are far greater.\n\nAs a subject nation, we are forced to accept these terms without any say."
+ germit.1.a:0 "Count us in!"
+ germit.1.b:0 "Oh blimey, surely not!"
+
+ germit.2.t:0 "[From.GetNameDefCap] Agreed to adopt the Europamark"
+ germit.2.d:0 "[From.GetNameDefCap] has agreed to our proposal of a common currency for Mitteleuropa and will use the so-called Europamark from now on."
+ germit.2.a:0 "Wonderful!"
+
+ germit.3.t:0 "[From.GetNameDefCap] Refused the Europamark"
+ germit.3.d:0 "[From.GetNameDefCap] has refused our proposal for a single common currency for all Mitteleuropa and has publicly stated that they will continue to use their own currency, albeit still connected to the Mark."
+ germit.3.a:0 "Scheiße!"
+
+ germit.4.t:0 "Leaving Mitteleuropa"
+ germit.4.d.GER_is_dead:0 "As a result of our membership of Mitteleuropa, we became incredibly integrated into the bloc, taking on a number of obligations while also receiving some benefits such as in trade and mutual defence. These agreements no longer stand. Berlin has fallen, and so the Mitteleuropa union no longer constrains us by any measure."
+ germit.4.d.socialist:0 "As a result of our membership of Mitteleuropa, we became incredibly integrated into the bloc, taking on a number of obligations while also receiving some benefits such as in trade and mutual defence. These agreements no longer stand. Our people have risen and established a socialist regime, leaving them null and void."
+ germit.4.d.war_with_GER:0 "As a result of our membership of Mitteleuropa, we became incredibly integrated into the bloc, taking on a number of obligations while also receiving some benefits such as in trade and mutual defence. These agreements no longer stand. As we find ourselves at war with Germany, they have been severed with prejudice."
+ germit.4.d.allied_with_rival:0 "As a result of our membership of Mitteleuropa, we became incredibly integrated into the bloc, taking on a number of obligations while also receiving some benefits such as in trade and mutual defence. These agreements no longer stand. Because of a change in our geopolitical alignment, our ties with Germany have been severed."
+ germit.4.d.left_mitteleuropa:0 "As a result of our membership of Mitteleuropa, we became incredibly integrated into the bloc, taking on a number of obligations while also receiving some benefits such as in trade and mutual defence. These agreements no longer stand. The last of them have been annulled by diplomatic agreement with the German Empire today, and we are once again a free nation."
+ germit.4.d.kicked_out:0 "As a result of our membership of Mitteleuropa, we became incredibly integrated into the bloc, taking on a number of obligations while also receiving some benefits such as in trade and mutual defence. These agreements no longer stand. Having angered the government in Berlin, we have had them severed by the Kaiser's accord."
+ germit.4.a:0 "Why did we even sign up to half of these?"
+
+ germit.5.t:0 "[FROM.GetNameDefCap] Leaves Mitteleuropa!"
+ germit.5.d.socialist:0 "[FROM.GetNameDefCap] has severed the last of its ties with Mitteleuropa today - the left-wing revolution in their country has pushed them to break with us and our sphere of influence. Any designs we might have had towards their country have to be abandoned for the time being."
+ germit.5.d.allied_with_rival:0 "[FROM.GetNameDefCap] has severed the last of its ties with Mitteleuropa today - their government has chosen to leave our sphere of influence and turn towards one of our rivals. Any designs we might have had towards their country have to be abandoned for the time being."
+ germit.5.d.left_mitteleuropa:0 "[FROM.GetNameDefCap] has severed the last of its ties with Mitteleuropa today - their government has chosen to leave our sphere of influence, citing the exploitative nature of the customs union. Any designs we might have had towards their country have to be abandoned for the time being."
+ germit.5.a:0 "Traitors!"
+
+ germit.6.t:0 "Join the Mitteleuropa?"
+ germit.6.d.independent:0 "Now that we have chosen to align with the German Empire, an opportunity has arisen to join their economic pact, the Central European Economic Union, shortened to Mitteleuropa. Though this pact is dominated by Germany and its interests and forces several obligations on its member states, it also provides several benefits - easier trade with Germany and mutual defence in particular.\n\nShould we offer to join the Mitteleuropa sphere and accept these obligations?"
+ germit.6.d.subject:0 "Now that we have chosen to align with the German Empire, an opportunity has arisen to join their economic pact, the Central European Economic Union, shortened to Mitteleuropa. Though this pact is dominated by Germany and its interests and forces several obligations on its member states, it also provides several benefits - easier trade with Germany and mutual defence in particular.\n\nOur overlord has chosen to accept these obligations, and we are required to follow."
+ germit.6.a:0 "Just part of the deal I suppose."
+ germit.6.b:0 "Why would we give up our sovereignty?"
+
+ germit.7.t:0 "[From.GetNameDefCap] Joins Mitteleuropa"
+ germit.7.d:0 "A delegation has arrived from [From.GetNameDef], offering to join the Mitteleuropa union as its newest member state. We have, naturally, agreed - this new trade partner will make a fine addition to our collection."
+ germit.7.a:0 "Wonderful!"
+
+ germit.8.t:0 "[From.GetNameDefCap] Will Not Join Mitteleuropa"
+ germit.8.d:0 "A delegation has arrived from [From.GetNameDef], informing us that they will bow out of the opportunity to join the Mitteleuropa economic union, and will maintain their economic sovereignty despite their good relations with us."
+ germit.8.a:0 "Scheiße!"
+
+ germit.9.t:0 "Europarat Membership"
+ germit.9.d:0 "As a member of the single Europamark currency as dictated by our Mitteleuropa membership, it is incumbent on us now to align ourselves with the majority of the bloc by joining Europarat. This organisation, the 'Council of Europe' exists to regulate trade and is a key part of further integration."
+ germit.9.a:0 "A sound proposal."
+
+ germit.10.t:0 "European Exchange Programme Membership"
+ germit.10.d:0 "The Mitteleuropa economic union has established an all-European exchange program for all members of the pact - this program will provide free scholarships for students from other Mitteleuropa member states to study in German universities. This program is a key part of further integration and seeks to pool the brightest minds of Europe in German hands."
+ germit.10.a:0 "We have to sign up."
+
+ germit.11.t:0 "Europakommission Membership"
+ germit.11.d:0 "Though Mitteleuropa nations share a common currency in the form of the Europamark, to be a proper part of the bloc now, a nation must put itself under the jurisdiction of the Europakommission. This body regulates industrial production and quality across the continent, though clearly is biased in favour of the German Empire."
+ germit.11.a:0 "We have to sign up."
+
+ germit.12.t:0 "Paktbrigaden Proposal"
+ germit.12.d.independent:0 "There has been a new proposal concerning Mitteleuropa emanating from the Berlin think tanks. Germany is now calling for the creation of Paktbrigaden, international divisions organised from conscripts in all Mitteleuropa member states. These conscripted units will be placed under the aegis of the Imperial German Army for the duration of the military emergency. Such a measure would greatly empower Germany."
+ germit.12.d.subject:0 "There has been a new proposal concerning Mitteleuropa emanating from the Berlin think tanks. Germany is now calling for the creation of Paktbrigaden, international divisions organised from conscripts in all Mitteleuropa member states. These conscripted units will be placed under the aegis of the Imperial German Army for the duration of the military emergency. As a subject nation, we are forced to agree with their proposal."
+ germit.12.a:0 "Well if it's essential."
+ germit.12.b:0 "This is pure madness."
+
+ germit.13.t:0 "[From.GetNameDefCap] Accepted the Paktbrigaden Programme"
+ germit.13.d:0 "Our new Paktbrigaden programme is an ingenious idea to encourage our Mitteleuropa 'partners' to give up valuable military-aged men as part of international divisions and then place them directly into our own army, starved as we are to some extent of soldiers. [From.GetNameDefCap] wisely decided to accept our pressure and signed up for the programme. Recruitment should be made far easier."
+ germit.13.a:0 "Brilliant!"
+
+ germit.14.t:0 "[From.GetNameDefCap] Rejected the Paktbrigaden Programme"
+ germit.14.d:0 "Our new Paktbrigaden programme is an ingenious idea to encourage our Mitteleuropa 'partners' to give up valuable military-aged men as part of international divisions and then place them directly into our own army, starved as we are to some extent of soldiers. [From.GetNameDefCap] unfortunately refused to bow to our pressure and decided not to become a part of the new programme, damaging our efforts to integrate Mitteleuropa."
+ germit.14.a:0 "Irritating."
+
+ ###Traits###
+ siemens_schuckert_air:0 "Heavy Bomber Manufacturer"
+ heinkel:0 "Jet & Bomber Manufacturer"
