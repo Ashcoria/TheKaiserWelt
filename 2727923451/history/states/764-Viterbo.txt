@@ -1,0 +1,21 @@
+state = {
+	id = 764
+	name = "STATE_764"
+	manpower = 236700
+
+	state_category = two
+
+	history = {
+		owner = SIC
+		add_core_of = SIC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		6862
+	}
+}
+

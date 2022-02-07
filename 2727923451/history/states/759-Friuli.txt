@@ -1,0 +1,28 @@
+state = {
+	id = 759
+	name = "STATE_759"
+	manpower = 938000
+	state_category = five
+
+	resources = {
+		steel = 18
+		aluminium = 6
+	}
+
+	history = {
+		owner = SIC
+		add_core_of = SIC
+		victory_points = {
+			9613 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+
+	provinces = {
+		628 3657 6656 9613 13582
+	}
+}
+
