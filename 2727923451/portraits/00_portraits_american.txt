@@ -1,0 +1,134 @@
+### American generic portrait set
+
+PSA = {
+	army = {
+		male = {
+			"GFX_Portrait_America_Generic_land_1"
+			"GFX_Portrait_America_Generic_land_2"
+			"GFX_Portrait_America_Generic_land_3"
+			"GFX_Portrait_America_Generic_land_4"
+			"GFX_Portrait_America_Generic_land_5"
+			"GFX_Portrait_America_Generic_land_6"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_America_Generic_navy_1"
+			"GFX_Portrait_America_Generic_navy_2"
+			"GFX_Portrait_America_Generic_navy_3"
+			"GFX_Portrait_America_Generic_navy_4"
+		}
+	}
+}
+
+CSA = {
+	army = {
+		male = {
+			"GFX_Portrait_America_Generic_land_1"
+			"GFX_Portrait_America_Generic_land_2"
+			"GFX_Portrait_America_Generic_land_3"
+			"GFX_Portrait_America_Generic_land_4"
+			"GFX_Portrait_America_Generic_land_5"
+			"GFX_Portrait_America_Generic_land_6"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_America_Generic_navy_1"
+			"GFX_Portrait_America_Generic_navy_2"
+			"GFX_Portrait_America_Generic_navy_3"
+			"GFX_Portrait_America_Generic_navy_4"
+		}
+	}
+}
+
+HAW = {
+	army = {
+		male = {
+			"GFX_Portrait_America_Generic_land_1"
+			"GFX_Portrait_America_Generic_land_2"
+			"GFX_Portrait_America_Generic_land_3"
+			"GFX_Portrait_America_Generic_land_4"
+			"GFX_Portrait_America_Generic_land_5"
+			"GFX_Portrait_America_Generic_land_6"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_America_Generic_navy_1"
+			"GFX_Portrait_America_Generic_navy_2"
+			"GFX_Portrait_America_Generic_navy_3"
+			"GFX_Portrait_America_Generic_navy_4"
+		}
+	}
+}
+
+NEE = {
+	army = {
+		male = {
+			"GFX_Portrait_America_Generic_land_1"
+			"GFX_Portrait_America_Generic_land_2"
+			"GFX_Portrait_America_Generic_land_3"
+			"GFX_Portrait_America_Generic_land_4"
+			"GFX_Portrait_America_Generic_land_5"
+			"GFX_Portrait_America_Generic_land_6"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_America_Generic_navy_1"
+			"GFX_Portrait_America_Generic_navy_2"
+			"GFX_Portrait_America_Generic_navy_3"
+			"GFX_Portrait_America_Generic_navy_4"
+		}
+	}
+}
+
+TEX = {
+	army = {
+		male = {
+			"GFX_Portrait_America_Generic_land_1"
+			"GFX_Portrait_America_Generic_land_2"
+			"GFX_Portrait_America_Generic_land_3"
+			"GFX_Portrait_America_Generic_land_4"
+			"GFX_Portrait_America_Generic_land_5"
+			"GFX_Portrait_America_Generic_land_6"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_America_Generic_navy_1"
+			"GFX_Portrait_America_Generic_navy_2"
+			"GFX_Portrait_America_Generic_navy_3"
+			"GFX_Portrait_America_Generic_navy_4"
+		}
+	}
+}
+
+USA = {
+	army = {
+		male = {
+			"GFX_Portrait_America_Generic_land_1"
+			"GFX_Portrait_America_Generic_land_2"
+			"GFX_Portrait_America_Generic_land_3"
+			"GFX_Portrait_America_Generic_land_4"
+			"GFX_Portrait_America_Generic_land_5"
+			"GFX_Portrait_America_Generic_land_6"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_America_Generic_navy_1"
+			"GFX_Portrait_America_Generic_navy_2"
+			"GFX_Portrait_America_Generic_navy_3"
+			"GFX_Portrait_America_Generic_navy_4"
+		}
+	}
+}
+

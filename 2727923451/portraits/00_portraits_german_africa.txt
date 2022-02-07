@@ -1,0 +1,362 @@
+### African tags using the German Askari military portraits
+
+BRD = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+BRT = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+CAR = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+CMR = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+COG = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+DAH = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+GAB = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+GHA = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+HAU = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+KBR = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+KEN = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+KIV = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+KTG = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+MLW = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+ADA = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+NMB = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+NBL = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+NGA = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+RWA = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+TKE = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+TOG = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+TZN = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+UGA = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+
+ZAM = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_German_Africa_Generic_land_1"
+			"GFX_Portrait_German_Africa_Generic_land_2"
+			"GFX_Portrait_German_Africa_Generic_land_3"
+			"GFX_Portrait_German_Africa_Generic_land_4"
+			"GFX_Portrait_German_Africa_Generic_land_5"
+			"GFX_Portrait_German_Africa_Generic_land_6"
+			"GFX_Portrait_German_Africa_Generic_land_7"
+		}
+	}
+}
+

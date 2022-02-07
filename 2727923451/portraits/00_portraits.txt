@@ -1,0 +1,2509 @@
+default = {
+	#navy = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+
+	#army = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+
+	operative = {
+		male = {
+			"operative_unknown"
+		}
+		female = {
+			"operative_unknown"
+		}
+	}
+
+	male = {
+		"leader_unknown"
+	}
+	female = {
+		"leader_unknown_female"
+	}
+}
+
+continent = {
+	name = europe
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_new_1"
+			"GFX_Portrait_Europe_Generic_land_new_2"
+			"GFX_Portrait_Europe_Generic_land_new_3"
+			"GFX_Portrait_Europe_Generic_land_new_4"
+			"GFX_Portrait_Europe_Generic_land_new_5"
+			"GFX_Portrait_Europe_Generic_land_new_6"
+			"GFX_Portrait_Europe_Generic_land_new_7"
+			"GFX_Portrait_Europe_Generic_land_new_8"
+			"GFX_Portrait_Europe_Generic_land_new_9"
+			"GFX_Portrait_Europe_Generic_land_new_10"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_new_1"
+			"GFX_Portrait_Europe_Generic_navy_new_2"
+			"GFX_Portrait_Europe_Generic_navy_new_3"
+			"GFX_Portrait_Europe_Generic_navy_new_4"
+			"GFX_Portrait_Europe_Generic_navy_new_5"
+			"GFX_Portrait_Europe_Generic_navy_new_6"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_8"
+				"GFX_Portrait_Europe_Generic_new_9"
+				"GFX_Portrait_Europe_Generic_new_17"
+				"GFX_Portrait_South_America_Generic_new_7"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_8"
+				"GFX_Portrait_Europe_Generic_new_9"
+				"GFX_Portrait_Europe_Generic_new_17"
+				"GFX_Portrait_South_America_Generic_new_7"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_8"
+				"GFX_Portrait_Europe_Generic_new_9"
+				"GFX_Portrait_Europe_Generic_new_17"
+				"GFX_Portrait_South_America_Generic_new_7"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_8"
+				"GFX_Portrait_Europe_Generic_new_9"
+				"GFX_Portrait_Europe_Generic_new_17"
+				"GFX_Portrait_South_America_Generic_new_7"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_14"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_14"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_7"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_14"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_12"
+			}
+		}
+	}
+}
+
+continent = {
+	name = north_america
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_new_1"
+			"GFX_Portrait_Europe_Generic_land_new_2"
+			"GFX_Portrait_Europe_Generic_land_new_3"
+			"GFX_Portrait_Europe_Generic_land_new_4"
+			"GFX_Portrait_Europe_Generic_land_new_5"
+			"GFX_Portrait_Europe_Generic_land_new_6"
+			"GFX_Portrait_Europe_Generic_land_new_7"
+			"GFX_Portrait_Europe_Generic_land_new_8"
+			"GFX_Portrait_Europe_Generic_land_new_9"
+			"GFX_Portrait_Europe_Generic_land_new_10"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_new_1"
+			"GFX_Portrait_Europe_Generic_navy_new_2"
+			"GFX_Portrait_Europe_Generic_navy_new_3"
+			"GFX_Portrait_Europe_Generic_navy_new_4"
+			"GFX_Portrait_Europe_Generic_navy_new_5"
+			"GFX_Portrait_Europe_Generic_navy_new_6"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_8"
+				"GFX_Portrait_Europe_Generic_new_9"
+				"GFX_Portrait_Europe_Generic_new_17"
+				"GFX_Portrait_South_America_Generic_new_7"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_8"
+				"GFX_Portrait_Europe_Generic_new_9"
+				"GFX_Portrait_Europe_Generic_new_17"
+				"GFX_Portrait_South_America_Generic_new_7"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_8"
+				"GFX_Portrait_Europe_Generic_new_9"
+				"GFX_Portrait_Europe_Generic_new_17"
+				"GFX_Portrait_South_America_Generic_new_7"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_8"
+				"GFX_Portrait_Europe_Generic_new_9"
+				"GFX_Portrait_Europe_Generic_new_17"
+				"GFX_Portrait_South_America_Generic_new_7"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_14"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_14"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_7"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_14"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_12"
+			}
+		}
+	}
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_new_2"
+			"GFX_Portrait_South_America_Generic_land_new_4"
+			"GFX_Portrait_South_America_Generic_land_new_6"
+			"GFX_Portrait_Europe_Generic_land_new_1"
+			"GFX_Portrait_Europe_Generic_land_new_4"
+			"GFX_Portrait_Europe_Generic_land_new_5"
+			"GFX_Portrait_Europe_Generic_land_new_6"
+			"GFX_Portrait_Europe_Generic_land_new_8"
+			"GFX_Portrait_Europe_Generic_land_new_9"
+			"GFX_Portrait_Europe_Generic_land_new_10"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_South_America_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_3"
+			"GFX_Portrait_Europe_Generic_navy_new_1"
+			"GFX_Portrait_Europe_Generic_navy_new_2"
+			"GFX_Portrait_Europe_Generic_navy_new_4"
+			"GFX_Portrait_Europe_Generic_navy_new_5"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_12"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_South_America_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_South_America_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_South_America_Generic_new_5"
+				"GFX_Portrait_South_America_Generic_new_6"
+				"GFX_Portrait_South_America_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_South_America_Generic_new_5"
+				"GFX_Portrait_South_America_Generic_new_6"
+				"GFX_Portrait_South_America_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_South_America_Generic_new_5"
+				"GFX_Portrait_South_America_Generic_new_6"
+				"GFX_Portrait_South_America_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_South_America_Generic_new_5"
+				"GFX_Portrait_South_America_Generic_new_6"
+				"GFX_Portrait_South_America_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_South_America_Generic_new_5"
+				"GFX_Portrait_South_America_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_14"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_5"
+			}
+		}
+	}
+}
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_new_1"
+			"GFX_Portrait_Europe_Generic_land_new_2"
+			"GFX_Portrait_Europe_Generic_land_new_3"
+			"GFX_Portrait_Europe_Generic_land_new_4"
+			"GFX_Portrait_Europe_Generic_land_new_5"
+			"GFX_Portrait_Europe_Generic_land_new_6"
+			"GFX_Portrait_Europe_Generic_land_new_7"
+			"GFX_Portrait_Europe_Generic_land_new_8"
+			"GFX_Portrait_Europe_Generic_land_new_9"
+			"GFX_Portrait_Europe_Generic_land_new_10"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_new_1"
+			"GFX_Portrait_Europe_Generic_navy_new_2"
+			"GFX_Portrait_Europe_Generic_navy_new_3"
+			"GFX_Portrait_Europe_Generic_navy_new_4"
+			"GFX_Portrait_Europe_Generic_navy_new_5"
+			"GFX_Portrait_Europe_Generic_navy_new_6"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_5"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_17"
+				"GFX_Portrait_South_America_Generic_new_7"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_17"
+				"GFX_Portrait_South_America_Generic_new_7"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_17"
+				"GFX_Portrait_South_America_Generic_new_7"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_17"
+				"GFX_Portrait_South_America_Generic_new_7"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_14"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_14"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_14"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_12"
+			}
+		}
+	}
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_Africa_Generic_land_new_2"
+			"GFX_Portrait_Africa_Generic_land_new_3"
+			"GFX_Portrait_Africa_Generic_land_new_4"
+			"GFX_Portrait_Africa_Generic_land_new_5"
+			"GFX_Portrait_Africa_Generic_land_new_6"
+			"GFX_Portrait_Africa_Generic_land_new_7"
+			"GFX_Portrait_Africa_Generic_land_new_8"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_new_1"
+			"GFX_Portrait_Africa_Generic_navy_new_2"
+			"GFX_Portrait_Africa_Generic_navy_new_3"
+			"GFX_Portrait_Africa_Generic_navy_new_4"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Africa_Generic_land_new_8"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_4"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Africa_Generic_new_6"
+				"GFX_Portrait_Africa_Generic_new_8"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_4"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Africa_Generic_new_6"
+				"GFX_Portrait_Africa_Generic_new_8"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_4"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_2"
+				"GFX_Portrait_Africa_Generic_new_6"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_4"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_2"
+				"GFX_Portrait_Africa_Generic_new_6"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_4"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_2"
+				"GFX_Portrait_Africa_Generic_new_6"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_4"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_2"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Africa_Generic_new_6"
+				"GFX_Portrait_Africa_Generic_new_8"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_8"
+				"GFX_Portrait_Africa_Generic_new_4"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_6"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_land_new_1"
+				"GFX_Portrait_Africa_Generic_land_new_4"
+				"GFX_Portrait_Africa_Generic_land_new_5"
+				"GFX_Portrait_Africa_Generic_land_new_8"
+				"GFX_Portrait_Africa_Generic_new_7"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_4"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_8"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Africa_Generic_new_6"
+			}
+		}
+	}
+}
+
+continent = {
+	name = asia
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_new_1"
+			"GFX_Portrait_Asia_Generic_land_new_2"
+			"GFX_Portrait_Asia_Generic_land_new_3"
+			"GFX_Portrait_Asia_Generic_land_new_4"
+			"GFX_Portrait_Asia_Generic_land_new_5"
+			"GFX_Portrait_Asia_Generic_land_new_6"
+			"GFX_Portrait_Asia_Generic_land_new_7"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Asia_Generic_navy_new_1"
+			"GFX_Portrait_Asia_Generic_navy_new_2"
+			"GFX_Portrait_Asia_Generic_navy_new_3"
+			"GFX_Portrait_Asia_Generic_navy_new_4"
+			"GFX_Portrait_Asia_Generic_navy_new_5"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Asia_Generic_new_2"
+				"GFX_Portrait_Asia_Generic_new_7"
+				"GFX_Portrait_Asia_Generic_land_new_6"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Asia_Generic_new_4"
+				"GFX_Portrait_Asia_Generic_new_5"
+				"GFX_Portrait_Asia_Generic_new_2"
+				"GFX_Portrait_Asia_Generic_new_6"
+				"GFX_Portrait_Asia_Generic_new_7"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Asia_Generic_new_4"
+				"GFX_Portrait_Asia_Generic_new_5"
+				"GFX_Portrait_Asia_Generic_new_2"
+				"GFX_Portrait_Asia_Generic_new_6"
+				"GFX_Portrait_Asia_Generic_new_7"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Asia_Generic_new_4"
+				"GFX_Portrait_Asia_Generic_new_5"
+				"GFX_Portrait_Asia_Generic_new_1"
+				"GFX_Portrait_Asia_Generic_new_3"
+				"GFX_Portrait_Asia_Generic_new_6"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Asia_Generic_new_4"
+				"GFX_Portrait_Asia_Generic_new_5"
+				"GFX_Portrait_Asia_Generic_new_1"
+				"GFX_Portrait_Asia_Generic_new_3"
+				"GFX_Portrait_Asia_Generic_new_6"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Asia_Generic_new_4"
+				"GFX_Portrait_Asia_Generic_new_5"
+				"GFX_Portrait_Asia_Generic_new_1"
+				"GFX_Portrait_Asia_Generic_new_3"
+				"GFX_Portrait_Asia_Generic_new_6"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Asia_Generic_new_4"
+				"GFX_Portrait_Asia_Generic_new_5"
+				"GFX_Portrait_Asia_Generic_new_1"
+				"GFX_Portrait_Asia_Generic_new_3"
+				"GFX_Portrait_Asia_Generic_new_6"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Asia_Generic_new_4"
+				"GFX_Portrait_Asia_Generic_new_5"
+				"GFX_Portrait_Asia_Generic_new_1"
+				"GFX_Portrait_Asia_Generic_new_2"
+				"GFX_Portrait_Asia_Generic_new_3"
+				"GFX_Portrait_Asia_Generic_new_7"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Asia_Generic_new_2"
+				"GFX_Portrait_Asia_Generic_new_7"
+				"GFX_Portrait_Asia_Generic_land_new_3"
+				"GFX_Portrait_Asia_Generic_land_new_6"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Asia_Generic_new_2"
+				"GFX_Portrait_Asia_Generic_new_7"
+				"GFX_Portrait_Asia_Generic_land_new_3"
+				"GFX_Portrait_Asia_Generic_land_new_6"
+			}
+		}
+	}
+}
+
+continent = {
+	name = middle_east
+	army = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_land_new_1"
+			"GFX_Portrait_Arabia_Generic_land_new_2"
+			"GFX_Portrait_Arabia_Generic_land_new_3"
+			"GFX_Portrait_Arabia_Generic_land_new_4"
+			"GFX_Portrait_Arabia_Generic_land_new_5"
+			"GFX_Portrait_Arabia_Generic_land_new_6"
+			"GFX_Portrait_Central_Asia_Generic_land_new_6"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_navy_new_1"
+			"GFX_Portrait_Arabia_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_3"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_5"
+				"GFX_Portrait_Arabia_Generic_land_new_6"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_Arabia_Generic_new_8"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_Arabia_Generic_new_8"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_5"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_Arabia_Generic_new_8"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_Arabia_Generic_new_8"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_Arabia_Generic_new_8"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_Arabia_Generic_new_8"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_5"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_5"
+				"GFX_Portrait_Arabia_Generic_land_new_6"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_5"
+			}
+		}
+	}
+}
+
+continent = {
+	name = india
+	army = {
+		male = {
+			"GFX_Portrait_India_Generic_land_new_1"
+			"GFX_Portrait_India_Generic_land_new_2"
+			"GFX_Portrait_India_Generic_land_new_3"
+			"GFX_Portrait_India_Generic_land_new_4"
+			"GFX_Portrait_India_Generic_land_new_5"
+			"GFX_Portrait_India_Generic_land_new_6"
+			"GFX_Portrait_India_Generic_land_new_7"
+			"GFX_Portrait_India_Generic_land_new_8"
+			"GFX_Portrait_India_Generic_land_new_9"
+		}
+	}
+	navy = {
+		male = {
+			"GFX_Portrait_India_Generic_navy_new_1"
+			"GFX_Portrait_India_Generic_navy_new_2"
+			"GFX_Portrait_India_Generic_navy_new_3"
+			"GFX_Portrait_India_Generic_navy_new_4"
+			"GFX_Portrait_India_Generic_navy_new_5"
+		}
+	}
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_India_Generic_land_new_2"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_6"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_6"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_6"
+				"GFX_Portrait_India_Generic_new_7"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_India_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_4"
+				"GFX_Portrait_India_Generic_new_5"
+				"GFX_Portrait_India_Generic_new_6"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_India_Generic_new_4"
+				"GFX_Portrait_India_Generic_new_5"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_India_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_4"
+				"GFX_Portrait_India_Generic_new_5"
+				"GFX_Portrait_India_Generic_new_6"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_India_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_4"
+				"GFX_Portrait_India_Generic_new_5"
+				"GFX_Portrait_India_Generic_new_6"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_6"
+				"GFX_Portrait_India_Generic_new_7"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_3"
+				"GFX_Portrait_India_Generic_land_new_2"
+				"GFX_Portrait_India_Generic_land_new_6"
+				"GFX_Portrait_India_Generic_new_7"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_3"
+				"GFX_Portrait_India_Generic_land_new_2"
+				"GFX_Portrait_India_Generic_land_new_6"
+				"GFX_Portrait_India_Generic_new_7"
+			}
+		}
+	}
+}
+
+continent = {
+	name = central_america
+	army = {
+		male = {
+			"GFX_Portrait_South_America_Generic_land_new_1"
+			"GFX_Portrait_South_America_Generic_land_new_2"
+			"GFX_Portrait_South_America_Generic_land_new_3"
+			"GFX_Portrait_South_America_Generic_land_new_4"
+			"GFX_Portrait_South_America_Generic_land_new_5"
+			"GFX_Portrait_South_America_Generic_land_new_6"
+			"GFX_Portrait_South_America_Generic_land_new_7"
+			"GFX_Portrait_South_America_Generic_land_new_8"
+			"GFX_Portrait_Arabia_Generic_land_new_6"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_new_2"
+			"GFX_Portrait_Europe_Generic_navy_new_4"
+			"GFX_Portrait_South_America_Generic_navy_new_1"
+			"GFX_Portrait_South_America_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_3"
+		}
+	}
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_15"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_15"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_3"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_15"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_3"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_15"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_3"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_15"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_3"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_15"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_3"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_15"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_3"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_15"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_3"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_5"
+				"GFX_Portrait_Arabia_Generic_land_new_6"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_3"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_5"
+			}
+		}
+	}
+}
+
+AFG = {
+	army = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_land_new_1"
+			"GFX_Portrait_Arabia_Generic_land_new_2"
+			"GFX_Portrait_Arabia_Generic_land_new_3"
+			"GFX_Portrait_Arabia_Generic_land_new_4"
+			"GFX_Portrait_Arabia_Generic_land_new_5"
+			"GFX_Portrait_Arabia_Generic_land_new_6"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_navy_new_1"
+			"GFX_Portrait_Arabia_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_3"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_5"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_Arabia_Generic_new_8"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_Arabia_Generic_new_8"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_5"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_Arabia_Generic_new_8"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_Arabia_Generic_new_8"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_Arabia_Generic_new_8"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_Arabia_Generic_new_8"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_5"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_5"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_5"
+			}
+		}
+	}
+}
+
+ALO = {
+	army = {
+		male = {
+			"GFX_Portrait_Asia_Generic_land_new_1"
+			"GFX_Portrait_Asia_Generic_land_new_2"
+			"GFX_Portrait_Arabia_Generic_land_new_4"
+			"GFX_Portrait_Arabia_Generic_land_new_5"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_navy_new_1"
+			"GFX_Portrait_Arabia_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_3"
+		}
+	}
+}
+
+GUY = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_5"
+			"GFX_Portrait_Africa_Generic_land_new_6"
+			"GFX_Portrait_Africa_Generic_land_new_7"
+			"GFX_Portrait_Africa_Generic_land_new_2"
+			"GFX_Portrait_India_Generic_land_new_1"
+			"GFX_Portrait_India_Generic_land_new_2"
+			"GFX_Portrait_India_Generic_land_new_3"
+			"GFX_Portrait_India_Generic_land_new_6"
+			"GFX_Portrait_India_Generic_land_new_7"
+			"GFX_Portrait_Mixed_Generic_1"
+			"GFX_Portrait_Mixed_Generic_2"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_new_1"
+			"GFX_Portrait_Africa_Generic_navy_new_2"
+			"GFX_Portrait_Africa_Generic_navy_new_3"
+			"GFX_Portrait_Africa_Generic_navy_new_4"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_land_new_1"
+				"GFX_Portrait_Africa_Generic_land_new_4"
+				"GFX_Portrait_Africa_Generic_land_new_5"
+				"GFX_Portrait_Africa_Generic_land_new_8"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_land_new_1"
+				"GFX_Portrait_Africa_Generic_land_new_4"
+				"GFX_Portrait_Africa_Generic_land_new_5"
+				"GFX_Portrait_Africa_Generic_land_new_8"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+	}
+}
+
+HAI = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_1"
+			"GFX_Portrait_Africa_Generic_land_new_4"
+			"GFX_Portrait_Africa_Generic_land_new_5"
+			"GFX_Portrait_Africa_Generic_land_new_6"
+			"GFX_Portrait_Africa_Generic_land_new_7"
+			"GFX_Portrait_Africa_Generic_land_new_8"
+			"GFX_Portrait_Mixed_Generic_2"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_new_1"
+			"GFX_Portrait_Africa_Generic_navy_new_2"
+			"GFX_Portrait_Africa_Generic_navy_new_3"
+			"GFX_Portrait_Africa_Generic_navy_new_4"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_land_new_1"
+				"GFX_Portrait_Africa_Generic_land_new_4"
+				"GFX_Portrait_Africa_Generic_land_new_5"
+				"GFX_Portrait_Africa_Generic_land_new_8"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+	}
+}
+
+JAM = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_4"
+			"GFX_Portrait_Africa_Generic_land_new_5"
+			"GFX_Portrait_Africa_Generic_land_new_6"
+			"GFX_Portrait_Africa_Generic_land_new_7"
+			"GFX_Portrait_Mixed_Generic_2"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_new_1"
+			"GFX_Portrait_Africa_Generic_navy_new_2"
+			"GFX_Portrait_Africa_Generic_navy_new_3"
+			"GFX_Portrait_Africa_Generic_navy_new_4"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_land_new_1"
+				"GFX_Portrait_Africa_Generic_land_new_4"
+				"GFX_Portrait_Africa_Generic_land_new_5"
+				"GFX_Portrait_Africa_Generic_land_new_8"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+	}
+}
+
+LEC = {
+	army = {
+		male = {
+			"GFX_Portrait_Europe_Generic_land_new_1"
+			"GFX_Portrait_Europe_Generic_land_new_2"
+			"GFX_Portrait_Europe_Generic_land_new_3"
+			"GFX_Portrait_Europe_Generic_land_new_4"
+			"GFX_Portrait_Europe_Generic_land_new_5"
+			"GFX_Portrait_Europe_Generic_land_new_6"
+			"GFX_Portrait_Europe_Generic_land_new_7"
+			"GFX_Portrait_Europe_Generic_land_new_8"
+			"GFX_Portrait_Europe_Generic_land_new_9"
+			"GFX_Portrait_Europe_Generic_land_new_10"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Europe_Generic_navy_new_1"
+			"GFX_Portrait_Europe_Generic_navy_new_2"
+			"GFX_Portrait_Europe_Generic_navy_new_3"
+			"GFX_Portrait_Europe_Generic_navy_new_4"
+			"GFX_Portrait_Europe_Generic_navy_new_5"
+			"GFX_Portrait_Europe_Generic_navy_new_6"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_8"
+				"GFX_Portrait_Europe_Generic_new_9"
+				"GFX_Portrait_Europe_Generic_new_17"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_8"
+				"GFX_Portrait_Europe_Generic_new_9"
+				"GFX_Portrait_Europe_Generic_new_17"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_8"
+				"GFX_Portrait_Europe_Generic_new_9"
+				"GFX_Portrait_Europe_Generic_new_17"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_4"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_8"
+				"GFX_Portrait_Europe_Generic_new_9"
+				"GFX_Portrait_Europe_Generic_new_17"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_14"
+				"GFX_Portrait_Europe_Generic_new_3"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_14"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_7"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_14"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_12"
+			}
+		}
+	}
+}
+
+TUR = {
+	army = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_land_new_4"
+			"GFX_Portrait_Arabia_Generic_land_new_5"
+			"GFX_Portrait_South_America_Generic_land_new_4"
+			"GFX_Portrait_South_America_Generic_land_new_5"
+			"GFX_Portrait_South_America_Generic_land_new_8"
+			"GFX_Portrait_Arabia_Generic_land_new_6"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_navy_new_1"
+			"GFX_Portrait_Arabia_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_3"
+		}
+	}
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+			}
+		}
+	}
+}
+
+SUR = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_5"
+			"GFX_Portrait_Africa_Generic_land_new_6"
+			"GFX_Portrait_Africa_Generic_land_new_7"
+			"GFX_Portrait_Africa_Generic_land_new_2"
+			"GFX_Portrait_India_Generic_land_new_1"
+			"GFX_Portrait_India_Generic_land_new_2"
+			"GFX_Portrait_India_Generic_land_new_3"
+			"GFX_Portrait_India_Generic_land_new_6"
+			"GFX_Portrait_India_Generic_land_new_7"
+			"GFX_Portrait_Mixed_Generic_1"
+			"GFX_Portrait_Mixed_Generic_2"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_new_1"
+			"GFX_Portrait_Africa_Generic_navy_new_2"
+			"GFX_Portrait_Africa_Generic_navy_new_3"
+			"GFX_Portrait_Africa_Generic_navy_new_4"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_land_new_1"
+				"GFX_Portrait_Africa_Generic_land_new_4"
+				"GFX_Portrait_Africa_Generic_land_new_5"
+				"GFX_Portrait_Africa_Generic_land_new_8"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_land_new_1"
+				"GFX_Portrait_Africa_Generic_land_new_4"
+				"GFX_Portrait_Africa_Generic_land_new_5"
+				"GFX_Portrait_Africa_Generic_land_new_8"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+	}
+}
+
+TRI = {
+	army = {
+		male = {
+			"GFX_Portrait_Africa_Generic_land_new_5"
+			"GFX_Portrait_Africa_Generic_land_new_6"
+			"GFX_Portrait_Africa_Generic_land_new_7"
+			"GFX_Portrait_Africa_Generic_land_new_2"
+			"GFX_Portrait_India_Generic_land_new_1"
+			"GFX_Portrait_India_Generic_land_new_2"
+			"GFX_Portrait_India_Generic_land_new_3"
+			"GFX_Portrait_India_Generic_land_new_6"
+			"GFX_Portrait_India_Generic_land_new_7"
+			"GFX_Portrait_Mixed_Generic_1"
+			"GFX_Portrait_Mixed_Generic_2"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Africa_Generic_navy_new_1"
+			"GFX_Portrait_Africa_Generic_navy_new_2"
+			"GFX_Portrait_Africa_Generic_navy_new_3"
+			"GFX_Portrait_Africa_Generic_navy_new_4"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_new_5"
+				"GFX_Portrait_Africa_Generic_new_7"
+				"GFX_Portrait_Africa_Generic_new_1"
+				"GFX_Portrait_Africa_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Africa_Generic_land_new_1"
+				"GFX_Portrait_Africa_Generic_land_new_4"
+				"GFX_Portrait_Africa_Generic_land_new_5"
+				"GFX_Portrait_Africa_Generic_land_new_8"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Africa_Generic_land_new_1"
+				"GFX_Portrait_Africa_Generic_land_new_4"
+				"GFX_Portrait_Africa_Generic_land_new_5"
+				"GFX_Portrait_Africa_Generic_land_new_8"
+				"GFX_Portrait_Mixed_Generic_2"
+			}
+		}
+	}
+}
+
+ZZB = {
+	army = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_land_new_1"
+			"GFX_Portrait_Arabia_Generic_land_new_2"
+			"GFX_Portrait_Arabia_Generic_land_new_3"
+			"GFX_Portrait_Arabia_Generic_land_new_4"
+			"GFX_Portrait_Arabia_Generic_land_new_5"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Arabia_Generic_navy_new_1"
+			"GFX_Portrait_Arabia_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_3"
+		}
+	}
+
+	political = {
+		totalist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_5"
+			}
+		}
+		syndicalist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		radical_socialist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_5"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		market_liberal = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_7"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		authoritarian_democrat = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_1"
+				"GFX_Portrait_Arabia_Generic_new_5"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_5"
+			}
+		}
+		national_populist = {
+			male = {
+				"GFX_Portrait_Arabia_Generic_new_4"
+				"GFX_Portrait_Arabia_Generic_new_6"
+				"GFX_Portrait_Arabia_Generic_new_3"
+				"GFX_Portrait_Arabia_Generic_new_5"
+			}
+		}
+	}
+}
+
