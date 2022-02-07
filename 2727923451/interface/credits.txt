@@ -1,0 +1,290 @@
+﻿#KAISERREICH for HEARTS of IRON 4
+Beta 0.20 - 'Railway of Liberty'
+
+#Created by the Kaiserreich 4 team
+Talented friends, every single one
+
+Adrianator2
+Alpinia
+Arvidus
+Asratius
+Augenis
+Blackfalcon501
+Carmain
+Chazem
+Conor
+DSFDarker
+El Daddy
+Flamefang
+Gaboemi
+Gideones
+Hamfast
+hildagrim
+Ido
+Igor050301
+JazzyHugh
+Jeankedezeehond
+Jonny BL
+KFateweaver
+Kennedy
+kergely
+Krčo
+Luwofe
+Matoro
+McOmghall
+~mw~ // miwaco.
+NukeGaming
+OMD
+Owenomaly
+PPsyrius
+Pelmen
+RagnoStrangeros
+Rei VL
+Retrocognition
+Rnk
+Shiroe
+Starguard
+Story
+suzuha
+The Alpha Dog
+The Irredentista
+The Italian Jojo
+Vidyaország
+Zaddy-Chan
+Zimbabwe Salt Co.
+
+#Our Fallen Comrades
+Kaiserreich is built on your shoulders
+
+Ace of Aces
+Ahearne
+Akamber
+AllyJammy
+Anbory
+Autovonbismarck
+BattleSarge
+Beelzebub
+Chef Exellence
+Cinzya
+CrazyZombie
+DDago
+Dedlift
+Delincious
+Denizz
+Devastator
+Dr. Njitram
+DrDiHai
+Drozdovite
+Dskod1
+Dylanstrategie
+Edouard Saladier
+Éloïse
+Eragaxshim
+Esmaerla
+Fatherlorris
+Fbruchmueller
+Firefly
+Foffy123
+Fort
+Generalissima
+Gibzit
+Go.Jr
+Harmazon
+Herkles
+Hyvinvointinionvaakalaudalla
+Imhungry5462
+Indyclone77
+IratePirate
+JacKob
+Jak
+JakeR2000
+Jonjon428
+Kallar
+KeetnaWilson
+Khalil
+Kornilov
+Kracc
+Liegnitz
+MPdisappeared
+MaelTec
+Maltesefalcon
+MantisToboggan
+Mark
+MattTheCzar
+Medizine
+Mifil
+Miklos Horthy
+Mikus
+Miyokari
+MonarchistKaiser
+Nijato
+Packard
+Paul
+Phil
+Pietrus
+Pinback
+Rangerage
+Raptor Jesus
+Rebi-chan
+Rinbro
+Roniius
+Roparex
+Rylock
+SPQR
+Saladenicoise
+Satellite Yung
+Sbadkins4
+Sea Lion
+Selim
+Sir Rogers
+Sjarlewis
+Skip
+Skullcrusher
+Stekpanna
+Tatiana
+Telcontar101
+TheBeezKneez
+TheBlackWinds
+Thomahawk2k
+TornadoWatch
+VietcongTrap
+VirtualHummingbird
+WentBerzerk
+Wladyslaw Sikorski
+WordZero
+Wyandotte
+Yard1
+Zankoas
+Zarasophos
+Zombieman2344
+
+#Special Thanks To
+Those who have so generously helped us along the way
+
+Adszok
+Halcyon Hush
+Nazar
+Sleight of Hand
+
+The whole of the Modding Coop
+
+Dayshine, among others, who created CWTools
+
+Ruskie Business and his period-style maps
+
+Extra thanks to the Führerreich team
+
+#With Work From the Following Modders
+People who so kindly donated their work to us
+
+-MI2:
+McNaughton
+
+Battlesound - Sound Modification:
+Tekoa
+
+Brazil, Ireland, Denmark, Netherlands, Sweden Uniform Reskins:
+Skyllio
+
+DH Entente Music Pack:
+Nightwing
+
+Guns Trucks:
+McNaughton
+
+HOI4 Total Reskin Pack:
+AKAGIxxKAGA
+Majin guda-ko
+
+Icons for Plane:
+Schüewoo
+
+Iran - The sick man of the middle east:
+Boolean
+
+Impassable Terrain:
+Yakez
+
+Kaiserreich Custom Country Paths:
+Von_Laughing
+
+KR Submod - More Custom Country Paths:
+Bchevy
+Corvax
+HS1san
+Igor050301
+JPII
+Teneb Kel
+
+KR - Total Reskin:
+A Carton of Juice
+
+Lamp's Eqpt Icons:
+Diàndēng fú lǐ màn
+
+Lithuanian Voiceovers:
+MisterNKB
+Rick Windmann (Siggy)
+
+Minor Nation Sprites:
+Majestic Lemmings
+
+More Model Images:
+Tnoji
+
+Swedish GFX:
+Minnó
+
+Operation Overhaul:
+Berk24
+CyclicRoF
+Lavo
+Ulmont
+VDNKh
+
+Siamese Troop VO:
+ToonPC
+
+Turkey, Manchukuo, and Finnish Reskins:
+SilentAssassin
+
+Unique Infantry Equipment:
+Ulmont
+
+Azerbaijan Democratic Republic 1936:
+Jeykhun
+
+CSA military ensigns:
+RedFlag1945
+
+State Transfer Tool:
+Dziurkacz
+
+Player Led Peace Conferences (idea):
+Neutrino
+
+#Based On An Idea By
+Sarmatia1871
+
+
+
+...and finally thanks to you, the player!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
