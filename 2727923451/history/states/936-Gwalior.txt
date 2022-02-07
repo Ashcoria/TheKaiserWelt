@@ -1,0 +1,21 @@
+state = {
+	id = 936
+	name = "STATE_936"
+	manpower = 3734000
+	state_category = two
+
+	history = {
+		owner = PRF
+		add_core_of = PRF
+		victory_points = { 10807 2 } #Gwalior
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		1949 2036 7080 10807
+	}
+}
+
