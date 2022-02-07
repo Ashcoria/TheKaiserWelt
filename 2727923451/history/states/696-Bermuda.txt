@@ -1,0 +1,22 @@
+state = {
+	id = 696
+	name = "STATE_696"
+	manpower = 29650
+	state_category = zero_island
+
+	history = {
+		owner = WIF
+		buildings = {
+			infrastructure = 1
+			13010 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = WIF
+	}
+
+	provinces = {
+		13010
+	}
+}
+
