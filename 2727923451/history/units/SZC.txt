@@ -1,0 +1,335 @@
+﻿instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 1
+		progress = 0.82
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.82
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.82
+		efficiency = 100
+	}
+}
+
+#Army Units
+division_template = {
+	name = "Armament Department Division"
+	division_names_group = "CHYN_INF_01"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Baoding Department Division"
+	division_names_group = "CHYN_INF_01"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Baoding Department Guards Division"
+	division_names_group = "CHYN_INF_01"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	template_counter = 3
+	priority = 2
+}
+
+division_template = {
+	name = "Xikang Mountaineers"
+	division_names_group = "CHYN_MTN_01"
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+		mountaineers = { x = 3 y = 0 }
+		mountaineers = { x = 3 y = 1 }
+		mountaineers = { x = 3 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Industrial Corps Division"
+	division_names_group = "CHYN_GAR_01"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Industrial Corps Elite Division"
+	division_names_group = "CHYN_INF_01"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	template_counter = 12
+	priority = 2
+}
+
+units = {
+	#Liu Cunhou's troops
+	division = {
+		location = 12767
+		division_template = "Armament Department Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 2091
+		division_template = "Armament Department Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 12274
+		division_template = "Armament Department Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 10144
+		division_template = "Armament Department Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+
+	#Yang Sen's troops
+	division = {
+		location = 4925
+		division_template = "Armament Department Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 1395
+		division_template = "Armament Department Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 7240
+		division_template = "Armament Department Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+	#Deng Xihou's troops
+	division = {
+		location = 10787
+		division_template = "Baoding Department Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 4403
+		division_template = "Baoding Department Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 5193
+		division_template = "Baoding Department Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 4375
+		division_template = "Baoding Department Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 10132
+		division_template = "Baoding Department Guards Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 10132
+		division_template = "Baoding Department Guards Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	#Liu Wenhui's troops
+	division = {
+		location = 1918
+		division_template = "Baoding Department Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 2067
+		division_template = "Baoding Department Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 4999
+		division_template = "Baoding Department Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 10726
+		division_template = "Xikang Mountaineers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 8104
+		division_template = "Xikang Mountaineers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 12724
+		division_template = "Xikang Mountaineers"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+
+	#Liu Xiang's Troops
+	division = {
+		location = 6999
+		division_template = "Industrial Corps Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 12705
+		division_template = "Industrial Corps Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 1893
+		division_template = "Industrial Corps Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 11865
+		division_template = "Industrial Corps Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 4431
+		division_template = "Industrial Corps Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 4141
+		division_template = "Industrial Corps Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 9939
+		division_template = "Industrial Corps Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 1893
+		division_template = "Industrial Corps Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 12705
+		division_template = "Industrial Corps Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Jiaodao Shi"
+		location = 6999
+		division_template = "Industrial Corps Elite Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Mofan Shi"
+		location = 6999
+		division_template = "Industrial Corps Elite Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+}
+
