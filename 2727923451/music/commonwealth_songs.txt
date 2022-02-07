@@ -1,0 +1,14 @@
+music_station = "base_music"
+
+music = {
+	song = "londoninflames"
+}
+
+music = {
+	song = "operationcompas"
+}
+
+music = {
+	song = "heroesofelalamein"
+}
+
