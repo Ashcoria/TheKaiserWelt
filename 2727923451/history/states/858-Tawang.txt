@@ -1,0 +1,21 @@
+state = {
+	id = 858
+	name = "STATE_858"
+	manpower = 42000
+	state_category = one
+	local_supplies = 3.0
+
+	history = {
+		owner = PRF
+		add_core_of = PRF
+		buildings = {
+			infrastructure = 1
+
+		}
+	}
+
+	provinces = {
+		1996 10810 12730
+	}
+}
+

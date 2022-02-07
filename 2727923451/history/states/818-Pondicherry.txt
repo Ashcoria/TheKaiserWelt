@@ -1,0 +1,23 @@
+state = {
+	id = 818
+	name = "STATE_818"
+	manpower = 142500
+	state_category = zero
+
+	history = {
+		owner = PRF
+		add_core_of = PRF
+		victory_points = { 10149 1 } #Pondicherry
+		buildings = {
+			infrastructure = 2
+			10149 = {
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces = {
+		10149
+	}
+}
+

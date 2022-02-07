@@ -1,0 +1,23 @@
+state = {
+	id = 869
+	name = "STATE_869"
+	manpower = 1716000
+	state_category = two
+	local_supplies = 1.0
+
+	history = {
+		owner = TZN
+		add_core_of = TZN
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			9962 1
+		}
+	}
+
+	provinces = {
+		9962
+	}
+}
+

@@ -1,0 +1,20 @@
+state = {
+	id = 890
+	name = "STATE_890"
+	manpower = 3450000
+
+	state_category = one
+
+	history = {
+		owner = PRF
+		add_core_of = PRF
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces = {
+		1129 2076 7106 12708
+	}
+}
+
