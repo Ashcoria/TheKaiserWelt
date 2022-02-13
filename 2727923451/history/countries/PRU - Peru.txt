@@ -1,4 +1,4 @@
-﻿capital = 303
+capital = 303
 OOB = "PRU"
 set_naval_oob= "PRU_naval"
 set_convoys = 30
@@ -133,7 +133,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Manuel Pardo Ugarteche"
 	desc = "POLITICS_UGARTECHE_DESC"
-	picture = "Portrait_PRU_Pardo_Ugarteche.png"
+	picture = "gfx/leaders/PRU/Portrait_PRU_Pardo_Ugarteche.png"
 	expire = "1985.1.1"
 	ideology = market_liberal_subtype
 }
