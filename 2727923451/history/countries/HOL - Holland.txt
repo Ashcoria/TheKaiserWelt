@@ -1,4 +1,4 @@
-﻿capital = 7
+capital = 7
 OOB = "HOL"
 set_naval_oob = "HOL_naval"
 set_convoys = 400
@@ -248,7 +248,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Jan de Quary"
 	desc = "POLITICS_QUARY_DESC"
-	picture = "Portrait_HOL_Quary.png"
+	picture = "gfx/leaders/HOL/Portrait_HOL_Quary.png"
 	expire = "1985.1.1"
 	ideology = social_conservative_subtype
 }
