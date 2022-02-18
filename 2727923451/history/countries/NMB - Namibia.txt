@@ -90,7 +90,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Wolfgang Schenk"
-	picture = "gfx/leaders/NMB/Portrait_NMB_Wolfgang Schenk.png"
+	picture = "gfx/leaders/NMB/Portrait_NMB_Wolfgang_Schenk.png"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 }
