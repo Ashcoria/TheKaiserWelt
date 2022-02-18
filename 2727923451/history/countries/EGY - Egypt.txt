@@ -59,23 +59,23 @@ if = {
 set_war_support = 0.30
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1931.10.16"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	totalist = 0
 	radical_socialist = 0
 	syndicalist = 0
-	social_democrat = 3
-	social_liberal = 12
+	social_democrat = 0
+	social_liberal = 0
 	market_liberal = 25
-	social_conservative = 35
-	authoritarian_democrat = 15
+	social_conservative = 12
+	authoritarian_democrat = 50
 	paternal_autocrat = 10
-	national_populist = 0
+	national_populist = 3
 }
 
 country_event = { id = egy.1 days = 1 }
@@ -106,44 +106,44 @@ set_stability = 0.6
 set_war_support = 0.5
 
 create_country_leader = {
-	name = "Fuad I"
+	name = "Farouk I"
 	desc = "POLITICS_FUAD_I_DESC"
-	picture = "Portrait_Egypt_Fuad_I.png"
+	picture = "gfx/leaders/EGY/Portrait_Egypt_Farouk_I.png"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 }
 create_country_leader = {
-	name = "Fuad I"
-	desc = "POLITICS_FUAD_I_DESC"
-	picture = "Portrait_Egypt_Fuad_I.png"
+	name = "Farouk I"
+	desc = "POLITICS_FAROUK_DESC"
+	picture = "gfx/leaders/EGY/Portrait_Egypt_Farouk_I.png"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 }
 create_country_leader = {
-	name = "Fuad I"
-	desc = "POLITICS_FUAD_I_DESC"
-	picture = "Portrait_Egypt_Fuad_I.png"
+	name = "Farouk I"
+	desc = "POLITICS_FAROUK_DESC"
+	picture = "gfx/leaders/EGY/Portrait_Egypt_Farouk_I.png"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 }
 create_country_leader = {
-	name = "Fuad I"
-	desc = "POLITICS_FUAD_I_DESC"
-	picture = "Portrait_Egypt_Fuad_I.png"
+	name = "Farouk I"
+	desc = "POLITICS_FAROUK_DESC"
+	picture = "gfx/leaders/EGY/Portrait_Egypt_Farouk_I.png"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 }
 create_country_leader = {
-	name = "Fuad I"
-	desc = "POLITICS_FUAD_I_DESC"
-	picture = "Portrait_Egypt_Fuad_I.png"
+	name = "Farouk I"
+	desc = "POLITICS_FAROUK_DESC"
+	picture = "gfx/leaders/EGY/Portrait_Egypt_Farouk_I.png"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 }
 create_country_leader = {
-	name = "Fuad I"
-	desc = "POLITICS_FUAD_I_DESC"
-	picture = "Portrait_Egypt_Fuad_I.png"
+	name = "Farouk I"
+	desc = "POLITICS_FAROUK_DESC"
+	picture = "gfx/leaders/EGY/Portrait_Egypt_Farouk_I.png"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 }
