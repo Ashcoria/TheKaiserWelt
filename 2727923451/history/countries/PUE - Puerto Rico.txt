@@ -104,9 +104,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Antonio Rafael Barceló"
-	desc = "POLITICS_PUE_ANTONIO_BARCELO_DESC"
-	picture = "Portrait_PUE_Antonio_Rafael_Barcelo_y_Martinez.png"
+	name = "Samuel R. Quiñones"
+	desc = "POLITICS_PUE_Quiñones_DESC"
+	picture = "gfx/leaders/PUE/Portrait_PUE_Samuel_R._Quiñones.png"
 	expire = "1965.1.1"
 	ideology = market_liberal_subtype
 }
