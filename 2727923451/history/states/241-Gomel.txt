@@ -5,7 +5,7 @@ state = {
 	state_category = three
 
 	history = {
-		owner = RUS
+		owner = UKR
 		victory_points = {
 			9288 8
 		}

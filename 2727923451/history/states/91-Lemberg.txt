@@ -3,7 +3,10 @@ state={
 	name="STATE_91"
 
 	history={
-		owner = POL
+		owner = AUS
+		add_core_of = AUS
+		add_core_of = GAL
+		add_claim_by = POL
 		victory_points = {
 			11479 15
 		}
@@ -17,8 +20,6 @@ state={
 			air_base = 5
 
 		}
-		add_core_of = POL
-
 	}
 
 	provinces={

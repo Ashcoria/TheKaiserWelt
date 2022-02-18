@@ -6,7 +6,7 @@ state = {
 	state_category = one
 
 	history = {
-		owner = ROM
+		owner = AUS
 		victory_points = {
 			9548 2
 		}
@@ -14,6 +14,8 @@ state = {
 			infrastructure = 2
 		}
 		add_core_of = ROM
+		add_core_of = AUS
+		add_core_of = GAL
 	}
 	provinces = {
 		577 9548

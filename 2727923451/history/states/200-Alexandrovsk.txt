@@ -5,7 +5,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = RUS
+		owner = UKR
 		victory_points = {
 			11405 5
 		}
@@ -15,6 +15,7 @@ state = {
 			industrial_complex = 1
 		}
 		add_core_of = RUS
+		add_core_of = UKR
 	}
 
 	provinces = {

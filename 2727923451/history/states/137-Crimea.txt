@@ -6,7 +6,7 @@ state = {
 	local_supplies = 10.0
 
 	history = {
-		owner = RUS
+		owner = UKR
 		victory_points = {
 			3686 20 #Sevastopol
 		}
@@ -28,6 +28,7 @@ state = {
 			}
 		}
 		add_core_of = RUS
+		add_core_of = UKR
 	}
 
 	provinces = {
