@@ -18,7 +18,6 @@ set_technology = {
 }
 
 set_war_support = 0.4
-set_cosmetic_tag = SER_republic
 
 country_event = { id = serbia.0 hours = 2 }
 country_event = { id = serbia.2 days = 4 }
@@ -86,10 +85,10 @@ set_popularities = {
 	totalist = 1
 	syndicalist = 2
 	radical_socialist = 15
-	social_democrat = 5
-	social_liberal = 31
+	social_democrat = 4
+	social_liberal = 1
 	market_liberal = 21
-	social_conservative = 4
+	social_conservative = 35
 	authoritarian_democrat = 3
 	paternal_autocrat = 7
 	national_populist = 11
@@ -134,7 +133,7 @@ create_dynamic_country = {
 	set_cosmetic_tag = IMRO
 
 	set_politics = {
-		ruling_party = national_populist
+		ruling_party = social_conservative
 		elections_allowed = no
 	}
 	add_ideas = {
@@ -239,9 +238,10 @@ create_dynamic_country = {
 
 ### Starting party leaders
 create_country_leader = {
-	name = "Vukašin Marković"
-	picture = "Portrait_SER_Vukasin_Markovic.png"
-	expire = "1965.1.1"
+	name = "Dragiša Cvetković"
+		desc = "POLITICS_Cvetković_DESC"
+		picture = "gfx/leaders/SER/Portrait_Dragiša_Cvetković.png"
+		expire = "1965.1.1"
 	ideology = totalist_subtype
 }
 
@@ -284,9 +284,10 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Dragisa Cyetković"
-	picture = "Portrait_SER_Dragisa.png"
-	expire = "1985.1.1"
+	name = "Dragiša Cvetković"
+	desc = "POLITICS_Cvetković_DESC"
+	picture = "gfx/leaders/SER/Portrait_Dragiša_Cvetković.png"
+	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 }
 
