@@ -5,6 +5,8 @@ set_naval_oob= "PRF_naval"
 
 PRF_start_naval_variant = yes
 
+set_cosmetic_tag = PRF_EMP
+
 set_technology = {
 	### Tanks ###
 	gwtank = 1
@@ -65,7 +67,7 @@ country_event = { id = prf.1 days = 41 }
 set_war_support = 0.20
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -73,20 +75,15 @@ set_politics = {
 
 set_popularities = {
 	totalist = 0
-	radical_socialist = 5
-	syndicalist = 2
+	radical_socialist = 0
+	syndicalist = 0
 	social_democrat = 0
-	social_liberal = 13
+	social_liberal = 0
 	market_liberal = 8
-	social_conservative = 2
-	authoritarian_democrat = 40
-	paternal_autocrat = 22
+	social_conservative = 7
+	authoritarian_democrat = 15
+	paternal_autocrat = 62
 	national_populist = 8
-}
-
-set_autonomy = {
-	target = MDR
-	autonomy_state = kr_default_puppet
 }
 
 MDR = {
@@ -112,11 +109,11 @@ MDR = {
 }
 
 create_country_leader = {
-	name = "Osman Ali Khan"
-	desc = "POLITICS_OSMAN_ALI_KHAN_DESC"
-	picture = "Portrait_Princely_Osman_Ali_Khan.png"
+	name = "Shuja’at ‘Ali Khan Siddiqui Bahadur"
+	desc = "POLITICS_Moazzam_DESC"
+	picture = "gfx/leaders/PRF/Portrait_Moazzam.png"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = paternal_autocrat_subtype
 }
 
 create_country_leader = {
