@@ -231,17 +231,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jan Smuts"
-	desc = "POLITICS_JAN_SMUTS_DESC"
-	picture = "Portrait_SAF_Jan_Smuts.png"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-}
-
-create_country_leader = {
-	name = "George Villiers"
-	desc = "POLITICS_EARL_CLARENDON_DESC"
-	picture = "Portrait_SAF_Earl_of_Clarendon.png"
+	name = "Charles Robberts Swart"
+	desc = "POLITICS_SWART_DESC"
+	picture = "gfx/leader/SAF/Portrait_SAF_Swart.png"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 }
