@@ -4,14 +4,8 @@ OOB = "NOR"
 set_naval_oob= "NOR_naval"
 
 add_ideas = {
-	NOR_divided_airforce_idea
-	NOR_weak_economy_1
-
-	NOR_Johan_Henrik_Andresen_hog_mli
-	NOR_Arne_Scheel_for_mli
-	NOR_Sven_Nielsen_eco_mli
-	NOR_Harald_Gram_sec_mli
-	limited_conscription
+	NOR_prisoner_of_the_reichspakt
+	NOR_oscar_iii
 }
 
 NOR_start_naval_variant = yes
@@ -141,9 +135,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Long Lyng"
+	name = "John Lyng"
 	desc = "POLITICS_LYNG_DESC"
-	picture = "Portrait_Norway_Long_Lyng.png"
+	picture = "gfx/leaders/Portrait_Norway_Long_Lyng.png"
 	expire = "1985.1.1"
 	ideology = social_conservative_subtype
 }
