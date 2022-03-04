@@ -62,7 +62,7 @@ set_stability = 0.47
 set_war_support = 0.35
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -75,8 +75,8 @@ set_popularities = {
 	social_democrat = 24
 	social_liberal = 3
 	market_liberal = 1
-	social_conservative = 32
-	authoritarian_democrat = 0
+	social_conservative = 0
+	authoritarian_democrat = 32
 	paternal_autocrat = 0
 	national_populist = 0
 }
@@ -128,7 +128,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Military Council"
 	desc = "POLITICS_MILITARY_COUNCIL_DESC"
-	picture = "Portrait_CEN_Military_Council.png"
+	picture = "gfx/leaders/CEN/Portrait_CEN_Military_Council.png"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 }
