@@ -146,14 +146,14 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Idris I"
-	picture = "Portrait_LBA_notelba.png"
+	picture = "gfx/leaders/LBA/Portrait_LBA_notelba.png"
 	expire = "1985.1.1"
 	ideology = paternal_autocrat_subtype
 }
 
 create_country_leader = {
 	name = "Idris I"
-	picture = "Portrait_LBA_Idris.png"
+	picture = "gfx/leaders/LBA/Portrait_LBA_Idris.png"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 }
