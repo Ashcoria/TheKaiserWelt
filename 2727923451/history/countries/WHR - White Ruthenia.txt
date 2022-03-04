@@ -115,7 +115,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Mikola Abramčyk"
 	desc = "POLITICS_MIKOLA_ABRAMCIK_DESC"
-	picture = "gfx/leader/WHR/Portrait_WHR_Mikola_Abramcyk.png"
+	picture = "gfx/leaders/WHR/Portrait_WHR_Mikola_Abramcyk.png"
 	expire = "1985.1.1"
 	ideology = social_liberal_subtype
 }
