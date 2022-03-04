@@ -137,7 +137,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "John Lyng"
 	desc = "POLITICS_LYNG_DESC"
-	picture = "gfx/leaders/Portrait_Norway_Long_Lyng.png"
+	picture = "gfx/leaders/NOR/Portrait_Norway_Long_Lyng.png"
 	expire = "1985.1.1"
 	ideology = social_conservative_subtype
 }
