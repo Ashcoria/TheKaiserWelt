@@ -98,8 +98,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Juan Bosch"
-	desc = "POLITICS_PERDRO_HENRIQUEZ_URENA_DESC"
-	picture = "gfx/leaders/GER/Portrait_Juan_Boch.png"
+	desc = "POLITICS_Bosch_DESC"
+	picture = "gfx/leaders/DOM/Portrait_Juan_Boch.png"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 }
