@@ -233,7 +233,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Charles Robberts Swart"
 	desc = "POLITICS_SWART_DESC"
-	picture = "gfx/leader/SAF/Portrait_SAF_Swart.png"
+	picture = "gfx/leaders/SAF/Portrait_SAF_Swart.png"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 }
