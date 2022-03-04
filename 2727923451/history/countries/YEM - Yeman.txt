@@ -62,7 +62,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Ahmed bin Yahya"
 	desc = "POLITICS_YAHYA_DESC"
-	picture = "portrait_YEM_Yahya.png"
+	picture = "gfx/leaders/YEM/portrait_YEM_Yahya.png"
 	expire = "1985.1.1"
 	ideology = paternal_autocrat_subtype
 }
