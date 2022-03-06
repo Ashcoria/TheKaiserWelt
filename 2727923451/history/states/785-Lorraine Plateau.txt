@@ -5,7 +5,7 @@ state = {
 	state_category = five
 
 	history = {
-		owner = NFA
+		owner = GER
 		add_core_of = NFA
 		victory_points = {
 			5291 3 #Verdun

@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = NFA
+		owner = GER
 		add_core_of = NFA
 		victory_points = {
 			11516 5 #Nancy
