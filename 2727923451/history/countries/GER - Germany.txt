@@ -197,6 +197,8 @@ add_to_faction = POL
 add_to_faction = ROM
 add_to_faction = HOL
 add_to_faction = DEN
+add_to_faction = FIN
+add_to_faction = GEO
 
 # Mitteleuropa
 every_country = {
