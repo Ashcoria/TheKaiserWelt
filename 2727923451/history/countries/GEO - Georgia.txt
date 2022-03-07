@@ -16,6 +16,7 @@ add_ideas = {
 set_stability = 0.60
 
 GEO_start_naval_variant = yes
+set_cosmetic_tag = GEO_TCU
 
 set_technology = {
 	### INF ###
@@ -67,8 +68,8 @@ set_research_slots = 3
 set_convoys = 20
 
 set_politics = {
-	ruling_party = social_democrat
-	last_election = "1935.6.6"
+	ruling_party = social_conservative
+	last_election = "1960.6.6"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -77,10 +78,10 @@ set_popularities = {
 	totalist = 0
 	syndicalist = 0
 	radical_socialist = 6
-	social_democrat = 49
+	social_democrat = 29
 	social_liberal = 7
 	market_liberal = 5
-	social_conservative = 29
+	social_conservative = 49
 	authoritarian_democrat = 0
 	paternal_autocrat = 4
 	national_populist = 0
@@ -124,8 +125,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ekvtime Takaishvili"
-	desc = "POLITICS_EKVTIME_TAKAISHVILI_DESC"
+	name = "Konstantine Gamsakhurdia"
+	desc = "POLITICS_Gamsakhurdia_DESC"
 	picture = "Portrait_GEO_Ekvtime_Takaishvili.png"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
