@@ -329,11 +329,11 @@ add_ideas = {
 	USA_Charles_Evans_Hughes_Sr_sec_sli
 	USA_Douglas_MacArthur_cos
 	# national ideas
-	USA_great_depression
-	USA_political_crisis
-	holds_leases_idea
-	undisturbed_isolation
-	free_trade
+	USA_militarism
+	USA_civil_rights
+	USA_revived_monroe_doctrine
+	USA_entente_tensions
+	USA_civilwar
 }
 
 ### Field Marshals ###
